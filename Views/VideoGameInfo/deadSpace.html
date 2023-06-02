@@ -1,0 +1,119 @@
+<?php
+include '../../Config/Connection.php';
+$conex = new Connection();
+$sentencia = $conex->conn->query('SELECT * FROM post');
+$posts = $sentencia->fetchAll(PDO::FETCH_ASSOC);
+
+$uri = $_SERVER['REQUEST_URI'];
+echo $uri;
+// print_r($posts);
+?>
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeoGaming 🧬🕹</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>Neo<span class="gaming">Gaming</span></h1>
+  <nav class="header__nav">
+    <ul>
+      <li><a href="../../index.html">Inicio</a></li>
+    </ul>
+  </nav>
+  </header>
+  <article class="article">
+    <section class="article__image">
+      <div class="article__plataforms">
+        <img src="../../assets/Component/playstation-4.svg" alt="" />
+        <img src="../../assets/Component/ps5.svg" alt="" />
+        <img src="../../assets/Component/xbox-2.svg" alt="" />
+        <img src="../../assets/Component/pc.svg" alt="" />
+      </div>
+      <h2 class="article__title">Dead Space Remake</h2>
+      <div class="article__descripcion">
+        Dead Space Remake es una versión actualizada del juego original de
+        2008, uno de los títulos más icónicos y aclamados de la serie. En este
+        juego, los jugadores asumen el papel del ingeniero Isaac Clarke
+        mientras investiga una nave espacial abandonada infestada de
+        monstruos. Con gráficos mejorados, una jugabilidad mejorada y nuevas
+        características, Dead Space Remake promete ser una experiencia
+        emocionante y aterradora para los fanáticos de la serie.
+      </div>
+    </section>
+    <section class="article__content">
+      <div class="article__content-especificaciones">
+        <h3 class="article__content-title">Especificaciones</h3>
+        <p class="article__developer">
+          <strong>Desarrollado por: </strong>EA Motive.
+        </p>
+        <p class="article__publisher">
+          <strong>Desarrollado por: </strong> Electronic Arts.
+        </p>
+        <p class="article__trailer-date">
+          <strong>Fecha del trailer:</strong> 27 de enero del 2023.
+        </p>
+        <p class="article__release-date">
+          <strong>Fecha de lanzamiento:</strong> 23 de Marzo del 2023.
+        </p>
+        <ul class="article__details-list">
+          <li class="article__details-item">
+            <strong>Género:</strong> Survival horror, Ciencia ficción.
+          </li>
+          <li class="article__details-item">
+            <strong>Plataformas:</strong> PlayStation 5, PlayStation 4, Xbox
+            Series X|S, PC.
+          </li>
+          <li class="article__details-item">
+            <strong>Clasificación:</strong> ESBR Mature 17+
+          </li>
+        </ul>
+      </div>
+
+      <div class="article__content-requiremnts">
+        <h3 class="article__requirements-title article__content-title">
+          Requisitos del sistema
+        </h3>
+        <table class="article__requirements-table">
+          <thead>
+            <tr>
+              <th>Sistema operativo</th>
+              <th>Procesador</th>
+              <th>Memoria</th>
+              <th>Tarjeta gráfica</th>
+              <th>Almacenamiento</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="sistemas operativos">Windows 10 (64 bits)</td>
+              <td data-label="Procesador">
+                Intel Core i5-8400 o AMD Ryzen 5 1600 o mejor
+              </td>
+              <td data-label="Memoria">16 GB de RAM</td>
+              <td data-label="Tarjeta gráfica">
+                NVIDIA GeForce GTX 1060 o AMD Radeon RX 580 con 6 GB de VRAM
+              </td>
+              <td data-label="Almacenamiento">30 GB de espacio disponible</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="article__content-trailer">
+        <h3 class="article__content-title">Trailer</h3>
+        <iframe src="https://www.youtube.com/embed/mWrBqrifdvk" title="Dead Space | Tráiler Oficial | PS5"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+    </section>
+  </article>
+</body>
+
+</html>

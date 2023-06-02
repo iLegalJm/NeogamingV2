@@ -1,0 +1,1392 @@
+[01-Jun-2023 23:40:44 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:40:44 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[01-Jun-2023 23:40:44 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[01-Jun-2023 23:40:44 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[01-Jun-2023 23:40:44 Europe/Berlin] LOGIN::render -> Carga el index de login
+[01-Jun-2023 23:40:47 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:40:47 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[01-Jun-2023 23:40:47 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[01-Jun-2023 23:40:47 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[01-Jun-2023 23:40:47 Europe/Berlin] ExistPOST: Existen parámetros
+[01-Jun-2023 23:40:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\Model\Login.php:19
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\Controllers\Login.php(26): LoginModel->login('cueva', false)
+#1 C:\laragon\www\NeoGamingV2\libs\app.php(96): Login->authenticate()
+#2 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#3 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\NeoGamingV2\Model\Login.php on line 19
+[01-Jun-2023 23:44:31 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:44:31 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[01-Jun-2023 23:44:31 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[01-Jun-2023 23:44:31 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[01-Jun-2023 23:44:31 Europe/Berlin] LOGIN::render -> Carga el index de login
+[01-Jun-2023 23:44:33 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:44:33 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[01-Jun-2023 23:44:33 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[01-Jun-2023 23:44:33 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[01-Jun-2023 23:44:33 Europe/Berlin] LOGIN::render -> Carga el index de login
+[01-Jun-2023 23:44:37 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:44:37 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[01-Jun-2023 23:44:37 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[01-Jun-2023 23:44:37 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[01-Jun-2023 23:44:37 Europe/Berlin] ExistPOST: Existen parámetros
+[01-Jun-2023 23:44:37 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS
+[01-Jun-2023 23:44:37 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:44:37 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[01-Jun-2023 23:44:43 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:44:43 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[01-Jun-2023 23:44:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Login.php(7): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(113): Login->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(66): App->loadControlador('Controllers/Log...', 'Login')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[01-Jun-2023 23:44:46 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:44:46 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[01-Jun-2023 23:44:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Login.php(7): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(113): Login->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(66): App->loadControlador('Controllers/Log...', 'Login')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[01-Jun-2023 23:44:48 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:44:48 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[01-Jun-2023 23:44:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Login.php(7): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(113): Login->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(66): App->loadControlador('Controllers/Log...', 'Login')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[01-Jun-2023 23:45:02 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:45:02 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[01-Jun-2023 23:46:49 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:48:29 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:48:29 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[01-Jun-2023 23:48:29 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:48:29 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[01-Jun-2023 23:48:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Login.php(7): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(113): Login->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(66): App->loadControlador('Controllers/Log...', 'Login')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[01-Jun-2023 23:48:31 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:48:31 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[01-Jun-2023 23:48:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Login.php(7): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(113): Login->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(66): App->loadControlador('Controllers/Log...', 'Login')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[01-Jun-2023 23:48:31 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:48:31 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[01-Jun-2023 23:48:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Login.php(7): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(113): Login->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(66): App->loadControlador('Controllers/Log...', 'Login')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[01-Jun-2023 23:48:31 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:48:31 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[01-Jun-2023 23:48:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Login.php(7): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(113): Login->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(66): App->loadControlador('Controllers/Log...', 'Login')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[01-Jun-2023 23:48:36 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:48:36 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[01-Jun-2023 23:48:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 149
+[01-Jun-2023 23:48:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 150
+[01-Jun-2023 23:48:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 151
+[01-Jun-2023 23:48:36 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[01-Jun-2023 23:48:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 152
+[01-Jun-2023 23:48:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 153
+[01-Jun-2023 23:48:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 154
+[01-Jun-2023 23:48:36 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> 
+[01-Jun-2023 23:48:36 Europe/Berlin] sessionController::validateSession(): username: - role: 
+[01-Jun-2023 23:48:36 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup, url => Signup
+[01-Jun-2023 23:48:36 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[01-Jun-2023 23:48:36 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[01-Jun-2023 23:48:36 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:48:42 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:48:42 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[01-Jun-2023 23:48:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 149
+[01-Jun-2023 23:48:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 150
+[01-Jun-2023 23:48:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 151
+[01-Jun-2023 23:48:42 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[01-Jun-2023 23:48:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 152
+[01-Jun-2023 23:48:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 153
+[01-Jun-2023 23:48:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 154
+[01-Jun-2023 23:48:42 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> 
+[01-Jun-2023 23:48:42 Europe/Berlin] sessionController::validateSession(): username: - role: 
+[01-Jun-2023 23:48:42 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup, url => Signup
+[01-Jun-2023 23:48:42 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[01-Jun-2023 23:48:42 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[01-Jun-2023 23:48:42 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:48:46 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:48:46 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[01-Jun-2023 23:53:32 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:53:32 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[01-Jun-2023 23:53:34 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:53:34 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[01-Jun-2023 23:53:34 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[01-Jun-2023 23:53:34 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[01-Jun-2023 23:53:34 Europe/Berlin] LOGIN::render -> Carga el index de login
+[01-Jun-2023 23:53:52 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:53:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[01-Jun-2023 23:53:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[01-Jun-2023 23:53:52 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[01-Jun-2023 23:53:52 Europe/Berlin] ExistPOST: Existen parámetros
+[01-Jun-2023 23:53:52 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS
+[01-Jun-2023 23:53:52 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:53:52 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\laragon\www\NeoGamingV2\libs\app.php on line 34
+[01-Jun-2023 23:53:52 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\laragon\www\NeoGamingV2\libs\app.php on line 36
+[01-Jun-2023 23:53:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function loadModel() on bool in C:\laragon\www\NeoGamingV2\libs\app.php:37
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#1 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#2 {main}
+  thrown in C:\laragon\www\NeoGamingV2\libs\app.php on line 37
+[01-Jun-2023 23:54:13 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:54:13 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\laragon\www\NeoGamingV2\libs\app.php on line 34
+[01-Jun-2023 23:54:13 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\laragon\www\NeoGamingV2\libs\app.php on line 36
+[01-Jun-2023 23:54:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function loadModel() on bool in C:\laragon\www\NeoGamingV2\libs\app.php:37
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#1 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#2 {main}
+  thrown in C:\laragon\www\NeoGamingV2\libs\app.php on line 37
+[01-Jun-2023 23:54:15 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:54:15 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[01-Jun-2023 23:54:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Login.php(7): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(113): Login->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(66): App->loadControlador('Controllers/Log...', 'Login')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[01-Jun-2023 23:54:24 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:54:24 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[01-Jun-2023 23:54:25 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:54:25 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[01-Jun-2023 23:54:25 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[01-Jun-2023 23:54:25 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[01-Jun-2023 23:54:25 Europe/Berlin] LOGIN::render -> Carga el index de login
+[01-Jun-2023 23:54:30 Europe/Berlin] Inicio de aplicacion
+[01-Jun-2023 23:54:30 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[01-Jun-2023 23:54:30 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[01-Jun-2023 23:54:30 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[01-Jun-2023 23:54:30 Europe/Berlin] ExistPOST: Existen parámetros
+[01-Jun-2023 23:54:31 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS
+[01-Jun-2023 23:54:31 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:42:40 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:42:40 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 06:42:42 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:42:42 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 06:42:42 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 06:42:42 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 06:42:42 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 06:42:46 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:42:46 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 06:42:46 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[02-Jun-2023 06:42:46 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 06:42:46 Europe/Berlin] ExistPOST: Existen parámetros
+[02-Jun-2023 06:42:47 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS
+[02-Jun-2023 06:42:47 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:42:50 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:42:50 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 06:42:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Login.php(7): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(113): Login->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(66): App->loadControlador('Controllers/Log...', 'Login')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[02-Jun-2023 06:42:53 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:42:53 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 06:42:55 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:42:55 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 06:42:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Login.php(7): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(113): Login->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(66): App->loadControlador('Controllers/Log...', 'Login')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[02-Jun-2023 06:42:57 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:42:57 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 06:51:07 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:51:07 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 06:51:09 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:51:09 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 06:51:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Login.php(7): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(113): Login->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(66): App->loadControlador('Controllers/Log...', 'Login')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[02-Jun-2023 06:51:19 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:51:19 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 06:51:21 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:51:21 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 06:51:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Login.php(7): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(113): Login->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(66): App->loadControlador('Controllers/Log...', 'Login')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[02-Jun-2023 06:51:28 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:51:28 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 06:51:28 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 06:51:28 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 06:51:28 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 06:51:44 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:51:44 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 06:51:44 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[02-Jun-2023 06:51:44 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 06:51:44 Europe/Berlin] ExistPOST: Existen parámetros
+[02-Jun-2023 06:51:44 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS
+[02-Jun-2023 06:51:44 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:51:44 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\laragon\www\NeoGamingV2\libs\app.php on line 34
+[02-Jun-2023 06:51:44 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\laragon\www\NeoGamingV2\libs\app.php on line 36
+[02-Jun-2023 06:51:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function loadModel() on bool in C:\laragon\www\NeoGamingV2\libs\app.php:37
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#1 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#2 {main}
+  thrown in C:\laragon\www\NeoGamingV2\libs\app.php on line 37
+[02-Jun-2023 06:54:21 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:54:22 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\laragon\www\NeoGamingV2\libs\app.php on line 34
+[02-Jun-2023 06:54:22 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\laragon\www\NeoGamingV2\libs\app.php on line 36
+[02-Jun-2023 06:54:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function loadModel() on bool in C:\laragon\www\NeoGamingV2\libs\app.php:37
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#1 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#2 {main}
+  thrown in C:\laragon\www\NeoGamingV2\libs\app.php on line 37
+[02-Jun-2023 06:54:38 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:54:38 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\laragon\www\NeoGamingV2\libs\app.php on line 34
+[02-Jun-2023 06:54:38 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\laragon\www\NeoGamingV2\libs\app.php on line 36
+[02-Jun-2023 06:54:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function render() on bool in C:\laragon\www\NeoGamingV2\libs\app.php:57
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#1 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#2 {main}
+  thrown in C:\laragon\www\NeoGamingV2\libs\app.php on line 57
+[02-Jun-2023 06:56:52 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:56:52 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\laragon\www\NeoGamingV2\libs\app.php on line 36
+[02-Jun-2023 06:56:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\laragon\www\NeoGamingV2\libs\app.php:120
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\app.php(36): App->loadControlador('Controllers/Adm...', NULL)
+#1 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#2 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#3 {main}
+  thrown in C:\laragon\www\NeoGamingV2\libs\app.php on line 120
+[02-Jun-2023 06:57:33 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:57:33 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\laragon\www\NeoGamingV2\libs\app.php on line 36
+[02-Jun-2023 06:57:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\laragon\www\NeoGamingV2\libs\app.php:120
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\app.php(36): App->loadControlador('Controllers/Adm...', NULL)
+#1 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#2 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#3 {main}
+  thrown in C:\laragon\www\NeoGamingV2\libs\app.php on line 120
+[02-Jun-2023 06:58:23 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:58:23 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\laragon\www\NeoGamingV2\libs\app.php on line 37
+[02-Jun-2023 06:58:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\laragon\www\NeoGamingV2\libs\app.php:122
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\app.php(37): App->loadControlador('Controllers/Adm...', NULL)
+#1 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#2 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#3 {main}
+  thrown in C:\laragon\www\NeoGamingV2\libs\app.php on line 122
+[02-Jun-2023 06:58:49 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:58:49 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\laragon\www\NeoGamingV2\libs\app.php on line 38
+[02-Jun-2023 06:58:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\laragon\www\NeoGamingV2\libs\app.php:123
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\app.php(38): App->loadControlador('Controllers/Adm...', NULL)
+#1 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#2 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#3 {main}
+  thrown in C:\laragon\www\NeoGamingV2\libs\app.php on line 123
+[02-Jun-2023 06:59:46 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:59:46 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\laragon\www\NeoGamingV2\libs\app.php on line 62
+[02-Jun-2023 06:59:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\laragon\www\NeoGamingV2\libs\app.php:119
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\app.php(62): App->loadControlador('Controllers/Adm...', NULL)
+#1 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#2 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#3 {main}
+  thrown in C:\laragon\www\NeoGamingV2\libs\app.php on line 119
+[02-Jun-2023 06:59:59 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 06:59:59 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\laragon\www\NeoGamingV2\libs\app.php on line 63
+[02-Jun-2023 06:59:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\laragon\www\NeoGamingV2\libs\app.php:120
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\app.php(63): App->loadControlador('Controllers/Adm...', NULL)
+#1 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#2 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#3 {main}
+  thrown in C:\laragon\www\NeoGamingV2\libs\app.php on line 120
+[02-Jun-2023 07:00:08 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:00:08 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:00:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(8): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(119): Admin->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(62): App->loadControlador('Controllers/Adm...', 'Admin')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[02-Jun-2023 07:00:34 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:00:34 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:00:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(8): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(119): Admin->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(62): App->loadControlador('Controllers/Adm...', 'Admin')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[02-Jun-2023 07:00:55 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:00:55 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:00:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(8): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(119): Admin->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(62): App->loadControlador('Controllers/Adm...', 'Admin')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[02-Jun-2023 07:00:58 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:00:58 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 07:01:00 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:01:00 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:01:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Login.php(7): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(119): Login->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(72): App->loadControlador('Controllers/Log...', 'Login')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[02-Jun-2023 07:01:10 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:01:10 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 07:01:12 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:01:12 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 07:01:16 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:01:16 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 07:01:18 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:01:18 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:01:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Login.php(7): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(119): Login->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(72): App->loadControlador('Controllers/Log...', 'Login')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[02-Jun-2023 07:01:22 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:01:22 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:01:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(8): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(119): Admin->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(62): App->loadControlador('Controllers/Adm...', 'Admin')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[02-Jun-2023 07:01:25 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:01:25 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:01:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Login.php(7): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(119): Login->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(72): App->loadControlador('Controllers/Log...', 'Login')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[02-Jun-2023 07:02:26 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:02:26 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 07:02:27 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:02:27 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:02:27 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 07:02:27 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 07:02:27 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 07:02:31 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:02:31 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:02:31 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[02-Jun-2023 07:02:31 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 07:02:31 Europe/Berlin] ExistPOST: Existen parámetros
+[02-Jun-2023 07:02:32 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS
+[02-Jun-2023 07:02:32 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:02:32 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:02:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(8): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(119): Admin->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(62): App->loadControlador('Controllers/Adm...', 'Admin')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[02-Jun-2023 07:05:00 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:05:00 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:05:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(8): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(119): Admin->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(62): App->loadControlador('Controllers/Adm...', 'Admin')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[02-Jun-2023 07:05:06 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:05:06 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:05:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(8): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(119): Admin->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(62): App->loadControlador('Controllers/Adm...', 'Admin')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[02-Jun-2023 07:05:15 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:05:15 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 07:05:16 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:05:16 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:05:16 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 07:05:16 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 07:05:16 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 07:05:19 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:05:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:05:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[02-Jun-2023 07:05:19 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 07:05:19 Europe/Berlin] ExistPOST: Existen parámetros
+[02-Jun-2023 07:05:19 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS
+[02-Jun-2023 07:05:19 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:06:06 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:06:39 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:06:39 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:06:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(8): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(119): Admin->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(62): App->loadControlador('Controllers/Adm...', 'Admin')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[02-Jun-2023 07:10:40 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:10:40 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 07:10:44 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:10:44 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:10:44 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 07:10:44 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[02-Jun-2023 07:10:44 Europe/Berlin] PHP Fatal error:  Cannot declare class Admin, because the name is already in use in C:\laragon\www\NeoGamingV2\Model\Admin.php on line 3
+[02-Jun-2023 07:10:44 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:10:44 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 07:10:49 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:10:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:10:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 07:10:49 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[02-Jun-2023 07:10:49 Europe/Berlin] PHP Fatal error:  Cannot declare class Admin, because the name is already in use in C:\laragon\www\NeoGamingV2\Model\Admin.php on line 3
+[02-Jun-2023 07:10:49 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:10:49 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 07:11:18 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:11:18 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:11:18 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 07:11:18 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 07:11:18 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 07:11:23 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:11:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:11:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/Admin, url => Login
+[02-Jun-2023 07:11:23 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 07:11:24 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:11:24 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:11:24 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 07:11:24 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 07:11:24 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 07:11:37 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:11:37 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:11:37 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 07:11:37 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[02-Jun-2023 07:11:37 Europe/Berlin] PHP Fatal error:  Cannot declare class Admin, because the name is already in use in C:\laragon\www\NeoGamingV2\Model\Admin.php on line 3
+[02-Jun-2023 07:11:37 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:11:37 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 07:13:47 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:13:47 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:13:47 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 07:13:47 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 07:13:47 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 07:13:51 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:13:51 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:13:51 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[02-Jun-2023 07:13:51 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 07:13:51 Europe/Berlin] ExistPOST: Existen parámetros
+[02-Jun-2023 07:13:51 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS
+[02-Jun-2023 07:13:51 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:13:51 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:13:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "UserModel" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:83
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(48): SessionController->getUserSessionData()
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(31): SessionController->validateSession()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#3 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(8): SessionController->__construct()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(119): Admin->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(62): App->loadControlador('Controllers/Adm...', 'Admin')
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#7 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#8 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 83
+[02-Jun-2023 07:14:23 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:14:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Session" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:21
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(15): SessionController->init()
+#1 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(8): SessionController->__construct()
+#2 C:\laragon\www\NeoGamingV2\libs\app.php(119): Admin->__construct()
+#3 C:\laragon\www\NeoGamingV2\libs\app.php(62): App->loadControlador('Controllers/Adm...', 'Admin')
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#5 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#6 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 21
+[02-Jun-2023 07:16:18 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:16:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Session" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:36
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(15): SessionController->init()
+#1 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(8): SessionController->__construct()
+#2 C:\laragon\www\NeoGamingV2\libs\app.php(119): Admin->__construct()
+#3 C:\laragon\www\NeoGamingV2\libs\app.php(62): App->loadControlador('Controllers/Adm...', 'Admin')
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#5 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#6 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 36
+[02-Jun-2023 07:16:40 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:16:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Session" not found in C:\laragon\www\NeoGamingV2\classes\sessionController.php:36
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(15): SessionController->init()
+#1 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(8): SessionController->__construct()
+#2 C:\laragon\www\NeoGamingV2\libs\app.php(119): Admin->__construct()
+#3 C:\laragon\www\NeoGamingV2\libs\app.php(62): App->loadControlador('Controllers/Adm...', 'Admin')
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#5 C:\laragon\www\NeoGamingV2\index.php(20): App->__construct()
+#6 {main}
+  thrown in C:\laragon\www\NeoGamingV2\classes\sessionController.php on line 36
+[02-Jun-2023 07:16:42 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:16:42 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 07:21:35 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:21:35 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:21:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\NeoGamingV2\Model\User.php:149
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(97): UserModel->get(7)
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(61): SessionController->getUserSessionData()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(44): SessionController->validateSession()
+#3 C:\laragon\www\NeoGamingV2\classes\sessionController.php(15): SessionController->init()
+#4 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(8): SessionController->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(119): Admin->__construct()
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(62): App->loadControlador('Controllers/Adm...', 'Admin')
+#7 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#8 C:\laragon\www\NeoGamingV2\index.php(24): App->__construct()
+#9 {main}
+  thrown in C:\laragon\www\NeoGamingV2\Model\User.php on line 149
+[02-Jun-2023 07:21:37 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:21:37 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 07:21:53 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:21:53 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:21:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\NeoGamingV2\Model\User.php:149
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(97): UserModel->get(7)
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(61): SessionController->getUserSessionData()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(44): SessionController->validateSession()
+#3 C:\laragon\www\NeoGamingV2\classes\sessionController.php(15): SessionController->init()
+#4 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(8): SessionController->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(119): Admin->__construct()
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(62): App->loadControlador('Controllers/Adm...', 'Admin')
+#7 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#8 C:\laragon\www\NeoGamingV2\index.php(24): App->__construct()
+#9 {main}
+  thrown in C:\laragon\www\NeoGamingV2\Model\User.php on line 149
+[02-Jun-2023 07:23:17 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:23:17 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 07:23:18 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:23:18 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:23:18 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 07:23:18 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 07:23:18 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 07:23:23 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:23:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:23:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[02-Jun-2023 07:23:23 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 07:23:23 Europe/Berlin] ExistPOST: Existen parámetros
+[02-Jun-2023 07:23:23 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS
+[02-Jun-2023 07:23:23 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:23:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:23:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\NeoGamingV2\Model\User.php:149
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(97): UserModel->get(7)
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(61): SessionController->getUserSessionData()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(44): SessionController->validateSession()
+#3 C:\laragon\www\NeoGamingV2\classes\sessionController.php(15): SessionController->init()
+#4 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(8): SessionController->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(119): Admin->__construct()
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(62): App->loadControlador('Controllers/Adm...', 'Admin')
+#7 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#8 C:\laragon\www\NeoGamingV2\index.php(24): App->__construct()
+#9 {main}
+  thrown in C:\laragon\www\NeoGamingV2\Model\User.php on line 149
+[02-Jun-2023 07:25:56 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:25:56 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 07:25:58 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:25:58 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:25:58 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 07:25:58 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 07:25:58 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 07:26:01 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 07:26:01 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 07:26:01 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[02-Jun-2023 07:26:01 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 07:26:01 Europe/Berlin] ExistPOST: Existen parámetros
+[02-Jun-2023 07:26:01 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS
+[02-Jun-2023 07:26:01 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:31:57 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:31:57 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 12:34:03 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:34:03 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 12:34:03 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:34:03 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 12:34:03 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[02-Jun-2023 12:34:03 Europe/Berlin] PHP Fatal error:  Cannot declare class Admin, because the name is already in use in C:\laragon\www\NeoGamingV2\Model\Admin.php on line 3
+[02-Jun-2023 12:34:03 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:34:03 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 12:34:05 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:34:05 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:34:05 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 12:34:05 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 12:34:05 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 12:35:38 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:35:38 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 12:35:38 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:35:38 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 12:35:38 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[02-Jun-2023 12:35:38 Europe/Berlin] PHP Fatal error:  Access level to AdminModel::$db must be public (as in class Model) in C:\laragon\www\NeoGamingV2\Model\Admin.php on line 3
+[02-Jun-2023 12:35:38 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:35:38 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 12:36:36 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:36:36 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 12:36:36 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:36:36 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 12:36:36 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[02-Jun-2023 12:36:36 Europe/Berlin] PHP Fatal error:  Access level to AdminModel::$db must be public (as in class Model) in C:\laragon\www\NeoGamingV2\Model\Admin.php on line 3
+[02-Jun-2023 12:36:36 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:36:36 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 12:38:01 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:38:01 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 12:38:01 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:38:01 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 12:38:01 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[02-Jun-2023 12:38:01 Europe/Berlin] PHP Fatal error:  Access level to AdminModel::$db must be public (as in class Model) in C:\laragon\www\NeoGamingV2\Model\Admin.php on line 3
+[02-Jun-2023 12:38:01 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:38:01 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 12:38:47 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:38:47 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 12:38:47 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:38:47 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 12:38:47 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[02-Jun-2023 12:38:47 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function AdminModel::__construct(), 0 passed in C:\laragon\www\NeoGamingV2\libs\controller.php on line 22 and exactly 1 expected in C:\laragon\www\NeoGamingV2\Model\Admin.php:7
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\controller.php(22): AdminModel->__construct()
+#1 C:\laragon\www\NeoGamingV2\libs\app.php(64): Controller->loadModel('Admin')
+#2 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#3 C:\laragon\www\NeoGamingV2\index.php(24): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\NeoGamingV2\Model\Admin.php on line 7
+[02-Jun-2023 12:38:47 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:38:47 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 12:39:32 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:39:32 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 12:39:32 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:39:32 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 12:39:32 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[02-Jun-2023 12:39:32 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:39:32 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 12:40:01 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:40:01 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 12:40:03 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:40:03 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:40:03 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 12:40:03 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 12:40:03 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 12:40:07 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:40:07 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:40:07 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[02-Jun-2023 12:40:07 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 12:40:07 Europe/Berlin] ExistPOST: Existen parámetros
+[02-Jun-2023 12:40:07 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS
+[02-Jun-2023 12:40:07 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:40:07 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 12:40:07 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:40:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\NeoGamingV2\Model\User.php:149
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(99): UserModel->get(7)
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(63): SessionController->getUserSessionData()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(46): SessionController->validateSession()
+#3 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#4 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(8): SessionController->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(120): Admin->__construct()
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(63): App->loadControlador('Controllers/Adm...', 'Admin')
+#7 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#8 C:\laragon\www\NeoGamingV2\index.php(24): App->__construct()
+#9 {main}
+  thrown in C:\laragon\www\NeoGamingV2\Model\User.php on line 149
+[02-Jun-2023 12:40:28 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:40:28 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:40:28 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 12:40:28 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 12:40:28 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 12:40:30 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:40:30 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:40:30 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup, url => Signup
+[02-Jun-2023 12:40:30 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[02-Jun-2023 12:40:30 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[02-Jun-2023 12:40:37 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:40:37 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:40:37 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup/create, url => Signup
+[02-Jun-2023 12:40:37 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[02-Jun-2023 12:40:37 Europe/Berlin] ExistPOST: Existen parámetros
+[02-Jun-2023 12:40:37 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:40:37 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:40:37 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup?error=a232323sdaa4b0f6asd93434cxxcxcvvbc4, url => Signup?error=a232323sdaa4b0f6asd93434cxxcxcvvbc4
+[02-Jun-2023 12:40:37 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[02-Jun-2023 12:40:37 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[02-Jun-2023 12:40:43 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:40:43 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:40:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup/create, url => Signup
+[02-Jun-2023 12:40:43 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[02-Jun-2023 12:40:43 Europe/Berlin] ExistPOST: Existen parámetros
+[02-Jun-2023 12:40:43 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:40:43 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 12:40:49 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:40:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:40:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 12:40:49 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 12:40:49 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 12:40:59 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:40:59 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 12:41:00 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:41:00 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:41:00 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 12:41:00 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 12:41:00 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 12:41:07 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:41:07 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:41:07 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[02-Jun-2023 12:41:07 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 12:41:07 Europe/Berlin] ExistPOST: Existen parámetros
+[02-Jun-2023 12:41:07 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS
+[02-Jun-2023 12:41:07 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:41:07 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 12:41:07 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:41:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\NeoGamingV2\Model\User.php:149
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(99): UserModel->get(7)
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(63): SessionController->getUserSessionData()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(46): SessionController->validateSession()
+#3 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#4 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(8): SessionController->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(120): Admin->__construct()
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(63): App->loadControlador('Controllers/Adm...', 'Admin')
+#7 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#8 C:\laragon\www\NeoGamingV2\index.php(24): App->__construct()
+#9 {main}
+  thrown in C:\laragon\www\NeoGamingV2\Model\User.php on line 149
+[02-Jun-2023 12:42:25 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:42:25 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 12:42:26 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:42:26 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:42:26 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 12:42:26 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 12:42:26 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 12:42:30 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:42:30 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:42:30 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[02-Jun-2023 12:42:30 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 12:42:30 Europe/Berlin] ExistPOST: Existen parámetros
+[02-Jun-2023 12:42:30 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS
+[02-Jun-2023 12:42:30 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:42:30 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 12:42:30 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:42:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\NeoGamingV2\Model\User.php:149
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(99): UserModel->get(8)
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(63): SessionController->getUserSessionData()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(46): SessionController->validateSession()
+#3 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#4 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(8): SessionController->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(120): Admin->__construct()
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(63): App->loadControlador('Controllers/Adm...', 'Admin')
+#7 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#8 C:\laragon\www\NeoGamingV2\index.php(24): App->__construct()
+#9 {main}
+  thrown in C:\laragon\www\NeoGamingV2\Model\User.php on line 149
+[02-Jun-2023 12:42:52 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:42:52 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 12:42:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:42:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\NeoGamingV2\Model\User.php:149
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\classes\sessionController.php(99): UserModel->get(8)
+#1 C:\laragon\www\NeoGamingV2\classes\sessionController.php(63): SessionController->getUserSessionData()
+#2 C:\laragon\www\NeoGamingV2\classes\sessionController.php(46): SessionController->validateSession()
+#3 C:\laragon\www\NeoGamingV2\classes\sessionController.php(17): SessionController->init()
+#4 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(8): SessionController->__construct()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(120): Admin->__construct()
+#6 C:\laragon\www\NeoGamingV2\libs\app.php(63): App->loadControlador('Controllers/Adm...', 'Admin')
+#7 C:\laragon\www\NeoGamingV2\libs\app.php(17): App->init(Array)
+#8 C:\laragon\www\NeoGamingV2\index.php(24): App->__construct()
+#9 {main}
+  thrown in C:\laragon\www\NeoGamingV2\Model\User.php on line 149
+[02-Jun-2023 12:44:16 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:44:16 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 12:44:16 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:44:16 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> juan
+[02-Jun-2023 12:44:16 Europe/Berlin] sessionController::validateSession(): username:juan - role: user
+[02-Jun-2023 12:44:16 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 12:44:16 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 12:44:16 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[02-Jun-2023 12:45:34 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:45:34 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 12:45:34 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:45:34 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> juan
+[02-Jun-2023 12:45:34 Europe/Berlin] sessionController::validateSession(): username:juan - role: user
+[02-Jun-2023 12:45:34 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 12:45:34 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 12:45:34 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[02-Jun-2023 12:46:09 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:46:09 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 12:46:09 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:46:10 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> juan
+[02-Jun-2023 12:46:10 Europe/Berlin] sessionController::validateSession(): username:juan - role: user
+[02-Jun-2023 12:46:10 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 12:46:10 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 12:46:10 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[02-Jun-2023 12:46:59 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:46:59 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 12:46:59 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:46:59 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> juan
+[02-Jun-2023 12:46:59 Europe/Berlin] sessionController::validateSession(): username:juan - role: user
+[02-Jun-2023 12:46:59 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 12:46:59 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 12:46:59 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[02-Jun-2023 12:46:59 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[02-Jun-2023 12:47:26 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:47:26 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 12:49:18 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:49:18 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:49:18 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> juan
+[02-Jun-2023 12:49:18 Europe/Berlin] sessionController::validateSession(): username:juan - role: user
+[02-Jun-2023 12:49:18 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 12:49:18 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = post/Admin
+[02-Jun-2023 12:49:18 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 12:49:18 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 12:49:19 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:49:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:49:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> juan
+[02-Jun-2023 12:49:19 Europe/Berlin] sessionController::validateSession(): username:juan - role: user
+[02-Jun-2023 12:49:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 12:49:19 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = post/Admin
+[02-Jun-2023 12:49:19 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 12:49:19 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 12:49:27 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:49:27 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:49:27 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[02-Jun-2023 12:49:27 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 12:49:27 Europe/Berlin] ExistPOST: Existen parámetros
+[02-Jun-2023 12:49:27 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS
+[02-Jun-2023 12:49:27 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:49:27 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 12:49:27 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:49:27 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[02-Jun-2023 12:49:27 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[02-Jun-2023 12:49:27 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 12:49:27 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 12:49:27 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[02-Jun-2023 12:49:27 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[02-Jun-2023 12:51:10 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:51:10 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 12:51:12 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:51:12 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:51:12 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 12:51:12 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 12:51:12 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 12:51:16 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:51:16 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:51:16 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[02-Jun-2023 12:51:16 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 12:51:16 Europe/Berlin] ExistPOST: Existen parámetros
+[02-Jun-2023 12:51:16 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS
+[02-Jun-2023 12:51:16 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 12:51:16 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 12:51:16 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 12:51:16 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> juan
+[02-Jun-2023 12:51:16 Europe/Berlin] sessionController::validateSession(): username:juan - role: user
+[02-Jun-2023 12:51:16 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 12:51:16 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 12:51:16 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[02-Jun-2023 12:51:16 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[02-Jun-2023 13:15:24 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 13:15:24 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 13:15:24 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[02-Jun-2023 13:15:24 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[02-Jun-2023 13:15:24 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 13:15:24 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = post/Admin
+[02-Jun-2023 13:15:24 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 13:15:24 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 13:15:25 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 13:15:25 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 13:15:25 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[02-Jun-2023 13:15:25 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[02-Jun-2023 13:15:25 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 13:15:25 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = post/Admin
+[02-Jun-2023 13:15:25 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 13:15:25 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 13:15:30 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 13:15:30 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 13:15:30 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[02-Jun-2023 13:15:30 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[02-Jun-2023 13:15:30 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 13:15:30 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = post/Admin
+[02-Jun-2023 13:15:30 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 13:15:30 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 13:15:31 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 13:15:31 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 13:15:31 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 13:15:31 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[02-Jun-2023 13:15:31 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[02-Jun-2023 13:15:31 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 13:15:31 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 13:15:31 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[02-Jun-2023 13:15:31 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[02-Jun-2023 13:15:35 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 13:15:35 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 13:15:35 Europe/Berlin] PHP Fatal error:  Class PostModel contains 6 abstract methods and must therefore be declared abstract or implement the remaining methods (iModel::create, iModel::getAll, iModel::get, ...) in C:\laragon\www\NeoGamingV2\Model\Post.php on line 2
+[02-Jun-2023 13:15:49 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 13:15:49 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 13:15:49 Europe/Berlin] PHP Fatal error:  Class PostModel contains 6 abstract methods and must therefore be declared abstract or implement the remaining methods (iModel::create, iModel::getAll, iModel::get, ...) in C:\laragon\www\NeoGamingV2\Model\Post.php on line 2
+[02-Jun-2023 13:16:15 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 13:16:15 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 13:16:17 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 13:16:17 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 13:16:17 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 13:16:17 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 13:16:17 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 13:16:19 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 13:16:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 13:16:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup, url => Signup
+[02-Jun-2023 13:16:19 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[02-Jun-2023 13:16:19 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[02-Jun-2023 13:16:23 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 13:16:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 13:16:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup/create, url => Signup
+[02-Jun-2023 13:16:23 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[02-Jun-2023 13:16:23 Europe/Berlin] ExistPOST: Existen parámetros
+[02-Jun-2023 13:16:23 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 13:16:23 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 13:28:38 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 13:28:38 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 13:28:38 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 13:28:38 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[02-Jun-2023 13:28:38 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[02-Jun-2023 13:28:38 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 13:28:38 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 13:28:38 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[02-Jun-2023 13:28:38 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[02-Jun-2023 13:28:41 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 13:28:41 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 13:28:43 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 13:28:43 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 13:28:43 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 13:28:43 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[02-Jun-2023 13:28:43 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[02-Jun-2023 13:28:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 13:28:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 13:28:43 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[02-Jun-2023 13:28:43 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[02-Jun-2023 22:55:55 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 22:55:55 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 22:55:55 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 22:56:16 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 22:56:16 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 22:56:16 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 22:57:01 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 22:57:01 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 22:57:01 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 22:57:06 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 22:57:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function loadModel() on bool in C:\laragon\www\NeoGamingV2\libs\app.php:76
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\app.php(18): App->init(Array)
+#1 C:\laragon\www\NeoGamingV2\index.php(24): App->__construct()
+#2 {main}
+  thrown in C:\laragon\www\NeoGamingV2\libs\app.php on line 76
+[02-Jun-2023 22:57:07 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 22:57:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function loadModel() on bool in C:\laragon\www\NeoGamingV2\libs\app.php:76
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\app.php(18): App->init(Array)
+#1 C:\laragon\www\NeoGamingV2\index.php(24): App->__construct()
+#2 {main}
+  thrown in C:\laragon\www\NeoGamingV2\libs\app.php on line 76
+[02-Jun-2023 22:57:19 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 22:57:19 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 22:57:34 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 22:57:34 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 22:57:34 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 23:00:13 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:00:13 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 23:00:13 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 23:00:23 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:00:23 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 23:00:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 23:00:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 23:00:23 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[02-Jun-2023 23:00:23 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[02-Jun-2023 23:00:23 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:00:23 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 23:00:23 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 23:00:29 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:00:29 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 23:00:29 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 23:00:29 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 23:00:29 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[02-Jun-2023 23:00:29 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[02-Jun-2023 23:00:29 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:00:29 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 23:00:29 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 23:03:33 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:03:33 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 23:03:33 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 23:03:33 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:03:33 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 23:03:33 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 23:03:34 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:03:34 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 23:03:34 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 23:03:34 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:03:34 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 23:03:34 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 23:03:34 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:03:34 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 23:03:34 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 23:05:47 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:05:47 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 23:05:47 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 23:05:47 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 23:05:47 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 23:05:51 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:05:51 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 23:05:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[02-Jun-2023 23:05:52 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 23:05:52 Europe/Berlin] ExistPOST: Existen parámetros
+[02-Jun-2023 23:05:52 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS
+[02-Jun-2023 23:05:52 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:05:52 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 23:05:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 23:05:52 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[02-Jun-2023 23:05:52 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[02-Jun-2023 23:05:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 23:05:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 23:05:52 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[02-Jun-2023 23:05:52 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[02-Jun-2023 23:06:19 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:06:19 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 23:06:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 23:06:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[02-Jun-2023 23:06:19 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[02-Jun-2023 23:06:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 23:06:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 23:06:19 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[02-Jun-2023 23:06:19 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[02-Jun-2023 23:06:38 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:06:38 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 23:06:38 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 23:06:49 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:06:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 23:06:49 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[02-Jun-2023 23:06:49 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[02-Jun-2023 23:06:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 23:06:49 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = post/Admin
+[02-Jun-2023 23:06:49 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 23:06:49 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 23:06:50 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:06:50 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 23:06:51 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[02-Jun-2023 23:06:51 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[02-Jun-2023 23:06:51 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 23:06:51 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = post/Admin
+[02-Jun-2023 23:06:51 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 23:06:51 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 23:06:56 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:06:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 23:06:56 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[02-Jun-2023 23:06:56 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[02-Jun-2023 23:06:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 23:06:56 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = post/Admin
+[02-Jun-2023 23:06:56 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 23:06:56 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 23:06:59 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:06:59 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 23:06:59 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 23:07:00 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:07:00 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 23:07:00 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 23:07:00 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 23:07:00 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 23:07:03 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:07:03 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 23:07:03 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[02-Jun-2023 23:07:03 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 23:07:03 Europe/Berlin] ExistPOST: Existen parámetros
+[02-Jun-2023 23:07:03 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:07:03 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 23:07:03 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 23:07:03 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[02-Jun-2023 23:07:03 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[02-Jun-2023 23:07:03 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 23:07:03 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[02-Jun-2023 23:07:03 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[02-Jun-2023 23:07:03 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[02-Jun-2023 23:07:26 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:07:26 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 23:07:26 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[02-Jun-2023 23:07:26 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[02-Jun-2023 23:07:26 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 23:07:26 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = post/Admin
+[02-Jun-2023 23:07:26 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 23:07:26 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 23:08:09 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:08:09 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 23:08:09 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 23:08:29 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:08:29 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[02-Jun-2023 23:08:29 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 23:10:18 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:10:18 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 23:10:18 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 23:11:59 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:11:59 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 23:11:59 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 23:21:09 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:21:09 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 23:21:09 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[02-Jun-2023 23:21:09 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[02-Jun-2023 23:21:09 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 23:21:09 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = post/Admin
+[02-Jun-2023 23:21:09 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 23:21:09 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 23:21:10 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:21:10 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 23:21:10 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[02-Jun-2023 23:21:10 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[02-Jun-2023 23:21:10 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 23:21:10 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = post/Admin
+[02-Jun-2023 23:21:10 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 23:21:10 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 23:21:15 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:21:15 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 23:21:15 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[02-Jun-2023 23:21:15 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[02-Jun-2023 23:21:15 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 23:21:15 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = post/Admin
+[02-Jun-2023 23:21:15 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 23:21:15 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 23:21:19 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:21:19 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 23:21:19 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 23:21:21 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:21:21 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 23:21:21 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[02-Jun-2023 23:21:21 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[02-Jun-2023 23:21:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 23:21:21 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = post/Admin
+[02-Jun-2023 23:21:21 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 23:21:21 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 23:21:22 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:21:22 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 23:21:22 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[02-Jun-2023 23:21:22 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[02-Jun-2023 23:21:22 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 23:21:22 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = post/Admin
+[02-Jun-2023 23:21:22 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 23:21:22 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 23:21:35 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:21:35 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 23:21:35 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 23:21:36 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:21:36 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 23:21:36 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 23:21:36 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 23:21:36 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 23:21:37 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:21:37 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 23:21:37 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup, url => Signup
+[02-Jun-2023 23:21:37 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[02-Jun-2023 23:21:37 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[02-Jun-2023 23:21:45 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:21:45 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 23:21:45 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[02-Jun-2023 23:21:45 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[02-Jun-2023 23:21:45 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 23:21:45 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = post/Admin
+[02-Jun-2023 23:21:45 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 23:21:45 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 23:22:45 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:22:45 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 23:22:45 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[02-Jun-2023 23:22:45 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[02-Jun-2023 23:22:45 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 23:22:45 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = post/Admin
+[02-Jun-2023 23:22:45 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 23:22:45 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 23:24:47 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:24:47 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 23:24:47 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 23:27:43 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:27:43 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 23:27:43 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Post::show(), 0 passed in C:\laragon\www\NeoGamingV2\libs\app.php on line 105 and exactly 1 expected in C:\laragon\www\NeoGamingV2\Controllers\post.php:18
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\app.php(105): Post->show()
+#1 C:\laragon\www\NeoGamingV2\libs\app.php(18): App->init(Array)
+#2 C:\laragon\www\NeoGamingV2\index.php(24): App->__construct()
+#3 {main}
+  thrown in C:\laragon\www\NeoGamingV2\Controllers\post.php on line 18
+[02-Jun-2023 23:27:43 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:27:43 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 23:27:43 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Post::show(), 0 passed in C:\laragon\www\NeoGamingV2\libs\app.php on line 105 and exactly 1 expected in C:\laragon\www\NeoGamingV2\Controllers\post.php:18
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\app.php(105): Post->show()
+#1 C:\laragon\www\NeoGamingV2\libs\app.php(18): App->init(Array)
+#2 C:\laragon\www\NeoGamingV2\index.php(24): App->__construct()
+#3 {main}
+  thrown in C:\laragon\www\NeoGamingV2\Controllers\post.php on line 18
+[02-Jun-2023 23:27:45 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:27:45 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[02-Jun-2023 23:27:46 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[02-Jun-2023 23:27:46 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[02-Jun-2023 23:27:46 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[02-Jun-2023 23:27:46 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = post/Admin
+[02-Jun-2023 23:27:46 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[02-Jun-2023 23:27:46 Europe/Berlin] LOGIN::render -> Carga el index de login
+[02-Jun-2023 23:27:48 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:27:48 Europe/Berlin] POSTMODEL::CONSTRUCT-> incio de PostModel
+[02-Jun-2023 23:27:48 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "]" in C:\laragon\www\NeoGamingV2\Views\Post\show.html on line 9
+[02-Jun-2023 23:41:56 Europe/Berlin] Inicio de aplicacion
+[02-Jun-2023 23:41:56 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[02-Jun-2023 23:41:56 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
