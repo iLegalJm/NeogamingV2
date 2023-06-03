@@ -1390,3 +1390,6 @@ Stack trace:
 [02-Jun-2023 23:41:56 Europe/Berlin] Inicio de aplicacion
 [02-Jun-2023 23:41:56 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
 [02-Jun-2023 23:41:56 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[03-Jun-2023 18:53:08 Europe/Berlin] Inicio de aplicacion
+[03-Jun-2023 18:53:08 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[03-Jun-2023 18:53:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
