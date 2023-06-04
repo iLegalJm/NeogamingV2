@@ -189,7 +189,7 @@ class UserModel extends Model implements iModel
         try {
             $query = $this->prepare('DELETE FROM user WHERE id = :id');
             $query->execute([
-                'id' => $id,
+                'id' => $id
             ]);
 
             return true;

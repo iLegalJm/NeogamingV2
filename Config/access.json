@@ -24,6 +24,16 @@
       "site": "Signup",
       "access": "public",
       "rol": ""
+    },
+    {
+      "site": "Admin/Post",
+      "access": "private",
+      "rol": "user"
+    },
+    {
+      "site": "User/info",
+      "access": "private",
+      "rol": "user"
     }
   ],
 

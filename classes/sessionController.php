@@ -92,7 +92,7 @@ class SessionController extends Controller
         return false;
     }
 
-    private function getUserSessionData()
+    public function getUserSessionData()
     {
         $id = $this->session->getCurrentUser();
         $this->user = new UserModel();
@@ -123,8 +123,14 @@ class SessionController extends Controller
         $url = explode('/', $actualLink);
         // print($url[1]);
         //TODO CAMBIE EL URL[2] POR URL[1]
-        error_log('SESSIONCONTROLLER::getCurrentPage: actualLink -> ' . $actualLink . ", url => " . $url[1]);
-        return $url[1];
+
+        if (isset($url[2])) {
+            error_log('SESSIONCONTROLLER::getCurrentPage: actualLink -> ' . $actualLink . ", url => " . $url[1] . '/' . $url[2]);
+            return $url[1] . '/' . $url[2];
+        } else {
+            error_log('SESSIONCONTROLLER::getCurrentPage: actualLink -> ' . $actualLink . ", url => " . $url[1]);
+            return $url[1];
+        }
     }
 
     private function redirectDefaultSiteByRole($rol)

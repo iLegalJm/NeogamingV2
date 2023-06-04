@@ -14,7 +14,7 @@ class App
         if (strpos($uriParts[0], '?') > -1) {
             $uriParts[0] = substr($uriParts[0], 0, strpos($uriParts[0], '?'));
         }
-        print_r($uriParts);
+        // print_r($uriParts);
         $this->init($uriParts);
     }
 
@@ -66,7 +66,6 @@ class App
                 $controller->render();
             }
         } else {
-
             $indexFatal = strpos($uriParts[0], '?'); //? OBTENGO LA POSICION DEL CARACTER QUE ME MOLESTA
             $newUriParts0 = substr($uriParts[0], 0, $indexFatal); //? OBTENGO SOLO EL NOMBRE DEL CONTROLADOR QUE ES LO QUE ME INTERESA    
             if ($newUriParts0 == "") {

@@ -1,0 +1,10 @@
+<h1>Pagina de info de user</h1>
+
+<h2>
+  Usuario:
+  <?=($user->getNombre != "") ? $user->getNombre() : $user->getUsername()?>
+</h2>
+
+<?php if($user->getFoto() != ""){ ?>
+<img src="public/img/fotos/<?=$user->getFoto()?>" width="200" alt="" />
+<?php } ?>

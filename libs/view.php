@@ -1,10 +1,13 @@
 <?php
+
+use function PHPSTORM_META\type;
+
 require_once 'template.php';
 class View
 {
     public $mensaje;
 
-    public $data;
+    public $data = [];
     private $content;
     public function __construct()
     {
@@ -13,12 +16,12 @@ class View
 
     public function render($path, $data = [])
     {
-        $this->data = $data;
         $this->handleMessages();
         $this->data = ["message" => $this->showMessagess()];
         // require 'Views/' . $path . '.php';
         $template = 'Views/' . $path . '.html';
-        $child = new Template($template, $this->data);
+        array_push($data, $this->data);
+        $child = new Template($template, $data);
 
         $renderLayout = substr($path, 0, 5);
 
