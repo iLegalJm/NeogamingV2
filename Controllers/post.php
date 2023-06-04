@@ -5,14 +5,13 @@ require_once 'Model/Post.php';
 require_once 'Model/Genero.php';
 require_once 'Model/Plataforma.php';
 
-class Post extends SessionController
+class Post extends Controller
 {
     private $user;
 
     public function __construct()
     {
         parent::__construct();
-        $this->user = $this->getUserSession();
     }
 
     public function render()
@@ -37,6 +36,9 @@ class Post extends SessionController
 
     public function create()
     {
+        $userController = new SessionController();
+        $this->user = $userController->getUserSessionData();
+
         $generos = new GeneroModel();
         $plataformas = new PlataformaModel();
 
@@ -48,6 +50,9 @@ class Post extends SessionController
     }
     public function insert()
     {
+        $userController = new SessionController();
+        $this->user = $userController->getUserSessionData();
+
         if (!$this->existPOST(['titulo', 'desarrollador', 'lanzador', 'trailer', 'lanzamiento', 'clasificacion'])) {
             $this->redirect('Admin/Post', []);
             return;

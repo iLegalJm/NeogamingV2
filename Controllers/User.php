@@ -7,7 +7,7 @@ class User extends SessionController
     {
         parent::__construct();
         $this->user = $this->getUserSessionData();
-        error_log("USERCONTROLLER::CONSTRUCT -> " . "User: ". $this->user->getUsername());
+        error_log("USERCONTROLLER::CONSTRUCT -> " . "User: " . $this->user->getUsername());
     }
 
     function render()
@@ -26,7 +26,7 @@ class User extends SessionController
     }
     function updateNombre()
     {
-        if (!$this->existPOST('nombre')) {
+        if (!$this->existPOST(['nombre'])) {
             $this->redirect('User/info', []); //TODO
             return;
         }
@@ -88,6 +88,7 @@ class User extends SessionController
         }
 
         $foto = $_FILES['foto'];
+        
         $targetDir = "public/img/fotos/";
         $extension = explode('.', $foto['name']); // ? Separando en un array por el punto
         $fileName = $extension[sizeof($extension) - 2]; //?nombre del archivo

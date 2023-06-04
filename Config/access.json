@@ -31,9 +31,24 @@
       "rol": "user"
     },
     {
+      "site": "User",
+      "access": "private",
+      "rol": "user"
+    },
+    {
       "site": "User/info",
       "access": "private",
       "rol": "user"
+    },
+    {
+      "site": "User/updateNombre",
+      "access": "private",
+      "rol": "user"
+    },
+    {
+      "site": "Post",
+      "access": "public",
+      "rol": ""
     }
   ],
 

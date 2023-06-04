@@ -20,6 +20,7 @@ class App
 
     private function init($uriParts)
     {
+        error_log('==================================================');
         if (empty($uriParts[0])) {
             error_log('APP::CONSTRUCT->No hay un controlador especificado');
             $archivoController = 'Controllers/Post.php';

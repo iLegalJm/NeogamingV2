@@ -3,15 +3,12 @@
 // include "../Config/Connection.php";
 class UserModel extends Model implements iModel
 {
-    private $conex;
-    private $users;
     private $id;
     private $username;
     private $password;
     private $rol;
     private $foto;
     private $nombre;
-
     private $create_at;
     private $update_at;
 
@@ -109,14 +106,6 @@ class UserModel extends Model implements iModel
         return $this->update_at;
     }
 
-    public function get_users()
-    {
-        $sql = "SELECT * FROM users";
-        $resultado = $this->conex->conn->query($sql);
-
-        return $this->users = $resultado->fetchAll(PDO::FETCH_ASSOC);
-    }
-
     public function create()
     {
         try {
@@ -201,21 +190,56 @@ class UserModel extends Model implements iModel
     public function update()
     {
         try {
-            $query = $this->prepare('UPDATE user SET username=:username, password=:password, foto=:foto, nombre=:nombre WHERE id = :id');
+            $query = $this->prepare('UPDATE user SET nombre = :nombre, password = :password, foto = :foto, username = :username WHERE id = :id');
             $query->execute([
                 'id' => $this->id,
-                'username' => $this->username,
+                'nombre' => $this->nombre,
                 'password' => $this->password,
-                'rol' => $this->rol,
                 'foto' => $this->foto,
-                'nombre' => $this->nombre
+                'username' => $this->username
             ]);
-
 
             return true;
         } catch (PDOException $e) {
-            error_log('USERMODEL::UPDATE->PDOEXCEPTION ' . $e);
+            error_log('USERMODEL::UPDATE()::ERROR->PDOEXCEPTION ' . $e);
             return false;
+        }
+    }
+
+    public function updateNombre($name, $iduser)
+    {
+        try {
+            $query = $this->prepare('UPDATE user SET name = :nombre WHERE id = :id');
+            $query->execute(['nombre' => $name, 'id' => $iduser]);
+
+            if ($query->rowCount() > 0) {
+                return true;
+            } else {
+                return false;
+            }
+        } catch (PDOException $e) {
+            error_log('USERMODEL::updateNombre()->PDOEXCEPTION ' . $e);
+            return NULL;
+        }
+    }
+
+    public function updateFoto($name, $iduser)
+    {
+        try {
+            $query = $this->db->connect()->prepare('UPDATE user SET foto = :foto WHERE id = :id');
+            $query->execute([
+                'foto' => $name,
+                'id' => $iduser
+            ]);
+
+            if ($query->rowCount() > 0) {
+                return true;
+            } else {
+                return false;
+            }
+        } catch (PDOException $e) {
+            error_log('USERMODEL::updateFoto()->PDOEXCEPTION ' . $e);
+            return NULL;
         }
     }
     public function from($array)
@@ -242,13 +266,17 @@ class UserModel extends Model implements iModel
         }
     }
 
-    public function comparePasswords($password, $id)
+    public function comparePasswords($password, $userId)
     {
         try {
-            $user = $this->get($id);
+            $query = $this->prepare('SELECT id, password FROM user WHERE id = :id ');
+            $query->execute([
+                'id' => $userId
+            ]);
 
             //? PASSWORD VERIFY ES UN METODO NATIVO DE PHP PARA VALIDAR UN HASH Y PÁSSWORD EN TEXTO PLANO SI SON LOS MISMOS
-            return password_verify($password, $this->$user->getPassword());
+            if ($row = $query->fetch(PDO::FETCH_ASSOC)) return password_verify($password, $row['password']);
+            return NULL;
         } catch (PDOException $e) {
             error_log('USERMODEL::EXISTS->PDOEXCEPTION ' . $e);
             return false;

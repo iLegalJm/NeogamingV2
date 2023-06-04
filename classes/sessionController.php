@@ -119,18 +119,16 @@ class SessionController extends Controller
     private function getCurrentPage()
     {
         $actualLink = trim("$_SERVER[REQUEST_URI]");
-        // print($actualLink);
-        $url = explode('/', $actualLink);
-        // print($url[1]);
-        //TODO CAMBIE EL URL[2] POR URL[1]
 
-        if (isset($url[2])) {
-            error_log('SESSIONCONTROLLER::getCurrentPage: actualLink -> ' . $actualLink . ", url => " . $url[1] . '/' . $url[2]);
-            return $url[1] . '/' . $url[2];
-        } else {
-            error_log('SESSIONCONTROLLER::getCurrentPage: actualLink -> ' . $actualLink . ", url => " . $url[1]);
-            return $url[1];
-        }
+        $url = explode('/', $actualLink);
+        //TODO CAMBIE EL URL[2] POR URL[1], new cambios
+        // if (isset($url[2])) {
+        // error_log('SESSIONCONTROLLER::getCurrentPage: actualLink -> ' . $actualLink . ", url => " . $url[1] . '/' . $url[2]);
+        // return $url[1] . '/' . $url[2];
+        // } else {
+        error_log('SESSIONCONTROLLER::getCurrentPage: actualLink -> ' . $actualLink . ", url => " . $url[1]);
+        return $url[1];
+        // }
     }
 
     private function redirectDefaultSiteByRole($rol)
@@ -138,7 +136,7 @@ class SessionController extends Controller
         $url = '';
         for ($i = 0; $i < sizeof($this->sites); $i++) {
             if ($this->sites[$i]['rol'] == $rol) {
-                $url = 'post/' . $this->sites[$i]['site'];
+                $url = '/' . $this->sites[$i]['site'];
                 error_log('SessionController::redirectDefaultSiteByRole->url = ' . $url);
                 break;
             }
