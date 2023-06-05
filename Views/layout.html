@@ -31,9 +31,23 @@
               >Github</a
             >
           </li>
-          <li class="header-option selected">
+          <?php if(!$sesion->existsSession()){ ?>
+          <li class="header-option">
             <a class="nav-item" href="<?= constant('URL')?>/Login">Login</a>
           </li>
+          <?php } ?>
+
+          <?php if($sesion->existsSession()){ ?>
+          <li class="header-option">
+            <a class="nav-item" href="<?= constant('URL')?>/Admin">Dashboard</a>
+          </li>
+          <li class="header-option">
+            <a class="nav-item" href="<?= constant('URL')?>/User/info">Ver perfil</a>
+          </li>
+          <li class="header-option selected">
+            <a class="nav-item" href="<?= constant('URL')?>/Logout">Logout</a>
+          </li>
+          <?php } ?>
         </ul>
       </nav>
     </header>
@@ -42,7 +56,11 @@
       <?= $child ?>
     </main>
 
+    <footer>
+      <h1>Este es el footer</h1>
+    </footer>
     <!-- ! SCRIPTS -->
-    <script src="scripts/app.js"></script>
+    <!-- <script src="scripts/app.js"></script> -->
+    <script src="<?= constant('URL')?>/public/js/app.js"></script>
   </body>
 </html>

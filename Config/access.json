@@ -53,7 +53,7 @@
   ],
 
   "default-sites": {
-    "user": "Admin",
+    "user": "",
     "admin": ""
   }
 }

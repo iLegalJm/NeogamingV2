@@ -1,4 +1,8 @@
-<form action="<?= constant('URL') ?>/Post/insert" method="post">
+<form
+  action="<?= constant('URL') ?>/Post/insert"
+  method="post"
+  enctype="multipart/form-data"
+>
   <div class="">
     <label for="titulo">Titulo</label>
     <input name="titulo" type="text" required />
@@ -20,8 +24,12 @@
     <input name="lanzamiento" type="date" required />
   </div>
   <div class="">
-    <label for="clasificacion">Clasificación:</label>
-    <input name="clasificacion" type="text" required />
+    <label for="clasificacion">descripcion:</label>
+    <input name="descripcion" type="text" required />
+  </div>
+  <div class="">
+    <label for="clasificacion">descripcion:</label>
+    <input name="foto" type="file" required />
   </div>
   <input type="submit" />
 </form>

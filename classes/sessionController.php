@@ -57,7 +57,7 @@ class SessionController extends Controller
 
     private function validateSession()
     {
-        error_log('SESSIONCONTROLLER::validateSession');
+        error_log('SESSIONCONTROLLER::validateSession()');
         //? SI EXISTE LA SESION
         if ($this->existsSession()) {
             $rol = $this->getUserSessionData()->getRol();
@@ -177,7 +177,7 @@ class SessionController extends Controller
         }
     }
 
-    private function logout()
+    public function logout()
     {
         $this->session->closeSession();
     }

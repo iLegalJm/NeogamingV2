@@ -2,7 +2,6 @@
 
 class Admin extends SessionController
 {
-
     public function __construct()
     {
         parent::__construct();

@@ -97,7 +97,7 @@ class User extends SessionController
         $hash = md5(Date('Ymdgi') . $fileName) . '.' . $ext;
         $targetFile = $targetDir . $hash;
         $uploadOk = false;
-        $imgFileType = strtolower(pathinfo($targetFile, PATHINFO_EXTENSION));
+        // $imgFileType = strtolower(pathinfo($targetFile, PATHINFO_EXTENSION));
 
         // ? TAMAÑO DE LA IMG 
         $chek = getimagesize($foto['tmp_name']);

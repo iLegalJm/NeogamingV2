@@ -8,7 +8,8 @@ class PostModel extends Model implements iModel
     private $lanzador;
     private $trailer;
     private $lanzamiento;
-    private $clasificacion;
+    private $descripcion;
+    private $foto;
     private $userId;
     private $create_at;
     private $update_at;
@@ -23,7 +24,8 @@ class PostModel extends Model implements iModel
         $this->lanzador = '';
         $this->trailer = '';
         $this->lanzamiento = '';
-        $this->clasificacion = '';
+        $this->foto = '';
+        $this->descripcion = "";
     }
     public function setId($id)
     {
@@ -79,13 +81,24 @@ class PostModel extends Model implements iModel
         return $this->lanzamiento;
     }
 
-    public function setClasificacion($clasificacion)
+    public function setDescripcion($descripcion)
     {
-        $this->clasificacion = $clasificacion;
+        $this->descripcion = $descripcion;
     }
-    public function getClasificacion()
+
+    public function getDescripcion()
     {
-        return $this->clasificacion;
+        return $this->descripcion;
+    }
+
+    public function setFoto($foto)
+    {
+        $this->foto = $foto;
+    }
+
+    public function getFoto()
+    {
+        return $this->foto;
     }
 
     public function setUserId($userId)
@@ -119,7 +132,7 @@ class PostModel extends Model implements iModel
     public function create()
     {
         try {
-            $query = $this->prepare('INSERT INTO POST (user_id, TITULO, DESARROLLADOR, LANZADOR, TRAILER, LANZAMIENTO, CLASIFICACION) VALUES(:user, :titulo, :desarrollador, :lanzador, :fechaTrailer, :fechaLanzamiento, :clasificacion)');
+            $query = $this->prepare('INSERT INTO POST (user_id, TITULO, DESARROLLADOR, LANZADOR, TRAILER, LANZAMIENTO, FOTO, DESCRIPCION) VALUES(:user, :titulo, :desarrollador, :lanzador, :fechaTrailer, :fechaLanzamiento, :foto, :descripcion)');
 
             $query->execute([
                 'user' => $this->userId,
@@ -128,7 +141,8 @@ class PostModel extends Model implements iModel
                 'lanzador' => $this->lanzador,
                 'fechaTrailer' => $this->trailer,
                 'fechaLanzamiento' => $this->lanzamiento,
-                'clasificacion' => $this->clasificacion
+                'foto' => $this->foto,
+                'descripcion' => $this->descripcion
             ]);
 
             // ? SI DEVUELVE EL RESULTADO DE UNA FILA INSERTADA ME DEVOLVERA TRUE   
@@ -143,6 +157,7 @@ class PostModel extends Model implements iModel
     public function createPost_has_Plataformas()
     {
     }
+
     public function getAll()
     {
         $items = [];
@@ -197,7 +212,7 @@ class PostModel extends Model implements iModel
     public function update()
     {
         try {
-            $query = $this->prepare('UPDATE POST SET user_id= :user, TITULO= :titulo, DESARROLLADOR = :desarrollador, LANZADOR =: lanzador, TRAILER = :fechaTrailer, LANZAMIENTO= :fechaLanzamiento, CLASIFICACION= :clasificacion WHERE id = :id');
+            $query = $this->prepare('UPDATE POST SET user_id= :user, TITULO= :titulo, DESARROLLADOR = :desarrollador, LANZADOR =: lanzador, TRAILER = :fechaTrailer, LANZAMIENTO= :fechaLanzamiento, foto= :foto, descripcion = :descripcion WHERE id = :id');
 
             $query->execute([
                 'user' => $this->userId,
@@ -206,7 +221,8 @@ class PostModel extends Model implements iModel
                 'lanzador' => $this->lanzador,
                 'fechaTrailer' => $this->trailer,
                 'fechaLanzamiento' => $this->lanzamiento,
-                'clasificacion' => $this->clasificacion,
+                'foto' => $this->foto,
+                'descripcion' => $this->descripcion,
                 'id' => $this->id
             ]);
 
@@ -227,7 +243,8 @@ class PostModel extends Model implements iModel
         $this->lanzador = $array['lanzador'];
         $this->trailer = $array['trailer'];
         $this->lanzamiento = $array['lanzamiento'];
-        $this->clasificacion = $array['clasificacion'];
+        $this->foto = $array['foto'];
+        $this->descripcion = $array['descripcion'];
         $this->create_at = $array['create_at'];
         $this->update_at = $array['update_at'];
     }

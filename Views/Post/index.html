@@ -46,125 +46,112 @@
 <main>
   <!-- crear componentes reutilizables -->
   <section class="tarjetas">
+    <?php foreach ($posts as $post) { ?>
+    <article class="tarjeta">
+      <a href="#">
+        <img src="<?= constant('URL')?>/public/img/posts/<?=$post->getFoto()?>" alt="re4" width="520px" height="320px" />
+        <h2><?= $post->getTitulo() ?></h2>
+        <p class="fecha">
+          Fecha de lanzamiento:
+          <?=$post->getLanzamiento()?>
+        </p>
+        <p class="descripcion"><?=$post->getDescripcion()?></p>
+      </a>
+    </article>
+    <?php } ?>
+    <!-- ! CERRANDO EL FOREACH -->
     <article class="tarjeta">
       <a href="<?= constant('URL')?>/Post/show">
         <img src="assets/re4.png" alt="re4" width="520px" height="320px" />
         <h2>Resident Evil 4</h2>
         <p class="fecha">Fecha de lanzamiento: 23 de Marzo del 2023</p>
-        <p class="descripcion">Revive la pesadilla que revolucionó el género del survival horror.</p>
+        <p class="descripcion">
+          Revive la pesadilla que revolucionó el género del survival horror.
+        </p>
       </a>
     </article>
     <article class="tarjeta">
       <a href="./Components/VideoGameInfo/deadSpace.html">
-        <img src="assets/dead-space-remake.png" alt="re4" width="520px" height="320px" />
+        <img
+          src="assets/dead-space-remake.png"
+          alt="re4"
+          width="520px"
+          height="320px"
+        />
         <h2>Dead Space Remake</h2>
         <p class="fecha">Fecha de lanzamiento: 27 de enero del 2023</p>
-        <p class="descripcion">Sumergete en terror y acción de nueva generación</p>
-      </a>
-    </article>
-    <article class="tarjeta">
-      <a href="./Components/VideoGameInfo/residentEvil.html">
-        <img src="assets/re4.png" alt="re4" width="520px" height="320px" />
-        <h2>Resident Evil 4</h2>
-        <p class="fecha">Fecha de lanzamiento: 23 de Marzo del 2023</p>
-        <p class="descripcion">Revive la pesadilla que revolucionó el género del survival horror.</p>
-      </a>
-    </article>
-    <article class="tarjeta">
-      <a href="./Components/VideoGameInfo/deadSpace.html">
-        <img src="assets/dead-space-remake.png" alt="re4" width="520px" height="320px" />
-        <h2>Dead Space Remake</h2>
-        <p class="fecha">Fecha de lanzamiento: 27 de enero del 2023</p>
-        <p class="descripcion">Sumergete en terror y acción de nueva generación</p>
-      </a>
-    </article>
-    <article class="tarjeta">
-      <a href="./Components/VideoGameInfo/residentEvil.html">
-        <img src="assets/re4.png" alt="re4" width="520px" height="320px" />
-        <h2>Resident Evil 4</h2>
-        <p class="fecha">Fecha de lanzamiento: 23 de Marzo del 2023</p>
-        <p class="descripcion">Revive la pesadilla que revolucionó el género del survival horror.</p>
-      </a>
-    </article>
-    <article class="tarjeta">
-      <a href="./Components/VideoGameInfo/deadSpace.html">
-        <img src="assets/dead-space-remake.png" alt="re4" width="520px" height="320px" />
-        <h2>Dead Space Remake</h2>
-        <p class="fecha">Fecha de lanzamiento: 27 de enero del 2023</p>
-        <p class="descripcion">Sumergete en terror y acción de nueva generación</p>
-      </a>
-    </article>
-    <article class="tarjeta">
-      <a href="./Components/VideoGameInfo/residentEvil.html">
-        <img src="assets/re4.png" alt="re4" width="520px" height="320px" />
-        <h2>Resident Evil 4</h2>
-        <p class="fecha">Fecha de lanzamiento: 23 de Marzo del 2023</p>
-        <p class="descripcion">Revive la pesadilla que revolucionó el género del survival horror.</p>
-      </a>
-    </article>
-    <article class="tarjeta">
-      <a href="./Components/VideoGameInfo/deadSpace.html">
-        <img src="assets/dead-space-remake.png" alt="re4" width="520px" height="320px" />
-        <h2>Dead Space Remake</h2>
-        <p class="fecha">Fecha de lanzamiento: 27 de enero del 2023</p>
-        <p class="descripcion">Sumergete en terror y acción de nueva generación</p>
-      </a>
-    </article>
-    <article class="tarjeta">
-      <a href="./Components/VideoGameInfo/residentEvil.html">
-        <img src="assets/re4.png" alt="re4" width="520px" height="320px" />
-        <h2>Resident Evil 4</h2>
-        <p class="fecha">Fecha de lanzamiento: 23 de Marzo del 2023</p>
-        <p class="descripcion">Revive la pesadilla que revolucionó el género del survival horror.</p>
+        <p class="descripcion">
+          Sumergete en terror y acción de nueva generación
+        </p>
       </a>
     </article>
     <!-- Continuar con el resto de las tarjetas -->
   </section>
   <section id="nosotros">
     <h2>Sobre <span>nosotros</span></h2>
-    <p>Bienvenido a nuestro sitio web, donde nos apasiona la creación de contenido relacionado con los videojuegos.
-      Nos hemos dado cuenta de que puede ser difícil encontrar una lista completa de todos los videojuegos lanzados en
-      un año determinado, por lo que hemos creado este sitio web para hacer precisamente eso: proporcionar una lista
-      completa de todos los videojuegos estrenados en el año 2023. <br> Nuestro equipo está compuesto por entusiastas
-      de los videojuegos con experiencia en la creación de contenido informativo y entretenido relacionado con los
-      videojuegos. Nos esforzamos por proporcionar información precisa y actualizada sobre todos los videojuegos que
-      se lanzan en el año 2023. <br> Además, nos enorgullece presentar nuestro sitio web que en las proximas semanas
-      contara con un diseño atractivo y moderno, utilizando tecnologías como HTML, CSS, JavaScript, y React para crear
-      una experiencia de usuario fluida e interactiva. También utilizamos frameworks como Bootstrap, Tailwind o
-      Mateiral UI para ayudarnos en el diseño y la estructuración de nuestro sitio web. <br> Si tienes alguna pregunta
-      o comentario, no dudes en ponerte en contacto con nosotros. ¡Esperamos que disfrutes explorando nuestro sitio
-      web y encontrando nuevos videojuegos para jugar en el año 2023! </p>
+    <p>
+      Bienvenido a nuestro sitio web, donde nos apasiona la creación de
+      contenido relacionado con los videojuegos. Nos hemos dado cuenta de que
+      puede ser difícil encontrar una lista completa de todos los videojuegos
+      lanzados en un año determinado, por lo que hemos creado este sitio web
+      para hacer precisamente eso: proporcionar una lista completa de todos los
+      videojuegos estrenados en el año 2023. <br />
+      Nuestro equipo está compuesto por entusiastas de los videojuegos con
+      experiencia en la creación de contenido informativo y entretenido
+      relacionado con los videojuegos. Nos esforzamos por proporcionar
+      información precisa y actualizada sobre todos los videojuegos que se
+      lanzan en el año 2023. <br />
+      Además, nos enorgullece presentar nuestro sitio web que en las proximas
+      semanas contara con un diseño atractivo y moderno, utilizando tecnologías
+      como HTML, CSS, JavaScript, y React para crear una experiencia de usuario
+      fluida e interactiva. También utilizamos frameworks como Bootstrap,
+      Tailwind o Mateiral UI para ayudarnos en el diseño y la estructuración de
+      nuestro sitio web. <br />
+      Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto
+      con nosotros. ¡Esperamos que disfrutes explorando nuestro sitio web y
+      encontrando nuevos videojuegos para jugar en el año 2023!
+    </p>
   </section>
   <section id="contacto">
     <div class="contacto_mensaje">
       <h2>Contacto</h2>
-      <p>Si tiene alguna pregunta o comentario sobre nuestro sitio web, no dude en ponerse en contacto con nosotros.
-        Puede enviarnos un correo electrónico o seguirnos en nuestras redes sociales para estar al tanto de las
-        últimas noticias y actualizaciones.</p>
+      <p>
+        Si tiene alguna pregunta o comentario sobre nuestro sitio web, no dude
+        en ponerse en contacto con nosotros. Puede enviarnos un correo
+        electrónico o seguirnos en nuestras redes sociales para estar al tanto
+        de las últimas noticias y actualizaciones.
+      </p>
     </div>
     <div class="formulario">
       <form>
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required>
-        <br>
-        <br>
+        <input type="text" id="nombre" name="nombre" required />
+        <br />
+        <br />
         <label for="correo">Correo electrónico:</label>
-        <input type="email" id="correo" name="correo" required>
-        <br>
-        <br>
+        <input type="email" id="correo" name="correo" required />
+        <br />
+        <br />
         <label for="mensaje">Mensaje:</label>
         <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-        <br>
-        <br>
-        <button type="submit" reset>Enviar mensaje</button> <!-- evitar reset -->
+        <br />
+        <br />
+        <button type="submit" reset>Enviar mensaje</button>
+        <!-- evitar reset -->
       </form>
     </div>
     <div class="redes-sociales">
       <h3>Síguenos en nuestras redes sociales:</h3>
       <ul>
-        <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
-        <li><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
-        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+        <li>
+          <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-youtube"></i> Youtube</a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+        </li>
       </ul>
     </div>
   </section>

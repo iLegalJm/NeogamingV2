@@ -2,6 +2,7 @@
 
 use function PHPSTORM_META\type;
 
+require_once 'classes/session.php';
 require_once 'template.php';
 class View
 {
@@ -11,7 +12,6 @@ class View
     private $content;
     public function __construct()
     {
-        // echo "<p>Vista base</p>";
     }
 
     public function render($path, $data = [])
@@ -39,9 +39,11 @@ class View
         } else if ($renderLayout == "Error") {
             echo $child;
         } else {
+            $sesion = new Session();
             $view = new Template('./Views/layout.html', [
                 "title" => "Principal",
-                "child" => $child
+                "child" => $child,
+                "sesion" => $sesion
             ]);
             echo $view;
         }
