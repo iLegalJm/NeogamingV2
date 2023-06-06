@@ -6,16 +6,6 @@
       "rol": ""
     },
     {
-      "site": "dashboard",
-      "access": "private",
-      "rol": "admin"
-    },
-    {
-      "site": "Admin",
-      "access": "private",
-      "rol": "user"
-    },
-    {
       "site": "Login",
       "access": "public",
       "rol": ""
@@ -26,9 +16,9 @@
       "rol": ""
     },
     {
-      "site": "Admin/Post",
+      "site": "Admin",
       "access": "private",
-      "rol": "user"
+      "rol": "admin"
     },
     {
       "site": "User",
@@ -36,15 +26,11 @@
       "rol": "user"
     },
     {
-      "site": "User/info",
+      "site": "User",
       "access": "private",
-      "rol": "user"
+      "rol": "admin"
     },
-    {
-      "site": "User/updateNombre",
-      "access": "private",
-      "rol": "user"
-    },
+
     {
       "site": "Post",
       "access": "public",
@@ -53,7 +39,7 @@
   ],
 
   "default-sites": {
-    "user": "",
+    "user": "Post",
     "admin": ""
   }
 }

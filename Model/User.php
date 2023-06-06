@@ -48,9 +48,13 @@ class UserModel extends Model implements iModel
         return password_hash($password, PASSWORD_DEFAULT, ['cost' => 10]);
     }
 
-    public function setPassword($password)
+    public function setPassword($password, $hash = true)
     {
-        $this->password = $this->getHashedPassword($password);
+        if ($hash) {
+            $this->password = $this->getHashedPassword($password);
+        } else {
+            $this->password = $password;
+        }
     }
 
     public function getPassword()

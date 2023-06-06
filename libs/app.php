@@ -13,6 +13,8 @@ class App
 
         if (strpos($uriParts[0], '?') > -1) {
             $uriParts[0] = substr($uriParts[0], 0, strpos($uriParts[0], '?'));
+            // * EJEMPLO: localhost:8080/Login?success=45465623144asdasdasd
+            // * QUEDARIA: localhost:8080/Login
         }
         // print_r($uriParts);
         $this->init($uriParts);
@@ -20,7 +22,6 @@ class App
 
     private function init($uriParts)
     {
-        error_log('==================================================');
         if (empty($uriParts[0])) {
             error_log('APP::CONSTRUCT->No hay un controlador especificado');
             $archivoController = 'Controllers/Post.php';

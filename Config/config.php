@@ -3,7 +3,7 @@
 define('URL', 'http://localhost:8080');
 
 define('HOST', 'localhost');
-define('DB', 'neog');
+define('DB', 'neoga');
 define('USER', 'root');
 define('PASSWORD', '..MalTin2022');
 define('CHARSET', 'utf8mb4');

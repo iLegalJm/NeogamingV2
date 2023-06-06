@@ -69,7 +69,9 @@ class SessionController extends Controller
                 // ? SI NO ES PUBLICA LA PAGINA
                 if ($this->isAuthorized($rol)) {
                     //? LO DEJO PASAR   
+                    error_log("SessionController::validateSession() => autorizado, lo deja pasar");
                 } else {
+                    error_log("SessionController::validateSession() => no autorizado, redirige al main de cada rol");
                     $this->redirectDefaultSiteByRole($rol);
                 }
             }
@@ -168,7 +170,7 @@ class SessionController extends Controller
     {
         switch ($rol) {
             case 'user':
-                $this->redirect($this->defaultSites['user'], []);
+                $this->redirect($this->defaultSites['user'], ['success' => SuccessMessages::SUCCESS_LOGIN_AUTHENTICATE]);
                 break;
             case 'admin':
                 $this->redirect($this->defaultSites['admin'], []);

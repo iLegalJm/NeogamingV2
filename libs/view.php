@@ -44,10 +44,14 @@ class View
             echo $child;
         } else {
             $sesion = new Session();
+            $userModel = new UserModel();
+            $user = $userModel->get($sesion->getCurrentUser());
             $view = new Template('./Views/layout.html', [
                 "title" => "Principal",
                 "child" => $child,
-                "sesion" => $sesion
+                "sesion" => $sesion,
+                "user"=> $user
+            
             ]);
             echo $view;
         }
