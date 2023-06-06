@@ -137,6 +137,10 @@ header .image-text .profession {
 
 .sidebar header .image img {
   width: 40px;
+  /* TODO ESTILOS QUE LE AGREGUE POR AHORA Y PROBAR EL GETFOTO, LUEGO LO QUITARE */
+  height: 50px;
+  object-fit: cover;
+  /* TODO HASTA AQUI QUITAR */
   border-radius: 6px;
 }
 

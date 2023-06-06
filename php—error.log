@@ -2731,3 +2731,1489 @@ Stack trace:
 [06-Jun-2023 02:47:09 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
 [06-Jun-2023 02:47:09 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
 [06-Jun-2023 02:47:09 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 02:57:22 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 02:57:22 Europe/Berlin] ==================================================
+[06-Jun-2023 02:57:22 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 02:57:22 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 02:57:22 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 02:57:22 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 02:57:22 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 02:57:22 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 02:57:22 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 02:57:22 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 02:57:25 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 02:57:25 Europe/Berlin] ==================================================
+[06-Jun-2023 02:57:25 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 02:57:25 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 02:57:25 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 02:57:25 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 02:57:25 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 02:57:25 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 02:57:25 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 02:57:25 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:00:56 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:00:56 Europe/Berlin] ==================================================
+[06-Jun-2023 03:00:56 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:00:56 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:00:56 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:00:56 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:00:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:00:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:00:56 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:00:56 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:00:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "url" in C:\laragon\www\NeoGamingV2\Views\Admin\layoutAdmin.html:11
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\Views\Admin\layoutAdmin.html(11): constant('url')
+#1 C:\laragon\www\NeoGamingV2\libs\template.php(17): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\NeoGamingV2\libs\view.php(31): Template->__construct('./Views/Admin/l...', Array)
+#3 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(14): View->render('Admin/index')
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(67): Admin->render()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(18): App->init(Array)
+#6 C:\laragon\www\NeoGamingV2\index.php(24): App->__construct()
+#7 {main}
+  thrown in C:\laragon\www\NeoGamingV2\Views\Admin\layoutAdmin.html on line 11
+[06-Jun-2023 03:01:08 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:01:08 Europe/Berlin] ==================================================
+[06-Jun-2023 03:01:08 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:01:08 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:01:09 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:01:09 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:01:09 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:01:09 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:01:09 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:01:09 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:01:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "url" in C:\laragon\www\NeoGamingV2\Views\Admin\layoutAdmin.html:11
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\Views\Admin\layoutAdmin.html(11): constant('url')
+#1 C:\laragon\www\NeoGamingV2\libs\template.php(17): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\NeoGamingV2\libs\view.php(31): Template->__construct('./Views/Admin/l...', Array)
+#3 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(14): View->render('Admin/index')
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(67): Admin->render()
+#5 C:\laragon\www\NeoGamingV2\libs\app.php(18): App->init(Array)
+#6 C:\laragon\www\NeoGamingV2\index.php(24): App->__construct()
+#7 {main}
+  thrown in C:\laragon\www\NeoGamingV2\Views\Admin\layoutAdmin.html on line 11
+[06-Jun-2023 03:01:18 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:01:18 Europe/Berlin] ==================================================
+[06-Jun-2023 03:01:18 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:01:18 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:01:18 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:01:18 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:01:18 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:01:18 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:01:18 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:01:18 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:01:57 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:01:57 Europe/Berlin] ==================================================
+[06-Jun-2023 03:01:57 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:01:57 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:01:57 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:01:57 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:01:57 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:01:57 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:01:57 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:01:57 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:03:09 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:03:09 Europe/Berlin] ==================================================
+[06-Jun-2023 03:03:09 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:03:09 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:03:10 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:03:10 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:03:10 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:03:10 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:03:10 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:03:10 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:03:13 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:03:13 Europe/Berlin] ==================================================
+[06-Jun-2023 03:03:13 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:13 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:13 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:13 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:13 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:13 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:13 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:22 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:03:22 Europe/Berlin] ==================================================
+[06-Jun-2023 03:03:22 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:03:22 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:03:22 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:03:22 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:03:22 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:03:22 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:03:22 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:03:22 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:03:30 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:03:30 Europe/Berlin] ==================================================
+[06-Jun-2023 03:03:30 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:03:30 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:03:30 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:03:30 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:03:30 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:03:30 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:03:30 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:03:30 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:03:34 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:03:34 Europe/Berlin] ==================================================
+[06-Jun-2023 03:03:34 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:03:34 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:34 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:34 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:34 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:34 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:34 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:34 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:36 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:03:36 Europe/Berlin] ==================================================
+[06-Jun-2023 03:03:36 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:03:36 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:36 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:36 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:36 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:36 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:36 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:36 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:57 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:03:57 Europe/Berlin] ==================================================
+[06-Jun-2023 03:03:57 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:03:57 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:57 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:57 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:57 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:57 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:57 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:57 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:58 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:03:58 Europe/Berlin] ==================================================
+[06-Jun-2023 03:03:58 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:03:58 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:03:58 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:03:58 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:03:58 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:03:58 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:03:58 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:03:58 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:03:59 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:03:59 Europe/Berlin] ==================================================
+[06-Jun-2023 03:03:59 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:03:59 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:59 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:59 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:59 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:59 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:59 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:03:59 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:01 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:04:01 Europe/Berlin] ==================================================
+[06-Jun-2023 03:04:01 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:04:01 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:04:01 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:04:01 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:04:01 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:04:01 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:04:01 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:04:01 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:04:06 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:04:06 Europe/Berlin] ==================================================
+[06-Jun-2023 03:04:06 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:04:06 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:06 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:06 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:06 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:06 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:06 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:06 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:07 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:04:07 Europe/Berlin] ==================================================
+[06-Jun-2023 03:04:07 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:04:07 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:04:07 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:04:07 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:04:07 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:04:07 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:04:07 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:04:07 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:04:08 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:04:08 Europe/Berlin] ==================================================
+[06-Jun-2023 03:04:08 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:04:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:09 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:04:09 Europe/Berlin] ==================================================
+[06-Jun-2023 03:04:09 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:04:09 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:04:09 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:04:09 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:04:09 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:04:09 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:04:09 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:04:09 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:04:09 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:04:09 Europe/Berlin] ==================================================
+[06-Jun-2023 03:04:09 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:04:09 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:09 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:09 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:09 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:09 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:09 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:09 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:09 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:04:09 Europe/Berlin] ==================================================
+[06-Jun-2023 03:04:09 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:04:09 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:04:09 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:04:09 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:04:09 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:04:09 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:04:09 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:04:09 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:04:10 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:04:10 Europe/Berlin] ==================================================
+[06-Jun-2023 03:04:10 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:04:10 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:10 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:10 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:10 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:10 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:10 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:10 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:10 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:04:10 Europe/Berlin] ==================================================
+[06-Jun-2023 03:04:10 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:04:10 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:04:10 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:04:10 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:04:10 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:04:10 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:04:10 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:04:10 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:04:11 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:04:11 Europe/Berlin] ==================================================
+[06-Jun-2023 03:04:11 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:04:11 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:11 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:11 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:11 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:11 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:11 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:11 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:13 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:04:13 Europe/Berlin] ==================================================
+[06-Jun-2023 03:04:13 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:04:13 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:13 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:13 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:13 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:13 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:13 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:13 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:04:14 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:04:14 Europe/Berlin] ==================================================
+[06-Jun-2023 03:04:14 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:04:14 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:04:14 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:04:14 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:04:14 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:04:14 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:04:14 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:04:14 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:05:14 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:05:14 Europe/Berlin] ==================================================
+[06-Jun-2023 03:05:14 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:05:15 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:05:15 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:05:15 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:05:15 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:05:15 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:05:15 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:05:15 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:06:16 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:06:16 Europe/Berlin] ==================================================
+[06-Jun-2023 03:06:16 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:06:16 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:06:16 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:06:16 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:06:16 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:06:16 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:06:16 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:06:16 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:06:43 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:06:43 Europe/Berlin] ==================================================
+[06-Jun-2023 03:06:43 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:06:43 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:06:43 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:06:43 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:06:43 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:06:43 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:06:43 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:06:43 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:08:48 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:08:48 Europe/Berlin] ==================================================
+[06-Jun-2023 03:08:48 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:08:48 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:08:48 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:08:48 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:08:48 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:08:48 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:08:48 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:08:48 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:11:08 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:11:08 Europe/Berlin] ==================================================
+[06-Jun-2023 03:11:08 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:11:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:11:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:11:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:11:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:11:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:11:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:11:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:11:10 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:11:10 Europe/Berlin] ==================================================
+[06-Jun-2023 03:11:10 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:11:10 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:11:10 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:11:10 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:11:10 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:11:10 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:11:10 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:11:10 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:11:10 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:11:10 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:11:10 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:11:10 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:11:10 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:11:10 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:11:21 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:11:21 Europe/Berlin] ==================================================
+[06-Jun-2023 03:11:21 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:11:21 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:11:21 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:11:21 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:11:21 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:11:21 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:11:21 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:11:21 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:13:52 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:13:52 Europe/Berlin] ==================================================
+[06-Jun-2023 03:13:52 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:13:52 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:13:52 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:13:52 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:13:52 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:13:52 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:13:52 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:13:52 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:13:52 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:13:52 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:13:52 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:13:52 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:13:52 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:13:52 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:13:57 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:13:57 Europe/Berlin] ==================================================
+[06-Jun-2023 03:13:57 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:13:57 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:14:05 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:14:05 Europe/Berlin] ==================================================
+[06-Jun-2023 03:14:05 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:14:05 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:14:05 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:14:05 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:14:05 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:14:05 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:14:05 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:14:05 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:14:27 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:14:27 Europe/Berlin] ==================================================
+[06-Jun-2023 03:14:27 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:14:27 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:14:27 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:14:27 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:14:27 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:14:27 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:14:27 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:14:27 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:18:54 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:18:54 Europe/Berlin] ==================================================
+[06-Jun-2023 03:18:54 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:18:54 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:18:54 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:18:54 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:18:54 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:18:54 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:18:54 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:18:54 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:19:01 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:19:01 Europe/Berlin] ==================================================
+[06-Jun-2023 03:19:01 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:19:01 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:19:01 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:19:01 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 03:19:01 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 03:19:01 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = /Admin
+[06-Jun-2023 03:19:01 Europe/Berlin] USERCONTROLLER::CONSTRUCT -> Inicio de logout
+[06-Jun-2023 03:19:01 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:19:01 Europe/Berlin] ==================================================
+[06-Jun-2023 03:19:01 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 03:19:01 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:19:01 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:19:01 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:19:01 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:19:01 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:19:01 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:19:01 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:19:02 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:19:02 Europe/Berlin] ==================================================
+[06-Jun-2023 03:19:02 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:19:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 03:19:02 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 03:19:02 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 03:19:04 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:19:04 Europe/Berlin] ==================================================
+[06-Jun-2023 03:19:04 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:19:04 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 03:19:04 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 03:19:04 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 03:19:04 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:19:04 Europe/Berlin] ==================================================
+[06-Jun-2023 03:19:04 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 03:19:04 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:19:04 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:19:04 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:19:04 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:19:04 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:19:04 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:19:04 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:19:06 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:19:06 Europe/Berlin] ==================================================
+[06-Jun-2023 03:19:06 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:19:06 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:19:06 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:19:06 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:19:06 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:19:06 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:19:06 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:19:06 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:20:36 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:20:36 Europe/Berlin] ==================================================
+[06-Jun-2023 03:20:36 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:20:36 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:20:36 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:20:36 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:20:36 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:20:36 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:20:36 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:20:36 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:20:39 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:20:39 Europe/Berlin] ==================================================
+[06-Jun-2023 03:20:39 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:20:39 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:39 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:39 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:39 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:39 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:39 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:39 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:39 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:39 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:39 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:39 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:39 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:39 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:45 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:20:45 Europe/Berlin] ==================================================
+[06-Jun-2023 03:20:45 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:20:45 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:20:45 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:20:45 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:20:45 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:20:45 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:20:45 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:20:45 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:20:47 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:20:47 Europe/Berlin] ==================================================
+[06-Jun-2023 03:20:47 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:20:47 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:47 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:47 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:47 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:47 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:47 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:47 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:47 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:47 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:47 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:47 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:47 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:47 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:20:51 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:20:51 Europe/Berlin] ==================================================
+[06-Jun-2023 03:20:51 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:20:51 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:20:51 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:20:51 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:20:51 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:20:51 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:20:51 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:20:51 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:20:53 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:20:53 Europe/Berlin] ==================================================
+[06-Jun-2023 03:20:53 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:20:53 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:20:53 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:20:53 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:20:53 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:20:53 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:20:53 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:20:53 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:21:05 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:21:05 Europe/Berlin] ==================================================
+[06-Jun-2023 03:21:05 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:21:05 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:21:05 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:21:05 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:21:05 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:21:05 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:21:05 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:21:05 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:21:07 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:21:07 Europe/Berlin] ==================================================
+[06-Jun-2023 03:21:07 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:21:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function loadModel() on bool in C:\laragon\www\NeoGamingV2\libs\app.php:40
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\app.php(18): App->init(Array)
+#1 C:\laragon\www\NeoGamingV2\index.php(24): App->__construct()
+#2 {main}
+  thrown in C:\laragon\www\NeoGamingV2\libs\app.php on line 40
+[06-Jun-2023 03:21:09 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:21:09 Europe/Berlin] ==================================================
+[06-Jun-2023 03:21:09 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:21:09 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:21:09 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:21:09 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:21:09 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:21:09 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:21:09 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:21:09 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:22:26 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:22:26 Europe/Berlin] ==================================================
+[06-Jun-2023 03:22:26 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:22:26 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:22:26 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:22:26 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:22:26 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:22:26 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:22:26 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:22:26 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:22:29 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:22:29 Europe/Berlin] ==================================================
+[06-Jun-2023 03:22:29 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:22:29 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:22:29 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:22:29 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:22:29 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:22:29 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:22:29 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:22:29 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:25:30 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:25:30 Europe/Berlin] ==================================================
+[06-Jun-2023 03:25:30 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:25:30 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:25:30 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:25:30 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:25:30 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:25:30 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:25:30 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:25:30 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:25:30 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "/" in C:\laragon\www\NeoGamingV2\Views\Admin\layoutAdmin.html on line 111
+[06-Jun-2023 03:25:44 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:25:44 Europe/Berlin] ==================================================
+[06-Jun-2023 03:25:44 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:25:44 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:25:44 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:25:44 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:25:44 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:25:44 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:25:44 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:25:44 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:25:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "/" in C:\laragon\www\NeoGamingV2\Views\Admin\layoutAdmin.html on line 111
+[06-Jun-2023 03:26:07 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:26:07 Europe/Berlin] ==================================================
+[06-Jun-2023 03:26:07 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:26:07 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:26:07 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:26:07 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:26:07 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:26:07 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:26:07 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:26:07 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:26:11 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:26:11 Europe/Berlin] ==================================================
+[06-Jun-2023 03:26:11 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:26:11 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:26:11 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:26:11 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:26:11 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:26:11 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:26:11 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:26:11 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:26:11 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:26:11 Europe/Berlin] ==================================================
+[06-Jun-2023 03:26:11 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:26:11 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:26:11 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:26:11 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:26:11 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:26:11 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:26:11 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:26:11 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:26:12 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:26:12 Europe/Berlin] ==================================================
+[06-Jun-2023 03:26:12 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:26:12 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:12 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:12 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:12 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:12 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:12 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:12 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:12 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:12 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:12 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:12 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:12 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:12 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:41 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:26:41 Europe/Berlin] ==================================================
+[06-Jun-2023 03:26:41 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:26:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 03:26:46 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:26:46 Europe/Berlin] ==================================================
+[06-Jun-2023 03:26:46 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:26:46 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:26:46 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:26:46 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:26:46 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:26:46 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:26:46 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:26:46 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 03:27:17 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:27:17 Europe/Berlin] ==================================================
+[06-Jun-2023 03:27:17 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:27:17 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:27:17 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:27:17 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:27:17 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:27:17 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:27:17 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:27:17 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:34:41 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:34:41 Europe/Berlin] ==================================================
+[06-Jun-2023 03:34:41 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:34:41 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:34:41 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:34:41 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:34:41 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:34:41 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:34:41 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:34:41 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:34:41 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:34:41 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:34:41 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:34:41 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:34:41 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:34:41 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:34:48 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:34:48 Europe/Berlin] ==================================================
+[06-Jun-2023 03:34:48 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:34:48 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:34:49 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:34:49 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:34:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:34:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:34:49 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:34:49 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:34:49 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:34:49 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:34:49 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:34:49 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:34:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:34:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:48:10 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:48:10 Europe/Berlin] ==================================================
+[06-Jun-2023 03:48:10 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:48:10 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:48:10 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:48:10 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:48:10 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:48:10 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:48:10 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:48:10 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:48:10 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:48:10 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:48:10 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:48:10 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:48:10 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:48:10 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:48:21 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:48:21 Europe/Berlin] ==================================================
+[06-Jun-2023 03:48:21 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:48:21 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:48:21 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:48:21 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:48:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:48:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:48:21 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:48:21 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:48:21 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:48:21 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:48:21 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:48:21 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:48:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:48:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:49:03 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:49:03 Europe/Berlin] ==================================================
+[06-Jun-2023 03:49:03 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:49:03 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:49:03 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:49:03 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:49:03 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:49:03 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:49:03 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:49:03 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:49:03 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:49:03 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:49:03 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:49:03 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:49:03 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:49:03 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:49:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method SessionController::getNombre() in C:\laragon\www\NeoGamingV2\Views\Admin\layoutAdmin.html:24
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\template.php(17): include()
+#1 C:\laragon\www\NeoGamingV2\libs\view.php(33): Template->__construct('./Views/Admin/l...', Array)
+#2 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(17): View->render('Admin/index', Array)
+#3 C:\laragon\www\NeoGamingV2\libs\app.php(67): Admin->render()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(18): App->init(Array)
+#5 C:\laragon\www\NeoGamingV2\index.php(24): App->__construct()
+#6 {main}
+  thrown in C:\laragon\www\NeoGamingV2\Views\Admin\layoutAdmin.html on line 24
+[06-Jun-2023 03:50:06 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:50:06 Europe/Berlin] ==================================================
+[06-Jun-2023 03:50:06 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:50:06 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:50:06 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:50:06 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:50:06 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:50:06 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:50:06 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:50:06 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:50:06 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:50:06 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:50:06 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:50:06 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:50:06 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:50:06 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:50:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method SessionController::getNombre() in C:\laragon\www\NeoGamingV2\Views\Admin\layoutAdmin.html:24
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\template.php(17): include()
+#1 C:\laragon\www\NeoGamingV2\libs\view.php(34): Template->__construct('./Views/Admin/l...', Array)
+#2 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(17): View->render('Admin/index', Array)
+#3 C:\laragon\www\NeoGamingV2\libs\app.php(67): Admin->render()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(18): App->init(Array)
+#5 C:\laragon\www\NeoGamingV2\index.php(24): App->__construct()
+#6 {main}
+  thrown in C:\laragon\www\NeoGamingV2\Views\Admin\layoutAdmin.html on line 24
+[06-Jun-2023 03:51:24 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:51:24 Europe/Berlin] ==================================================
+[06-Jun-2023 03:51:24 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:51:24 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:51:24 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:51:24 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:51:24 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:51:24 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:51:24 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:51:24 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:51:24 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:51:24 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:51:24 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:51:24 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:51:24 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:51:24 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:51:24 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:51:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method SessionController::getNombre() in C:\laragon\www\NeoGamingV2\Views\Admin\layoutAdmin.html:24
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\template.php(17): include()
+#1 C:\laragon\www\NeoGamingV2\libs\view.php(35): Template->__construct('./Views/Admin/l...', Array)
+#2 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(17): View->render('Admin/index', Array)
+#3 C:\laragon\www\NeoGamingV2\libs\app.php(67): Admin->render()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(18): App->init(Array)
+#5 C:\laragon\www\NeoGamingV2\index.php(24): App->__construct()
+#6 {main}
+  thrown in C:\laragon\www\NeoGamingV2\Views\Admin\layoutAdmin.html on line 24
+[06-Jun-2023 03:53:16 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:53:16 Europe/Berlin] ==================================================
+[06-Jun-2023 03:53:16 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:53:16 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:53:16 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:53:16 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:53:16 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:53:16 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:53:16 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:53:16 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:53:16 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:53:16 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:53:16 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:53:16 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:53:16 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:53:16 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:53:16 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:53:28 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:53:28 Europe/Berlin] ==================================================
+[06-Jun-2023 03:53:28 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:53:28 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:53:28 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:53:28 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:53:28 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:53:28 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:53:28 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:53:28 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:53:28 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:53:28 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:53:28 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:53:28 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:53:28 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:53:28 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:53:28 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:53:51 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:53:51 Europe/Berlin] ==================================================
+[06-Jun-2023 03:53:51 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:53:51 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:53:51 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:53:51 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:53:51 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:53:51 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:53:51 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:53:51 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:53:51 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:53:51 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:53:51 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:53:51 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:53:51 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:53:51 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:53:51 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:53:58 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:53:58 Europe/Berlin] ==================================================
+[06-Jun-2023 03:53:58 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:53:58 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:53:58 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:53:58 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:53:58 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:53:58 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:53:59 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:53:59 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:53:59 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:53:59 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:53:59 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:53:59 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:53:59 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:53:59 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:53:59 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:53:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "<" in C:\laragon\www\NeoGamingV2\Views\Admin\layoutAdmin.html on line 44
+[06-Jun-2023 03:54:12 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:54:12 Europe/Berlin] ==================================================
+[06-Jun-2023 03:54:12 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:54:12 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:54:13 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:54:13 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:54:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:54:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:54:13 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:54:13 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:54:13 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:54:13 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:54:13 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:54:13 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:54:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:54:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:54:13 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:55:19 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:55:19 Europe/Berlin] ==================================================
+[06-Jun-2023 03:55:19 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:55:19 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:55:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:55:19 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:55:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:55:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:55:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:55:19 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:55:19 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:55:19 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:55:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:55:19 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:55:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:55:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:55:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:56:26 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:56:26 Europe/Berlin] ==================================================
+[06-Jun-2023 03:56:26 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:56:26 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:56:26 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:56:26 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:56:26 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:56:26 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:56:26 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:56:26 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:56:26 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:56:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Session::getUsername() in C:\laragon\www\NeoGamingV2\Views\Admin\layoutAdmin.html:44
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\template.php(17): include()
+#1 C:\laragon\www\NeoGamingV2\libs\view.php(35): Template->__construct('./Views/Admin/l...', Array)
+#2 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(17): View->render('Admin/index', Array)
+#3 C:\laragon\www\NeoGamingV2\libs\app.php(67): Admin->render()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(18): App->init(Array)
+#5 C:\laragon\www\NeoGamingV2\index.php(24): App->__construct()
+#6 {main}
+  thrown in C:\laragon\www\NeoGamingV2\Views\Admin\layoutAdmin.html on line 44
+[06-Jun-2023 03:57:19 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:57:19 Europe/Berlin] ==================================================
+[06-Jun-2023 03:57:19 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:57:19 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:57:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:57:19 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:57:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:57:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:57:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:57:19 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:57:19 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:58:19 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:58:19 Europe/Berlin] ==================================================
+[06-Jun-2023 03:58:19 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:58:19 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:58:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:58:19 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:58:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:58:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:58:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:58:19 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:58:19 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:58:19 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:58:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:58:19 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:58:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:58:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:58:20 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:59:35 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:59:35 Europe/Berlin] ==================================================
+[06-Jun-2023 03:59:35 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:59:35 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:59:35 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:59:35 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:59:35 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:59:35 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:59:35 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:59:35 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:59:35 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:59:35 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:59:35 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:59:35 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:59:35 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:59:35 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:59:35 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:59:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type SessionController as array in C:\laragon\www\NeoGamingV2\Views\Admin\layoutAdmin.html:108
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\template.php(17): include()
+#1 C:\laragon\www\NeoGamingV2\libs\view.php(35): Template->__construct('./Views/Admin/l...', Array)
+#2 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(17): View->render('Admin/index', Array)
+#3 C:\laragon\www\NeoGamingV2\libs\app.php(67): Admin->render()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(18): App->init(Array)
+#5 C:\laragon\www\NeoGamingV2\index.php(24): App->__construct()
+#6 {main}
+  thrown in C:\laragon\www\NeoGamingV2\Views\Admin\layoutAdmin.html on line 108
+[06-Jun-2023 03:59:48 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 03:59:48 Europe/Berlin] ==================================================
+[06-Jun-2023 03:59:48 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 03:59:48 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:59:48 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:59:48 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:59:48 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:59:48 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:59:48 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:59:48 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 03:59:48 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 03:59:48 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 03:59:48 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:59:48 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 03:59:48 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:59:48 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 03:59:49 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 03:59:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method SessionController::getId() in C:\laragon\www\NeoGamingV2\Views\Admin\layoutAdmin.html:108
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\template.php(17): include()
+#1 C:\laragon\www\NeoGamingV2\libs\view.php(35): Template->__construct('./Views/Admin/l...', Array)
+#2 C:\laragon\www\NeoGamingV2\Controllers\Admin.php(17): View->render('Admin/index', Array)
+#3 C:\laragon\www\NeoGamingV2\libs\app.php(67): Admin->render()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(18): App->init(Array)
+#5 C:\laragon\www\NeoGamingV2\index.php(24): App->__construct()
+#6 {main}
+  thrown in C:\laragon\www\NeoGamingV2\Views\Admin\layoutAdmin.html on line 108
+[06-Jun-2023 04:00:57 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:00:57 Europe/Berlin] ==================================================
+[06-Jun-2023 04:00:57 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 04:00:57 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:00:57 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:00:57 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:00:57 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:00:57 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:00:57 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:00:57 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 04:00:57 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 04:00:57 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:00:57 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:00:57 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:00:57 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:00:57 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:00:58 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:01:12 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:01:12 Europe/Berlin] ==================================================
+[06-Jun-2023 04:01:12 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 04:01:12 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:01:12 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:01:12 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:01:12 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:01:12 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:01:12 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:01:12 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 04:01:12 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 04:01:12 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:01:12 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:01:12 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:01:12 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:01:12 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:01:12 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:02:21 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:02:21 Europe/Berlin] ==================================================
+[06-Jun-2023 04:02:21 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 04:02:21 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:02:21 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:02:21 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:02:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:02:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:02:21 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:02:21 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 04:02:21 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 04:02:21 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:02:21 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:02:21 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:02:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:02:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:02:21 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:02:48 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:02:48 Europe/Berlin] ==================================================
+[06-Jun-2023 04:02:48 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 04:02:48 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:02:48 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:02:48 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:02:48 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:02:48 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:02:48 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:02:48 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 04:02:48 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 04:02:48 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:02:48 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:02:48 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:02:48 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:02:48 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:02:48 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:02:56 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:02:56 Europe/Berlin] ==================================================
+[06-Jun-2023 04:02:56 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 04:02:56 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:02:56 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:02:56 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:02:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:02:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:02:56 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:02:56 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 04:02:56 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 04:02:56 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:02:56 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:02:56 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:02:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:02:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:02:56 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:04:27 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:04:27 Europe/Berlin] ==================================================
+[06-Jun-2023 04:04:27 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 04:04:27 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:04:27 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:04:27 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:04:27 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:04:27 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:04:27 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:04:27 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 04:04:27 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 04:04:27 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:04:27 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:04:27 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:04:27 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:04:27 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:04:27 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:04:39 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:04:39 Europe/Berlin] ==================================================
+[06-Jun-2023 04:04:39 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 04:04:39 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:04:39 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:04:39 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:04:39 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:04:39 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:04:39 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:04:39 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 04:04:39 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 04:04:39 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:04:39 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:04:39 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:04:39 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:04:39 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:04:39 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:04:51 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:04:51 Europe/Berlin] ==================================================
+[06-Jun-2023 04:04:51 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 04:04:51 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:04:52 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:04:52 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:04:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:04:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:04:52 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:04:52 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 04:04:52 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 04:04:52 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:04:52 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:04:52 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:04:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:04:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:04:52 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:14:56 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:14:56 Europe/Berlin] ==================================================
+[06-Jun-2023 04:14:56 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 04:14:56 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:14:56 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:14:56 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:14:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:14:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:14:56 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:14:56 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 04:14:56 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 04:14:56 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:14:56 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:14:56 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:14:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:14:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:14:56 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:15:06 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:15:06 Europe/Berlin] ==================================================
+[06-Jun-2023 04:15:06 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 04:15:06 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 04:15:06 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 04:15:06 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 04:15:06 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 04:15:06 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 04:15:06 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 04:15:06 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 04:15:06 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:15:07 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:15:07 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:15:07 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post, url => Admin
+[06-Jun-2023 04:15:07 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post, url => Admin
+[06-Jun-2023 04:15:07 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:15:07 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:15:07 Europe/Berlin] ==================================================
+[06-Jun-2023 04:15:07 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 04:15:07 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:15:07 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:15:07 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:15:07 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:15:07 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:15:07 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:15:07 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 04:15:07 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 04:15:07 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:15:08 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:15:08 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:15:08 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:15:08 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:15:08 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:15:21 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:15:21 Europe/Berlin] ==================================================
+[06-Jun-2023 04:15:21 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 04:15:21 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:15:22 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:15:22 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:15:22 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:15:22 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:15:22 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:15:22 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 04:15:22 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 04:15:22 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:15:22 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:15:22 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:15:22 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:15:22 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:15:22 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:15:23 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:15:23 Europe/Berlin] ==================================================
+[06-Jun-2023 04:15:23 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 04:15:23 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:15:23 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:15:23 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:15:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:15:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:15:24 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:15:24 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 04:15:24 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 04:15:24 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:15:24 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:15:24 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:15:24 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:15:24 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 04:15:24 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:15:25 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:15:25 Europe/Berlin] ==================================================
+[06-Jun-2023 04:15:25 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 04:15:25 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 04:15:25 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 04:15:25 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 04:15:25 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 04:15:25 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 04:15:25 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 04:15:25 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 04:15:25 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:15:25 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:15:25 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:15:25 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post, url => Admin
+[06-Jun-2023 04:15:25 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post, url => Admin
+[06-Jun-2023 04:15:25 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:15:27 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:15:27 Europe/Berlin] ==================================================
+[06-Jun-2023 04:15:27 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 04:15:27 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:15:27 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:15:27 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:15:27 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:15:27 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:15:27 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:15:27 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:15:27 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:15:27 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:15:27 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:15:27 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:15:27 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:15:27 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:15:27 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:15:27 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:15:27 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:15:27 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[06-Jun-2023 04:15:27 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[06-Jun-2023 04:15:27 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:16:02 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:16:02 Europe/Berlin] ==================================================
+[06-Jun-2023 04:16:02 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 04:16:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:16:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:16:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:16:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:16:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:16:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:16:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:16:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:16:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:16:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:16:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:16:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:16:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:16:02 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:16:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:16:02 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:16:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[06-Jun-2023 04:16:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[06-Jun-2023 04:16:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:17:13 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:17:13 Europe/Berlin] ==================================================
+[06-Jun-2023 04:17:13 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 04:17:13 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:13 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:13 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:13 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:13 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:13 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:13 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:13 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:13 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:13 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:13 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:13 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:13 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:13 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:17:14 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:17:14 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:17:14 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[06-Jun-2023 04:17:14 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[06-Jun-2023 04:17:14 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:17:54 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:17:54 Europe/Berlin] ==================================================
+[06-Jun-2023 04:17:54 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 04:17:54 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:54 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:54 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:54 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:54 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:54 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:54 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:54 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:54 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:54 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:54 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:54 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:54 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:17:54 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:17:54 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:17:54 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:17:54 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[06-Jun-2023 04:17:54 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[06-Jun-2023 04:17:55 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:18:02 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:18:02 Europe/Berlin] ==================================================
+[06-Jun-2023 04:18:02 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 04:18:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:02 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:18:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:18:02 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:18:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[06-Jun-2023 04:18:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[06-Jun-2023 04:18:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:18:20 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:18:20 Europe/Berlin] ==================================================
+[06-Jun-2023 04:18:20 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 04:18:20 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:20 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:20 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:20 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:20 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:20 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:20 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:20 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:20 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:20 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:20 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:20 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:20 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:18:20 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:18:20 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:18:20 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:18:20 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[06-Jun-2023 04:18:20 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[06-Jun-2023 04:18:20 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:20:19 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:20:19 Europe/Berlin] ==================================================
+[06-Jun-2023 04:20:19 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 04:20:19 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:19 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:19 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:19 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:19 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:19 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:19 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:19 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:19 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:19 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:19 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:19 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:19 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:19 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:20:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:20:19 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:20:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[06-Jun-2023 04:20:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[06-Jun-2023 04:20:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:20:21 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:20:21 Europe/Berlin] ==================================================
+[06-Jun-2023 04:20:21 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 04:20:21 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:21 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:21 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:21 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:21 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:21 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:21 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:21 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:21 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:21 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:21 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:21 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:21 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:21 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:20:22 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:20:22 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:20:22 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[06-Jun-2023 04:20:22 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[06-Jun-2023 04:20:22 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:20:31 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:20:31 Europe/Berlin] ==================================================
+[06-Jun-2023 04:20:31 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 04:20:31 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:31 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:31 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:31 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:31 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:31 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:31 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:31 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:31 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:31 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:31 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:31 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:31 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 04:20:31 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 04:20:31 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:20:31 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 04:20:31 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[06-Jun-2023 04:20:31 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[06-Jun-2023 04:20:31 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 04:20:32 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 04:20:32 Europe/Berlin] ==================================================
+[06-Jun-2023 04:20:32 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 04:20:32 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 04:20:32 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 04:20:32 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 04:20:32 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 04:20:32 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 04:20:32 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 04:20:32 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel

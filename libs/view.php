@@ -4,6 +4,7 @@ use function PHPSTORM_META\type;
 
 require_once 'classes/session.php';
 require_once 'template.php';
+require_once 'classes/sessionController.php';
 class View
 {
     public $mensaje;
@@ -26,8 +27,11 @@ class View
         $renderLayout = substr($path, 0, 5);
 
         if ($renderLayout == "Admin") {
+            $sesionController = new SessionController();
+            $user = $sesionController->getUserSessionData();
             $view = new Template('./Views/Admin/layoutAdmin.html', [
                 "title" => "Admin",
+                "user" => $user,
                 "child" => $child
             ]);
             echo $view;
