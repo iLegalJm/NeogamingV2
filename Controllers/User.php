@@ -12,7 +12,7 @@ class User extends SessionController
 
     function render()
     {
-        $this->view->render('Admin/User/index', [
+        $this->view->render('User/info', [
             'user' => $this->user
         ]);
     }

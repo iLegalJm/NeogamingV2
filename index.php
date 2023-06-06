@@ -5,6 +5,7 @@ ini_set('ignore_repeated_errors', TRUE);
 ini_set('display_errors', FALSE);
 ini_set('log_errors', TRUE);
 ini_set("error_log", "php—error.log");
+error_log('==================================================');
 error_log("Inicio de aplicacion");
 
 require_once 'libs/database.php';

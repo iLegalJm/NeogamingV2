@@ -21,15 +21,23 @@
       <header>
         <div class="image-text">
           <span class="image">
-            <!-- <img src="<?=constant('URL')?>/public/icons/dashboard/patricio.png" alt="logo"> -->
+            <?php if($user->getFoto()=="") {?>
+            <img
+              src="<?=constant('URL')?>/public/icons/dashboard/patricio.png"
+              alt="logo"
+            />
+            <?php } else{ ?>
             <img
               src="<?=constant('URL')?>/public/img/fotos/<?=$user->getFoto()?>"
               alt="logo"
             />
+            <?php } ?>
           </span>
 
           <div class="text logo-text">
-            <a href="<?=constant('URL')?>" style="text-decoration: none; color: #dddada"
+            <a
+              href="<?=constant('URL')?>"
+              style="text-decoration: none; color: #dddada"
               ><span class="name">NeoGaming</span></a
             >
             <span class="profession">Game blog</span>

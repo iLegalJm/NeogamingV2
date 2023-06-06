@@ -19,19 +19,21 @@ class Login extends SessionController
         if ($this->existPOST(['username', 'password'])) {
             $username = $this->getPost('username');
             $password = $this->getPost('password');
+            error_log($password . " aqui la contra");
 
-            if ($username == "" || empty($username) || $password = "" || empty($password)) {
-                $this->redirect('',  ['error' => ErrorMessages::ERROR_LOGIN_AUTHENTICATE_EMPTY]);
+            if ($username == "" || empty($username) || $password == "" || empty($password)) {
+                $this->redirect('Login',  ['error' => ErrorMessages::ERROR_LOGIN_AUTHENTICATE_EMPTY]);
             }
             $user = $this->model->login($username, $password);
 
             if ($user != null) {
                 $this->initialize($user);
             } else {
-                $this->redirect('',  ['error' => ErrorMessages::ERROR_LOGIN_AUTHENTICATE_DATA]);
+                $this->redirect('Login',  ['error' => ErrorMessages::ERROR_LOGIN_AUTHENTICATE_DATA]);
+                return;
             }
         } else {
-            $this->redirect('Signup', ['error' => ErrorMessages::ERROR_LOGIN_AUTHENTICATE]);
+            $this->redirect('Login', ['error' => ErrorMessages::ERROR_LOGIN_AUTHENTICATE]);
         }
     }
 }

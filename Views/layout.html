@@ -7,7 +7,10 @@
     <!--! Es como hacer un echo -->
     <title><?= $title ?></title>
     <link rel="stylesheet" href="<?= constant('URL')?>/public/css/style.css" />
-    <link rel="stylesheet" href="<?= constant('URL')?>/public/css/showPost.css" />
+    <link
+      rel="stylesheet"
+      href="<?= constant('URL')?>/public/css/showPost.css"
+    />
   </head>
 
   <body>
@@ -39,9 +42,11 @@
           <?php } ?>
 
           <?php if($sesion->existsSession()){ ?>
+          <?php if($user->getRol()=="admin") { ?>
           <li class="header-option">
             <a class="nav-item" href="<?= constant('URL')?>/Admin">Dashboard</a>
           </li>
+          <?php } ?>
           <li class="header-option">
             <a class="nav-item" href="<?= constant('URL')?>/User/info"
               >Ver perfil</a
