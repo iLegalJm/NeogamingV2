@@ -21,7 +21,7 @@ class Signup extends SessionController
             $username = $this->getPost('username');
             $password = $this->getPost('password');
 
-            if ($username == "" || empty($username) || $password = "" || empty($password)) {
+            if ($username == "" || empty($username) || $password == "" || empty($password)) {
                 $this->redirect('Signup',  ['error' => ErrorMessages::ERROR_SIGNUP_NEWUSER_EMPTY]);
             }
             $user = new UserModel();

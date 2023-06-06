@@ -10,7 +10,7 @@ class LoginModel extends Model
 
     public function login($username, $password)
     {
-        error_log("Inicio de login ". " $password". " $username");
+        error_log("Inicio de login " . " $password" . " $username");
         try {
             $query = $this->prepare('SELECT * FROM user WHERE username=:username');
             $query->execute(['username' => $username]);
@@ -21,12 +21,13 @@ class LoginModel extends Model
                 $user = new UserModel();
                 $user->from($item);
 
+                error_log((int)password_verify($password, $user->getPassword()). " true o false");
                 //? compara la contraseña con la que esta con el hash en la bd
                 if (password_verify($password, $user->getPassword())) {
-                    error_log('LOGINMODEL::LOGIN()->SUCCESS = '. $password);
+                    error_log('LOGINMODEL::LOGIN()->SUCCESS = ' . $password);
                     return $user;
                 } else {
-                    error_log('LOGINMODEL::LOGIN()->password no es igual');
+                    error_log('LOGINMODEL::LOGIN()->password no es igual' . password_verify($password, $user->getPassword()));
                     return null;
                 }
             }

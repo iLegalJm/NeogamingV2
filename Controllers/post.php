@@ -110,6 +110,7 @@ class Post extends Controller
             $this->redirect('Admin/Post', []); //TODO
             return;
         } else {
+            // ? SI EL TMP NAME EXISTE MOVERA LA IMG AL DESTINO DESIGNADO EN TARGET FILE
             if (move_uploaded_file($foto['tmp_name'], $targetFile)) {
                 $post = new PostModel();
                 $post->setTitulo($this->getPost('titulo'));

@@ -42,26 +42,59 @@
         </ul>
       </nav>
     </header>
-
     <main>
-      <form action="<?= constant('URL')?>/Signup/create" method="POST">
-        <h2>Registrarse</h2>
-        <p>
-          <label for="username">Username</label>
-          <input type="text" name="username" id="username" />
-        </p>
-        <p>
-          <label for="password">Password</label>
-          <input type="password" name="password" id="password" />
-        </p>
-        <p>
-          <input type="submit" value="Iniciar Sesión" />
-        </p>
-        <p>
-          ¿Tienes una cuenta?
-          <a href="<?= constant('URL')?>/Login">Iniciar Sesion</a>
-        </p>
-      </form>
+      <div id="app">
+        <div class="card">
+          <h1 class="title">Registrate<span class="primary">Aquí</span></h1>
+          <form
+            class="form"
+            action="<?= constant('URL')?>/Signup/create"
+            method="POST"
+          >
+            <!-- <button class="form-button">
+              <img
+                src="<?= constant('URL')?>/public/icons/login/google.png"
+                alt="asd"
+                class="button-icon"
+              />
+              Ingresa con google
+            </button> -->
+            <div class="mail-input">
+              <img
+                class="mail-icon"
+                src="<?= constant('URL')?>/public/icons/login/user-tag.svg"
+                alt="lock"
+              />
+              <input
+                type="text"
+                class="input"
+                name="username"
+                placeholder="Username"
+                autocomplete="off"
+              />
+            </div>
+            <div class="mail-input">
+              <img
+                class="mail-icon"
+                src="<?= constant('URL')?>/public/icons/login/lock.svg"
+                alt="lock"
+              />
+              <input
+                type="password"
+                class="input"
+                name="password"
+                placeholder="Contraseña"
+                autocomplete="off"
+              />
+              <p id="alertUserEmail"></p>
+            </div>
+            <button type="submit" class="form-button">Registrarse</button>
+          </form>
+          <div class="links">
+            <a href="<?= constant('URL')?>/Login" class="link"> ¿Tienes una cuenta?</a>
+          </div>
+        </div>
+      </div>
     </main>
 
     <!-- ! SCRIPTS -->

@@ -354,3 +354,2078 @@
 [06-Jun-2023 18:55:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
 [06-Jun-2023 18:55:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
 [06-Jun-2023 18:55:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:04:35 Europe/Berlin] ==================================================
+[06-Jun-2023 19:04:35 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:04:35 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:04:35 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:04:35 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:04:35 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:04:36 Europe/Berlin] ==================================================
+[06-Jun-2023 19:04:36 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:04:36 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:04:36 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:04:36 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:04:36 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:04:36 Europe/Berlin] cueva aqui la contra
+[06-Jun-2023 19:04:36 Europe/Berlin] Inicio de login  cueva cueva
+[06-Jun-2023 19:04:36 Europe/Berlin] LOGINMODEL::LOGIN()->password no es igual
+[06-Jun-2023 19:04:36 Europe/Berlin] ==================================================
+[06-Jun-2023 19:04:36 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:04:36 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:04:36 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4, url => Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4
+[06-Jun-2023 19:04:36 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:04:36 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:04:42 Europe/Berlin] ==================================================
+[06-Jun-2023 19:04:42 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:04:42 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:04:42 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:04:42 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:04:42 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:04:42 Europe/Berlin] ilegal aqui la contra
+[06-Jun-2023 19:04:42 Europe/Berlin] Inicio de login  ilegal ilegal
+[06-Jun-2023 19:04:42 Europe/Berlin] LOGINMODEL::LOGIN()->password no es igual
+[06-Jun-2023 19:04:42 Europe/Berlin] ==================================================
+[06-Jun-2023 19:04:42 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:04:42 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:04:42 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4, url => Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4
+[06-Jun-2023 19:04:42 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:04:42 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:05:05 Europe/Berlin] ==================================================
+[06-Jun-2023 19:05:05 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:05:05 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:05:05 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:05:05 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:05:05 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:05:05 Europe/Berlin] ilegal aqui la contra
+[06-Jun-2023 19:05:05 Europe/Berlin] Inicio de login  ilegal ilegal
+[06-Jun-2023 19:05:05 Europe/Berlin] LOGINMODEL::LOGIN()->password no es igual
+[06-Jun-2023 19:05:05 Europe/Berlin] ==================================================
+[06-Jun-2023 19:05:05 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:05:05 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:05:05 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4, url => Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4
+[06-Jun-2023 19:05:05 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:05:05 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:05:23 Europe/Berlin] ==================================================
+[06-Jun-2023 19:05:23 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:05:23 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:05:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup, url => Signup
+[06-Jun-2023 19:05:23 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:05:23 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[06-Jun-2023 19:05:25 Europe/Berlin] ==================================================
+[06-Jun-2023 19:05:25 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:05:25 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:05:25 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup/create, url => Signup
+[06-Jun-2023 19:05:25 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:05:25 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:05:25 Europe/Berlin] ==================================================
+[06-Jun-2023 19:05:25 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:05:25 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:05:25 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup?error=a232323sdaa4b0f6asd93434cxxcxcvvbc4, url => Signup?error=a232323sdaa4b0f6asd93434cxxcxcvvbc4
+[06-Jun-2023 19:05:25 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:05:25 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[06-Jun-2023 19:05:34 Europe/Berlin] ==================================================
+[06-Jun-2023 19:05:34 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:05:34 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:05:34 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup/create, url => Signup
+[06-Jun-2023 19:05:34 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:05:34 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:05:34 Europe/Berlin] ==================================================
+[06-Jun-2023 19:05:34 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:05:34 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:05:34 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup?error=a232323sdaa4b0f6asd93434cxxcxcvvbc4, url => Signup?error=a232323sdaa4b0f6asd93434cxxcxcvvbc4
+[06-Jun-2023 19:05:34 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:05:34 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[06-Jun-2023 19:05:45 Europe/Berlin] ==================================================
+[06-Jun-2023 19:05:45 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:05:45 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:05:45 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup/create, url => Signup
+[06-Jun-2023 19:05:45 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:05:45 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:05:45 Europe/Berlin] ==================================================
+[06-Jun-2023 19:05:45 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:05:45 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:05:45 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:05:45 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:05:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:05:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:05:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:05:45 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:05:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:05:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:05:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:05:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:05:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:05:47 Europe/Berlin] ==================================================
+[06-Jun-2023 19:05:47 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:05:47 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:05:47 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:05:47 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:05:47 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:05:50 Europe/Berlin] ==================================================
+[06-Jun-2023 19:05:50 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:05:50 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:05:50 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:05:50 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:05:50 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:05:50 Europe/Berlin] prueba2 aqui la contra
+[06-Jun-2023 19:05:50 Europe/Berlin] Inicio de login  prueba2 prueba2
+[06-Jun-2023 19:05:50 Europe/Berlin] LOGINMODEL::LOGIN()->password no es igual
+[06-Jun-2023 19:05:50 Europe/Berlin] ==================================================
+[06-Jun-2023 19:05:50 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:05:50 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:05:50 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4, url => Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4
+[06-Jun-2023 19:05:50 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:05:50 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:07:18 Europe/Berlin] ==================================================
+[06-Jun-2023 19:07:18 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:07:18 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:07:18 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:07:18 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:07:18 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:07:18 Europe/Berlin] prueba2 aqui la contra
+[06-Jun-2023 19:07:18 Europe/Berlin] Inicio de login  prueba2 prueba2
+[06-Jun-2023 19:07:18 Europe/Berlin] LOGINMODEL::LOGIN()->password no es igualprueba2
+[06-Jun-2023 19:07:18 Europe/Berlin] ==================================================
+[06-Jun-2023 19:07:18 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:07:18 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:07:18 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4, url => Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4
+[06-Jun-2023 19:07:18 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:07:18 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:08:22 Europe/Berlin] ==================================================
+[06-Jun-2023 19:08:22 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:08:22 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:08:22 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:08:22 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:08:22 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:08:22 Europe/Berlin] prueba2 aqui la contra
+[06-Jun-2023 19:08:22 Europe/Berlin] Inicio de login  prueba2 prueba2
+[06-Jun-2023 19:08:22 Europe/Berlin] LOGINMODEL::LOGIN()->password no es igualprueba2 prueba2
+[06-Jun-2023 19:08:22 Europe/Berlin] ==================================================
+[06-Jun-2023 19:08:22 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:08:22 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:08:22 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4, url => Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4
+[06-Jun-2023 19:08:22 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:08:22 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:09:27 Europe/Berlin] ==================================================
+[06-Jun-2023 19:09:27 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:09:27 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:09:27 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:09:27 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:09:27 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:09:27 Europe/Berlin] cueva aqui la contra
+[06-Jun-2023 19:09:27 Europe/Berlin] Inicio de login  cueva cueva
+[06-Jun-2023 19:09:27 Europe/Berlin] LOGINMODEL::LOGIN()->password no es igual
+[06-Jun-2023 19:09:27 Europe/Berlin] ==================================================
+[06-Jun-2023 19:09:27 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:09:27 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:09:27 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4, url => Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4
+[06-Jun-2023 19:09:27 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:09:27 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:12:50 Europe/Berlin] ==================================================
+[06-Jun-2023 19:12:50 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:12:50 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:12:50 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:12:50 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:12:50 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:12:50 Europe/Berlin] cueva aqui la contra
+[06-Jun-2023 19:12:50 Europe/Berlin] Inicio de login  cueva cueva
+[06-Jun-2023 19:12:50 Europe/Berlin]  true o false
+[06-Jun-2023 19:12:50 Europe/Berlin] LOGINMODEL::LOGIN()->password no es igual
+[06-Jun-2023 19:12:50 Europe/Berlin] ==================================================
+[06-Jun-2023 19:12:50 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:12:50 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:12:50 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4, url => Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4
+[06-Jun-2023 19:12:50 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:12:50 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:12:54 Europe/Berlin] ==================================================
+[06-Jun-2023 19:12:54 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:12:54 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:12:54 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:12:54 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:12:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:12:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:12:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:12:54 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:12:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:12:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:12:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:12:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:12:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:12:55 Europe/Berlin] ==================================================
+[06-Jun-2023 19:12:55 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:12:55 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:12:55 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:12:55 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:12:55 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:12:56 Europe/Berlin] ==================================================
+[06-Jun-2023 19:12:56 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:12:56 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:12:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:12:56 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:12:56 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:12:56 Europe/Berlin] prueba2 aqui la contra
+[06-Jun-2023 19:12:56 Europe/Berlin] Inicio de login  prueba2 prueba2
+[06-Jun-2023 19:12:56 Europe/Berlin]  true o false
+[06-Jun-2023 19:12:56 Europe/Berlin] LOGINMODEL::LOGIN()->password no es igual
+[06-Jun-2023 19:12:56 Europe/Berlin] ==================================================
+[06-Jun-2023 19:12:56 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:12:56 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:12:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4, url => Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4
+[06-Jun-2023 19:12:56 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:12:56 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:12:58 Europe/Berlin] ==================================================
+[06-Jun-2023 19:12:58 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:12:58 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:12:58 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:12:58 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:12:58 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:12:58 Europe/Berlin] cueva aqui la contra
+[06-Jun-2023 19:12:58 Europe/Berlin] Inicio de login  cueva cueva
+[06-Jun-2023 19:12:58 Europe/Berlin]  true o false
+[06-Jun-2023 19:12:58 Europe/Berlin] LOGINMODEL::LOGIN()->password no es igual
+[06-Jun-2023 19:12:58 Europe/Berlin] ==================================================
+[06-Jun-2023 19:12:58 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:12:58 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:12:58 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4, url => Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4
+[06-Jun-2023 19:12:58 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:12:58 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:13:29 Europe/Berlin] ==================================================
+[06-Jun-2023 19:13:29 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:13:29 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:13:29 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:13:29 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:13:29 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:13:29 Europe/Berlin] cueva aqui la contra
+[06-Jun-2023 19:13:29 Europe/Berlin] Inicio de login  cueva cueva
+[06-Jun-2023 19:13:29 Europe/Berlin]  true o false
+[06-Jun-2023 19:13:29 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS = cueva
+[06-Jun-2023 19:13:29 Europe/Berlin] ==================================================
+[06-Jun-2023 19:13:29 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:13:29 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:13:29 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:13:32 Europe/Berlin] ==================================================
+[06-Jun-2023 19:13:32 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:13:32 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:13:32 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:13:32 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:13:32 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:13:32 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:13:32 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[06-Jun-2023 19:13:32 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = /Admin
+[06-Jun-2023 19:13:32 Europe/Berlin] USERCONTROLLER::CONSTRUCT -> Inicio de logout
+[06-Jun-2023 19:13:32 Europe/Berlin] ==================================================
+[06-Jun-2023 19:13:32 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:13:32 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:13:32 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:13:32 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:13:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:13:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:13:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:13:32 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:13:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:13:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:13:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:13:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:13:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:13:33 Europe/Berlin] ==================================================
+[06-Jun-2023 19:13:33 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:13:33 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:13:33 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:13:33 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:13:33 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:13:34 Europe/Berlin] ==================================================
+[06-Jun-2023 19:13:35 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:13:35 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:13:35 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:13:35 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:13:35 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:13:35 Europe/Berlin] cuevasdd aqui la contra
+[06-Jun-2023 19:13:35 Europe/Berlin] Inicio de login  cuevasdd cueva
+[06-Jun-2023 19:13:35 Europe/Berlin]  true o false
+[06-Jun-2023 19:13:35 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS = cuevasdd
+[06-Jun-2023 19:13:35 Europe/Berlin] ==================================================
+[06-Jun-2023 19:13:35 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:13:35 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:13:35 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:13:36 Europe/Berlin] ==================================================
+[06-Jun-2023 19:13:36 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:13:36 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:13:36 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:13:36 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:13:36 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:13:36 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:13:36 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[06-Jun-2023 19:13:36 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = /Admin
+[06-Jun-2023 19:13:36 Europe/Berlin] USERCONTROLLER::CONSTRUCT -> Inicio de logout
+[06-Jun-2023 19:13:36 Europe/Berlin] ==================================================
+[06-Jun-2023 19:13:36 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:13:36 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:13:36 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:13:36 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:13:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:13:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:13:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:13:36 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:13:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:13:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:13:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:13:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:13:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:13:38 Europe/Berlin] ==================================================
+[06-Jun-2023 19:13:38 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:13:38 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:13:38 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:13:38 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:13:38 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:13:52 Europe/Berlin] ==================================================
+[06-Jun-2023 19:13:52 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:13:52 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:13:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:13:52 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:13:52 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:13:52 Europe/Berlin] cueva aqui la contra
+[06-Jun-2023 19:13:52 Europe/Berlin] Inicio de login  cueva cueva
+[06-Jun-2023 19:13:52 Europe/Berlin] 0 true o false
+[06-Jun-2023 19:13:52 Europe/Berlin] LOGINMODEL::LOGIN()->password no es igual
+[06-Jun-2023 19:13:52 Europe/Berlin] ==================================================
+[06-Jun-2023 19:13:52 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:13:52 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:13:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4, url => Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4
+[06-Jun-2023 19:13:52 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:13:52 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:14:04 Europe/Berlin] ==================================================
+[06-Jun-2023 19:14:04 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:14:04 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:14:04 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup, url => Signup
+[06-Jun-2023 19:14:04 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:14:04 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[06-Jun-2023 19:14:09 Europe/Berlin] ==================================================
+[06-Jun-2023 19:14:09 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:14:09 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:14:09 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup/create, url => Signup
+[06-Jun-2023 19:14:09 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:14:09 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:14:09 Europe/Berlin] ==================================================
+[06-Jun-2023 19:14:09 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:14:09 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:14:09 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:14:09 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:14:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:14:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:14:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:14:09 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:14:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:14:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:14:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:14:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:14:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:14:14 Europe/Berlin] ==================================================
+[06-Jun-2023 19:14:14 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:14:14 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:14:14 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:14:14 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:14:14 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:14:18 Europe/Berlin] ==================================================
+[06-Jun-2023 19:14:18 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:14:18 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:14:18 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:14:18 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:14:18 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:14:18 Europe/Berlin] jose aqui la contra
+[06-Jun-2023 19:14:18 Europe/Berlin] Inicio de login  jose jose
+[06-Jun-2023 19:14:18 Europe/Berlin] 0 true o false
+[06-Jun-2023 19:14:19 Europe/Berlin] LOGINMODEL::LOGIN()->password no es igual
+[06-Jun-2023 19:14:19 Europe/Berlin] ==================================================
+[06-Jun-2023 19:14:19 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:14:19 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:14:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4, url => Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4
+[06-Jun-2023 19:14:19 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:14:19 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:14:51 Europe/Berlin] ==================================================
+[06-Jun-2023 19:14:51 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:14:51 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:14:51 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup, url => Signup
+[06-Jun-2023 19:14:51 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:14:51 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[06-Jun-2023 19:14:56 Europe/Berlin] ==================================================
+[06-Jun-2023 19:14:56 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:14:56 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:14:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup/create, url => Signup
+[06-Jun-2023 19:14:56 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:14:56 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:14:56 Europe/Berlin] ==================================================
+[06-Jun-2023 19:14:56 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:14:56 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:14:56 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:14:57 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:14:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:14:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:14:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:14:57 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:14:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:14:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:14:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:14:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:14:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:14:58 Europe/Berlin] ==================================================
+[06-Jun-2023 19:14:58 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:14:58 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:14:58 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:14:58 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:14:58 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:15:00 Europe/Berlin] ==================================================
+[06-Jun-2023 19:15:00 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:15:00 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:15:00 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:15:00 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:15:00 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:15:00 Europe/Berlin] juan aqui la contra
+[06-Jun-2023 19:15:00 Europe/Berlin] Inicio de login  juan juan
+[06-Jun-2023 19:15:00 Europe/Berlin] 1 true o false
+[06-Jun-2023 19:15:00 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS = juan
+[06-Jun-2023 19:15:00 Europe/Berlin] ==================================================
+[06-Jun-2023 19:15:00 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:15:00 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:15:02 Europe/Berlin] ==================================================
+[06-Jun-2023 19:15:02 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:15:02 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:15:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> juan
+[06-Jun-2023 19:15:02 Europe/Berlin] sessionController::validateSession(): username:juan - role: user
+[06-Jun-2023 19:15:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:15:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:15:02 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[06-Jun-2023 19:15:02 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = /User
+[06-Jun-2023 19:15:02 Europe/Berlin] USERCONTROLLER::CONSTRUCT -> Inicio de logout
+[06-Jun-2023 19:15:02 Europe/Berlin] ==================================================
+[06-Jun-2023 19:15:02 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:15:02 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:15:02 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:15:02 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:15:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:15:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:15:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:15:02 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:15:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:15:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:15:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:15:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:15:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:15:36 Europe/Berlin] ==================================================
+[06-Jun-2023 19:15:36 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:15:36 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:15:36 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:15:36 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:15:36 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:15:38 Europe/Berlin] ==================================================
+[06-Jun-2023 19:15:38 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:15:38 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:15:38 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup, url => Signup
+[06-Jun-2023 19:15:38 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:15:38 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[06-Jun-2023 19:15:42 Europe/Berlin] ==================================================
+[06-Jun-2023 19:15:42 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:15:42 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:15:42 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup/create, url => Signup
+[06-Jun-2023 19:15:42 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:15:42 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:15:43 Europe/Berlin] ==================================================
+[06-Jun-2023 19:15:43 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:15:43 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:15:43 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:15:43 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:15:43 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:15:43 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:15:43 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:15:43 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:15:43 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:15:43 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:15:43 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:15:43 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:15:43 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:15:44 Europe/Berlin] ==================================================
+[06-Jun-2023 19:15:44 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:15:44 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:15:44 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:15:44 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:15:44 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:15:48 Europe/Berlin] ==================================================
+[06-Jun-2023 19:15:48 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:15:48 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:15:48 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:15:48 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:15:48 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:15:48 Europe/Berlin] cueva aqui la contra
+[06-Jun-2023 19:15:48 Europe/Berlin] Inicio de login  cueva cueva
+[06-Jun-2023 19:15:48 Europe/Berlin] 1 true o false
+[06-Jun-2023 19:15:48 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS = cueva
+[06-Jun-2023 19:15:48 Europe/Berlin] ==================================================
+[06-Jun-2023 19:15:48 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:15:48 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:16:05 Europe/Berlin] ==================================================
+[06-Jun-2023 19:16:05 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:16:05 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:16:05 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:16:05 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 19:16:05 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:16:05 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:16:05 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[06-Jun-2023 19:16:05 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = /User
+[06-Jun-2023 19:16:05 Europe/Berlin] USERCONTROLLER::CONSTRUCT -> Inicio de logout
+[06-Jun-2023 19:16:05 Europe/Berlin] ==================================================
+[06-Jun-2023 19:16:05 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:16:05 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:16:05 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:16:05 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:16:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:16:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:16:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:16:05 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:16:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:16:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:16:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:16:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:16:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:16:06 Europe/Berlin] ==================================================
+[06-Jun-2023 19:16:06 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:16:06 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:16:06 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:16:06 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:16:06 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:16:09 Europe/Berlin] ==================================================
+[06-Jun-2023 19:16:09 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:16:09 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:16:09 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:16:09 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:16:09 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:16:09 Europe/Berlin] prueba2 aqui la contra
+[06-Jun-2023 19:16:09 Europe/Berlin] Inicio de login  prueba2 prueba2
+[06-Jun-2023 19:16:09 Europe/Berlin] 0 true o false
+[06-Jun-2023 19:16:09 Europe/Berlin] LOGINMODEL::LOGIN()->password no es igual
+[06-Jun-2023 19:16:09 Europe/Berlin] ==================================================
+[06-Jun-2023 19:16:09 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:16:09 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:16:09 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4, url => Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4
+[06-Jun-2023 19:16:09 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:16:09 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:16:11 Europe/Berlin] ==================================================
+[06-Jun-2023 19:16:11 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:16:11 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:16:11 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:16:11 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:16:11 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:16:11 Europe/Berlin] cueva aqui la contra
+[06-Jun-2023 19:16:11 Europe/Berlin] Inicio de login  cueva cueva
+[06-Jun-2023 19:16:11 Europe/Berlin] 1 true o false
+[06-Jun-2023 19:16:12 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS = cueva
+[06-Jun-2023 19:16:12 Europe/Berlin] ==================================================
+[06-Jun-2023 19:16:12 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:16:12 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:16:32 Europe/Berlin] ==================================================
+[06-Jun-2023 19:16:32 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:16:32 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:16:32 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:16:32 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 19:16:32 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:16:32 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:16:32 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[06-Jun-2023 19:16:32 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = /User
+[06-Jun-2023 19:16:32 Europe/Berlin] USERCONTROLLER::CONSTRUCT -> Inicio de logout
+[06-Jun-2023 19:16:32 Europe/Berlin] ==================================================
+[06-Jun-2023 19:16:32 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:16:32 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:16:32 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:16:32 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:16:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:16:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:16:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:16:32 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:16:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:16:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:16:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:16:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:16:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:16:33 Europe/Berlin] ==================================================
+[06-Jun-2023 19:16:33 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:16:33 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:16:33 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:16:33 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:16:33 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:16:35 Europe/Berlin] ==================================================
+[06-Jun-2023 19:16:35 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:16:35 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:16:35 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:16:35 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:16:35 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:16:35 Europe/Berlin] juan aqui la contra
+[06-Jun-2023 19:16:35 Europe/Berlin] Inicio de login  juan juan
+[06-Jun-2023 19:16:35 Europe/Berlin] 1 true o false
+[06-Jun-2023 19:16:35 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS = juan
+[06-Jun-2023 19:16:35 Europe/Berlin] ==================================================
+[06-Jun-2023 19:16:35 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:16:35 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:16:42 Europe/Berlin] ==================================================
+[06-Jun-2023 19:16:42 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:16:42 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:16:42 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> juan
+[06-Jun-2023 19:16:42 Europe/Berlin] sessionController::validateSession(): username:juan - role: user
+[06-Jun-2023 19:16:42 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:16:42 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:16:42 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[06-Jun-2023 19:16:42 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = /User
+[06-Jun-2023 19:16:42 Europe/Berlin] USERCONTROLLER::CONSTRUCT -> Inicio de logout
+[06-Jun-2023 19:16:42 Europe/Berlin] ==================================================
+[06-Jun-2023 19:16:42 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:16:42 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:16:42 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:16:42 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:16:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:16:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:16:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:16:42 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:16:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:16:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:16:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:16:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:16:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:16:43 Europe/Berlin] ==================================================
+[06-Jun-2023 19:16:43 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:16:43 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:16:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:16:43 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:16:43 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:16:46 Europe/Berlin] ==================================================
+[06-Jun-2023 19:16:46 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:16:46 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:16:46 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:16:46 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:16:46 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:16:46 Europe/Berlin] cueva aqui la contra
+[06-Jun-2023 19:16:46 Europe/Berlin] Inicio de login  cueva cueva
+[06-Jun-2023 19:16:46 Europe/Berlin] 1 true o false
+[06-Jun-2023 19:16:46 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS = cueva
+[06-Jun-2023 19:16:46 Europe/Berlin] ==================================================
+[06-Jun-2023 19:16:46 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:16:46 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:16:53 Europe/Berlin] ==================================================
+[06-Jun-2023 19:16:53 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:16:53 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:16:53 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:16:53 Europe/Berlin] sessionController::validateSession(): username:cueva - role: user
+[06-Jun-2023 19:16:53 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:16:53 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:16:53 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[06-Jun-2023 19:16:53 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = /User
+[06-Jun-2023 19:16:53 Europe/Berlin] USERCONTROLLER::CONSTRUCT -> Inicio de logout
+[06-Jun-2023 19:16:53 Europe/Berlin] ==================================================
+[06-Jun-2023 19:16:53 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:16:53 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:16:53 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:16:53 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:16:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:16:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:16:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:16:53 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:16:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:16:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:16:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:16:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:16:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:16:54 Europe/Berlin] ==================================================
+[06-Jun-2023 19:16:54 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:16:54 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:16:54 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:16:54 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:16:54 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:17:48 Europe/Berlin] ==================================================
+[06-Jun-2023 19:17:48 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:17:48 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:17:48 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:17:48 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:17:48 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:17:48 Europe/Berlin] juan aqui la contra
+[06-Jun-2023 19:17:48 Europe/Berlin] Inicio de login  juan juan
+[06-Jun-2023 19:17:48 Europe/Berlin] ==================================================
+[06-Jun-2023 19:17:48 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:17:48 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:17:48 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4, url => Login?error=a23232sdfsdfhgccccs4443d93434cxxcxcvvbc4
+[06-Jun-2023 19:17:48 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:17:48 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:17:52 Europe/Berlin] ==================================================
+[06-Jun-2023 19:17:52 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:17:52 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:17:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:17:52 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:17:52 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:17:52 Europe/Berlin] cueva aqui la contra
+[06-Jun-2023 19:17:52 Europe/Berlin] Inicio de login  cueva cueva
+[06-Jun-2023 19:17:52 Europe/Berlin] 1 true o false
+[06-Jun-2023 19:17:52 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS = cueva
+[06-Jun-2023 19:17:52 Europe/Berlin] ==================================================
+[06-Jun-2023 19:17:52 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:17:52 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:17:52 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:17:56 Europe/Berlin] ==================================================
+[06-Jun-2023 19:17:56 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:17:56 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:17:57 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:17:57 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:17:57 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:17:57 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:17:57 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[06-Jun-2023 19:17:57 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = /Admin
+[06-Jun-2023 19:17:57 Europe/Berlin] USERCONTROLLER::CONSTRUCT -> Inicio de logout
+[06-Jun-2023 19:17:57 Europe/Berlin] ==================================================
+[06-Jun-2023 19:17:57 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:17:57 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:17:57 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:17:57 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:17:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:17:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:17:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:17:57 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:17:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:17:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:17:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:17:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:17:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:17:58 Europe/Berlin] ==================================================
+[06-Jun-2023 19:17:58 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:17:58 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:17:58 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:17:58 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:17:58 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:17:59 Europe/Berlin] ==================================================
+[06-Jun-2023 19:17:59 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:17:59 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:17:59 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup, url => Signup
+[06-Jun-2023 19:17:59 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:17:59 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[06-Jun-2023 19:18:04 Europe/Berlin] ==================================================
+[06-Jun-2023 19:18:04 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:18:04 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:18:04 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup/create, url => Signup
+[06-Jun-2023 19:18:04 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:18:04 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:18:04 Europe/Berlin] ==================================================
+[06-Jun-2023 19:18:04 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:18:04 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:18:04 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:18:04 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:18:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:18:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:18:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:18:04 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:18:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:18:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:18:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:18:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:18:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:18:07 Europe/Berlin] ==================================================
+[06-Jun-2023 19:18:07 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:18:07 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:18:07 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:18:07 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:18:07 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:18:21 Europe/Berlin] ==================================================
+[06-Jun-2023 19:18:21 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:18:21 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:18:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:18:21 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:18:21 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:18:21 Europe/Berlin] prueba aqui la contra
+[06-Jun-2023 19:18:21 Europe/Berlin] Inicio de login  prueba prueba
+[06-Jun-2023 19:18:21 Europe/Berlin] 1 true o false
+[06-Jun-2023 19:18:21 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS = prueba
+[06-Jun-2023 19:18:21 Europe/Berlin] ==================================================
+[06-Jun-2023 19:18:21 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:18:21 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:18:23 Europe/Berlin] ==================================================
+[06-Jun-2023 19:18:23 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:18:23 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:18:23 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> prueba
+[06-Jun-2023 19:18:23 Europe/Berlin] sessionController::validateSession(): username:prueba - role: user
+[06-Jun-2023 19:18:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /User/info, url => User
+[06-Jun-2023 19:18:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /User/info, url => User
+[06-Jun-2023 19:18:23 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:18:23 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> prueba
+[06-Jun-2023 19:18:23 Europe/Berlin] USERCONTROLLER::CONSTRUCT -> User: prueba
+[06-Jun-2023 19:18:24 Europe/Berlin] ==================================================
+[06-Jun-2023 19:18:24 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:18:24 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:18:24 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> prueba
+[06-Jun-2023 19:18:24 Europe/Berlin] sessionController::validateSession(): username:prueba - role: user
+[06-Jun-2023 19:18:24 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:18:24 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:18:24 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[06-Jun-2023 19:18:24 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = /User
+[06-Jun-2023 19:18:24 Europe/Berlin] USERCONTROLLER::CONSTRUCT -> Inicio de logout
+[06-Jun-2023 19:18:24 Europe/Berlin] ==================================================
+[06-Jun-2023 19:18:24 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:18:24 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:18:24 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:18:24 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:18:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:18:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:18:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:18:24 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:18:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:18:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:18:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:18:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:18:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:18:28 Europe/Berlin] ==================================================
+[06-Jun-2023 19:18:28 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:18:28 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:18:28 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:18:28 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:18:28 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:18:33 Europe/Berlin] ==================================================
+[06-Jun-2023 19:18:33 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:18:33 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:18:33 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:18:33 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:18:33 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:18:33 Europe/Berlin] cueva aqui la contra
+[06-Jun-2023 19:18:33 Europe/Berlin] Inicio de login  cueva cueva
+[06-Jun-2023 19:18:33 Europe/Berlin] 1 true o false
+[06-Jun-2023 19:18:33 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS = cueva
+[06-Jun-2023 19:18:33 Europe/Berlin] ==================================================
+[06-Jun-2023 19:18:33 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:18:33 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:18:33 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:18:35 Europe/Berlin] ==================================================
+[06-Jun-2023 19:18:35 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:18:35 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:18:35 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:18:35 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:18:35 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:18:35 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:18:35 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[06-Jun-2023 19:18:35 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = /Admin
+[06-Jun-2023 19:18:35 Europe/Berlin] USERCONTROLLER::CONSTRUCT -> Inicio de logout
+[06-Jun-2023 19:18:35 Europe/Berlin] ==================================================
+[06-Jun-2023 19:18:35 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:18:35 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:18:35 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:18:35 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:18:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:18:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:18:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:18:35 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:18:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:18:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:18:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:18:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:18:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:18:37 Europe/Berlin] ==================================================
+[06-Jun-2023 19:18:37 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:18:37 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:18:37 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:18:37 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:18:37 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:18:38 Europe/Berlin] ==================================================
+[06-Jun-2023 19:18:38 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:18:38 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:18:38 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:18:38 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:18:38 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:18:38 Europe/Berlin] cueva aqui la contra
+[06-Jun-2023 19:18:38 Europe/Berlin] Inicio de login  cueva cueva
+[06-Jun-2023 19:18:38 Europe/Berlin] 1 true o false
+[06-Jun-2023 19:18:38 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS = cueva
+[06-Jun-2023 19:18:38 Europe/Berlin] ==================================================
+[06-Jun-2023 19:18:38 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:18:38 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:18:38 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:19:59 Europe/Berlin] ==================================================
+[06-Jun-2023 19:19:59 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:19:59 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 19:19:59 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:19:59 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:19:59 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:19:59 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:19:59 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:19:59 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:19:59 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:19:59 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 19:19:59 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 19:19:59 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:19:59 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:19:59 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:19:59 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:19:59 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:19:59 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:19:59 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:20:02 Europe/Berlin] ==================================================
+[06-Jun-2023 19:20:02 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:20:02 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 19:20:02 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:20:03 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:20:03 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:20:03 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:20:03 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post, url => Admin
+[06-Jun-2023 19:20:03 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post, url => Admin
+[06-Jun-2023 19:20:03 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:20:03 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:20:03 Europe/Berlin] ==================================================
+[06-Jun-2023 19:20:03 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:20:03 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 19:20:03 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:20:03 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:20:03 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:20:03 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:20:03 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post/create, url => Admin
+[06-Jun-2023 19:20:03 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post/create, url => Admin
+[06-Jun-2023 19:20:03 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:20:04 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:20:04 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 19:20:04 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[06-Jun-2023 19:20:04 Europe/Berlin] PLATAFORMAMODEL::getAll()->PDOEXCEPTION PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'neoga.plataforma' doesn't exist in C:\laragon\www\NeoGamingV2\libs\model.php:13
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\model.php(13): PDO->query('SELECT * FROM p...')
+#1 C:\laragon\www\NeoGamingV2\Model\Plataforma.php(59): Model->query('SELECT * FROM p...')
+#2 C:\laragon\www\NeoGamingV2\Controllers\post.php(63): PlataformaModel->getAll()
+#3 C:\laragon\www\NeoGamingV2\libs\app.php(53): Post->create()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(20): App->init(Array)
+#5 C:\laragon\www\NeoGamingV2\index.php(25): App->__construct()
+#6 {main}
+[06-Jun-2023 19:20:04 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:20:04 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:20:04 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:20:04 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post/create, url => Admin
+[06-Jun-2023 19:20:04 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post/create, url => Admin
+[06-Jun-2023 19:20:04 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:20:04 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:20:40 Europe/Berlin] ==================================================
+[06-Jun-2023 19:20:40 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:20:40 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:20:40 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:20:40 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:20:40 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:20:40 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Post/insert, url => Post
+[06-Jun-2023 19:20:40 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = /Admin
+[06-Jun-2023 19:20:40 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:20:40 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:20:40 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:20:40 Europe/Berlin] ==================================================
+[06-Jun-2023 19:20:40 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:20:40 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 19:20:40 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:20:40 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:20:40 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:20:40 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:20:40 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:20:40 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post, url => Admin
+[06-Jun-2023 19:20:40 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post, url => Admin
+[06-Jun-2023 19:20:40 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:20:40 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:20:44 Europe/Berlin] ==================================================
+[06-Jun-2023 19:20:44 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:20:44 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:20:44 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:20:44 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:20:51 Europe/Berlin] ==================================================
+[06-Jun-2023 19:20:51 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:20:51 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:20:51 Europe/Berlin] JOINPOSTGENEROPLATAFORMA::construct()
+[06-Jun-2023 19:20:51 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 19:20:51 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[06-Jun-2023 19:20:54 Europe/Berlin] ==================================================
+[06-Jun-2023 19:20:54 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:20:54 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:20:54 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:20:54 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:21:19 Europe/Berlin] ==================================================
+[06-Jun-2023 19:21:19 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:21:19 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 19:21:19 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:21:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:21:19 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:21:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:21:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:21:19 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:21:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:21:19 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 19:21:19 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 19:21:19 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:21:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:21:19 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:21:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:21:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:21:19 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:21:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:21:28 Europe/Berlin] ==================================================
+[06-Jun-2023 19:21:28 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:21:28 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 19:21:28 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:21:28 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:21:28 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:21:28 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:21:28 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:21:28 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post, url => Admin
+[06-Jun-2023 19:21:28 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post, url => Admin
+[06-Jun-2023 19:21:28 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:21:28 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:21:29 Europe/Berlin] ==================================================
+[06-Jun-2023 19:21:29 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:21:29 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 19:21:29 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:21:29 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:21:29 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:21:29 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:21:29 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post/create, url => Admin
+[06-Jun-2023 19:21:29 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post/create, url => Admin
+[06-Jun-2023 19:21:29 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:21:29 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:21:29 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 19:21:29 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[06-Jun-2023 19:21:29 Europe/Berlin] PLATAFORMAMODEL::getAll()->PDOEXCEPTION PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'neoga.plataforma' doesn't exist in C:\laragon\www\NeoGamingV2\libs\model.php:13
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\model.php(13): PDO->query('SELECT * FROM p...')
+#1 C:\laragon\www\NeoGamingV2\Model\Plataforma.php(59): Model->query('SELECT * FROM p...')
+#2 C:\laragon\www\NeoGamingV2\Controllers\post.php(63): PlataformaModel->getAll()
+#3 C:\laragon\www\NeoGamingV2\libs\app.php(53): Post->create()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(20): App->init(Array)
+#5 C:\laragon\www\NeoGamingV2\index.php(25): App->__construct()
+#6 {main}
+[06-Jun-2023 19:21:29 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:21:29 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:21:29 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:21:29 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post/create, url => Admin
+[06-Jun-2023 19:21:29 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post/create, url => Admin
+[06-Jun-2023 19:21:29 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:21:30 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:22:17 Europe/Berlin] ==================================================
+[06-Jun-2023 19:22:17 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:22:17 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:22:17 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:22:17 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:22:17 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:22:17 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Post/insert, url => Post
+[06-Jun-2023 19:22:17 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = /Admin
+[06-Jun-2023 19:22:17 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:22:17 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:22:17 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:22:18 Europe/Berlin] ==================================================
+[06-Jun-2023 19:22:18 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:22:18 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 19:22:18 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:22:18 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:22:18 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:22:18 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:22:18 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:22:18 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:22:18 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post, url => Admin
+[06-Jun-2023 19:22:18 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post, url => Admin
+[06-Jun-2023 19:22:18 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:22:18 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:22:21 Europe/Berlin] ==================================================
+[06-Jun-2023 19:22:21 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:22:21 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:22:21 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:22:21 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:22:21 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:22:25 Europe/Berlin] ==================================================
+[06-Jun-2023 19:22:25 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:22:25 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:22:25 Europe/Berlin] JOINPOSTGENEROPLATAFORMA::construct()
+[06-Jun-2023 19:22:25 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 19:22:25 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[06-Jun-2023 19:22:28 Europe/Berlin] ==================================================
+[06-Jun-2023 19:22:28 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:22:28 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:22:28 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:22:28 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:22:28 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:22:29 Europe/Berlin] ==================================================
+[06-Jun-2023 19:22:29 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:22:29 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:22:29 Europe/Berlin] JOINPOSTGENEROPLATAFORMA::construct()
+[06-Jun-2023 19:22:29 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 19:22:29 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[06-Jun-2023 19:22:31 Europe/Berlin] ==================================================
+[06-Jun-2023 19:22:31 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:22:31 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:22:31 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:22:31 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:22:31 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:22:37 Europe/Berlin] ==================================================
+[06-Jun-2023 19:22:37 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:22:37 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 19:22:37 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:22:37 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:22:37 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:22:37 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:22:37 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:22:37 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:22:37 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:22:37 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 19:22:37 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 19:22:37 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:22:37 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:22:37 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:22:37 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:22:37 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:22:37 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:22:37 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:22:38 Europe/Berlin] ==================================================
+[06-Jun-2023 19:22:38 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:22:38 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:22:38 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:22:38 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:22:38 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:22:40 Europe/Berlin] ==================================================
+[06-Jun-2023 19:22:40 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:22:40 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 19:22:40 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:22:40 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:22:40 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:22:40 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:22:40 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post/create, url => Admin
+[06-Jun-2023 19:22:40 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post/create, url => Admin
+[06-Jun-2023 19:22:40 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:22:40 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:22:40 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 19:22:40 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[06-Jun-2023 19:22:40 Europe/Berlin] PLATAFORMAMODEL::getAll()->PDOEXCEPTION PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'neoga.plataforma' doesn't exist in C:\laragon\www\NeoGamingV2\libs\model.php:13
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\model.php(13): PDO->query('SELECT * FROM p...')
+#1 C:\laragon\www\NeoGamingV2\Model\Plataforma.php(59): Model->query('SELECT * FROM p...')
+#2 C:\laragon\www\NeoGamingV2\Controllers\post.php(63): PlataformaModel->getAll()
+#3 C:\laragon\www\NeoGamingV2\libs\app.php(53): Post->create()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(20): App->init(Array)
+#5 C:\laragon\www\NeoGamingV2\index.php(25): App->__construct()
+#6 {main}
+[06-Jun-2023 19:22:40 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:22:40 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:22:40 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:22:40 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post/create, url => Admin
+[06-Jun-2023 19:22:40 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post/create, url => Admin
+[06-Jun-2023 19:22:40 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:22:40 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:23:40 Europe/Berlin] ==================================================
+[06-Jun-2023 19:23:40 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:23:40 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:23:40 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:23:40 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:23:40 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:23:40 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Post/insert, url => Post
+[06-Jun-2023 19:23:40 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = /Admin
+[06-Jun-2023 19:23:41 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:23:41 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:23:41 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:23:41 Europe/Berlin] ==================================================
+[06-Jun-2023 19:23:41 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:23:41 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 19:23:41 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:23:41 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:23:41 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:23:41 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:23:41 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:23:41 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:23:41 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:23:41 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post, url => Admin
+[06-Jun-2023 19:23:41 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post, url => Admin
+[06-Jun-2023 19:23:41 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:23:41 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:23:43 Europe/Berlin] ==================================================
+[06-Jun-2023 19:23:43 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:23:43 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:23:43 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:23:43 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:23:43 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:23:43 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:23:47 Europe/Berlin] ==================================================
+[06-Jun-2023 19:23:47 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:23:47 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:23:47 Europe/Berlin] JOINPOSTGENEROPLATAFORMA::construct()
+[06-Jun-2023 19:23:48 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 19:23:48 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[06-Jun-2023 19:23:59 Europe/Berlin] ==================================================
+[06-Jun-2023 19:23:59 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:23:59 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:23:59 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:23:59 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:23:59 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:23:59 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:24:02 Europe/Berlin] ==================================================
+[06-Jun-2023 19:24:02 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:24:02 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 19:24:02 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:24:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:24:02 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:24:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:24:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:24:02 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:24:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:24:02 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 19:24:02 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 19:24:02 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:24:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:24:02 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:24:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:24:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:24:02 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:24:03 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:24:03 Europe/Berlin] ==================================================
+[06-Jun-2023 19:24:03 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:24:03 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 19:24:03 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:24:04 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:24:04 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:24:04 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:24:04 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:24:04 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:24:04 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:24:04 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 19:24:04 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 19:24:04 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:24:04 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:24:04 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:24:04 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:24:04 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:24:04 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:24:04 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:24:05 Europe/Berlin] ==================================================
+[06-Jun-2023 19:24:05 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:24:05 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 19:24:05 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:24:05 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:24:05 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:24:05 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:24:05 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:24:05 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:24:05 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:24:05 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post, url => Admin
+[06-Jun-2023 19:24:05 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post, url => Admin
+[06-Jun-2023 19:24:05 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:24:05 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:27:34 Europe/Berlin] ==================================================
+[06-Jun-2023 19:27:34 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:27:34 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 19:27:34 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:27:34 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:27:34 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:27:34 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:27:34 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:27:34 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:27:34 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:27:34 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 19:27:34 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 19:27:34 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:27:34 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:27:34 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:27:34 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:27:34 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:27:34 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:27:34 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:27:35 Europe/Berlin] ==================================================
+[06-Jun-2023 19:27:35 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:27:35 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 19:27:35 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:27:35 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:27:35 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:27:35 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:27:35 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post/create, url => Admin
+[06-Jun-2023 19:27:35 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post/create, url => Admin
+[06-Jun-2023 19:27:35 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:27:35 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:27:35 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 19:27:35 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[06-Jun-2023 19:27:35 Europe/Berlin] PLATAFORMAMODEL::getAll()->PDOEXCEPTION PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'neoga.plataforma' doesn't exist in C:\laragon\www\NeoGamingV2\libs\model.php:13
+Stack trace:
+#0 C:\laragon\www\NeoGamingV2\libs\model.php(13): PDO->query('SELECT * FROM p...')
+#1 C:\laragon\www\NeoGamingV2\Model\Plataforma.php(59): Model->query('SELECT * FROM p...')
+#2 C:\laragon\www\NeoGamingV2\Controllers\post.php(63): PlataformaModel->getAll()
+#3 C:\laragon\www\NeoGamingV2\libs\app.php(53): Post->create()
+#4 C:\laragon\www\NeoGamingV2\libs\app.php(20): App->init(Array)
+#5 C:\laragon\www\NeoGamingV2\index.php(25): App->__construct()
+#6 {main}
+[06-Jun-2023 19:27:35 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:27:35 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:27:35 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:27:35 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post/create, url => Admin
+[06-Jun-2023 19:27:35 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post/create, url => Admin
+[06-Jun-2023 19:27:35 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:27:35 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:27:37 Europe/Berlin] ==================================================
+[06-Jun-2023 19:27:37 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:27:37 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:27:37 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:27:37 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:27:37 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:27:37 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:27:38 Europe/Berlin] ==================================================
+[06-Jun-2023 19:27:38 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:27:38 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:27:39 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:27:39 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:27:39 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:27:39 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:27:39 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[06-Jun-2023 19:27:39 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = /Admin
+[06-Jun-2023 19:27:39 Europe/Berlin] USERCONTROLLER::CONSTRUCT -> Inicio de logout
+[06-Jun-2023 19:27:39 Europe/Berlin] ==================================================
+[06-Jun-2023 19:27:39 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:27:39 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:27:39 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:27:39 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:27:39 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:27:39 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:27:39 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:27:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:27:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:27:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:27:39 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:27:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:27:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:27:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:27:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:27:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:27:39 Europe/Berlin] ==================================================
+[06-Jun-2023 19:27:39 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:27:39 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:27:39 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:27:39 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:27:39 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:27:40 Europe/Berlin] ==================================================
+[06-Jun-2023 19:27:40 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:27:40 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:27:40 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup, url => Signup
+[06-Jun-2023 19:27:40 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:27:40 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[06-Jun-2023 19:27:55 Europe/Berlin] ==================================================
+[06-Jun-2023 19:27:55 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:27:55 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:27:55 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup/create, url => Signup
+[06-Jun-2023 19:27:55 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:27:55 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:27:55 Europe/Berlin] ==================================================
+[06-Jun-2023 19:27:55 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:27:55 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:27:55 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:27:55 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:27:55 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:27:55 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:27:55 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:27:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:27:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:27:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:27:55 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:27:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:27:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:27:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:27:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:27:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:28:10 Europe/Berlin] ==================================================
+[06-Jun-2023 19:28:10 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:28:10 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:28:10 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:28:10 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:28:10 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:28:15 Europe/Berlin] ==================================================
+[06-Jun-2023 19:28:15 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:28:15 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:28:15 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup, url => Signup
+[06-Jun-2023 19:28:15 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:28:15 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[06-Jun-2023 19:28:51 Europe/Berlin] ==================================================
+[06-Jun-2023 19:28:51 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:28:51 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:28:51 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup, url => Signup
+[06-Jun-2023 19:28:51 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:28:51 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[06-Jun-2023 19:29:06 Europe/Berlin] ==================================================
+[06-Jun-2023 19:29:06 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:29:06 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:29:06 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup, url => Signup
+[06-Jun-2023 19:29:06 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:29:06 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[06-Jun-2023 19:29:30 Europe/Berlin] ==================================================
+[06-Jun-2023 19:29:30 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:29:30 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:29:30 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup, url => Signup
+[06-Jun-2023 19:29:30 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:29:30 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[06-Jun-2023 19:29:30 Europe/Berlin] ==================================================
+[06-Jun-2023 19:29:30 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:29:30 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:29:30 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:29:30 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:29:30 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:29:32 Europe/Berlin] ==================================================
+[06-Jun-2023 19:29:32 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:29:32 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:29:32 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup, url => Signup
+[06-Jun-2023 19:29:32 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:29:32 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[06-Jun-2023 19:29:44 Europe/Berlin] ==================================================
+[06-Jun-2023 19:29:44 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:29:44 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:29:44 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup, url => Signup
+[06-Jun-2023 19:29:44 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:29:44 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[06-Jun-2023 19:29:51 Europe/Berlin] ==================================================
+[06-Jun-2023 19:29:51 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:29:51 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:29:51 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:29:51 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:29:51 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:29:53 Europe/Berlin] ==================================================
+[06-Jun-2023 19:29:53 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:29:53 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:29:53 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup, url => Signup
+[06-Jun-2023 19:29:53 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:29:53 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[06-Jun-2023 19:29:53 Europe/Berlin] ==================================================
+[06-Jun-2023 19:29:53 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:29:53 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:29:53 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup/create, url => Signup
+[06-Jun-2023 19:29:53 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:29:53 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:29:53 Europe/Berlin] ==================================================
+[06-Jun-2023 19:29:53 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:29:53 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:29:53 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup?error=a232323sdaa4b0f6asd93434cxxcxcvvbc4, url => Signup?error=a232323sdaa4b0f6asd93434cxxcxcvvbc4
+[06-Jun-2023 19:29:53 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:29:53 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[06-Jun-2023 19:30:53 Europe/Berlin] ==================================================
+[06-Jun-2023 19:30:53 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:30:53 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:30:53 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:30:53 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:30:53 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:30:54 Europe/Berlin] ==================================================
+[06-Jun-2023 19:30:54 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:30:54 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:30:54 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup, url => Signup
+[06-Jun-2023 19:30:54 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:30:54 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[06-Jun-2023 19:30:59 Europe/Berlin] ==================================================
+[06-Jun-2023 19:30:59 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:30:59 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:30:59 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup/create, url => Signup
+[06-Jun-2023 19:30:59 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:30:59 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:31:00 Europe/Berlin] ==================================================
+[06-Jun-2023 19:31:00 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:31:00 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:31:00 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:31:00 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:31:00 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:31:00 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:31:00 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:31:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:31:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:31:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:31:00 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:31:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:31:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:31:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:31:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:31:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:31:02 Europe/Berlin] ==================================================
+[06-Jun-2023 19:31:02 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:31:02 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:31:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:31:02 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:31:02 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:31:05 Europe/Berlin] ==================================================
+[06-Jun-2023 19:31:05 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:31:05 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:31:05 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup, url => Signup
+[06-Jun-2023 19:31:05 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:31:05 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[06-Jun-2023 19:31:21 Europe/Berlin] ==================================================
+[06-Jun-2023 19:31:21 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:31:21 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:31:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup/create, url => Signup
+[06-Jun-2023 19:31:21 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:31:21 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:31:21 Europe/Berlin] ==================================================
+[06-Jun-2023 19:31:21 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:31:21 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:31:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup?error=a232323sdaa4b0f6asd93434cxxcxcvvbc4, url => Signup?error=a232323sdaa4b0f6asd93434cxxcxcvvbc4
+[06-Jun-2023 19:31:21 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:31:21 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[06-Jun-2023 19:31:27 Europe/Berlin] ==================================================
+[06-Jun-2023 19:31:27 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:31:27 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:31:27 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:31:27 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:31:27 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:31:27 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:31:27 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:31:27 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:31:27 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:31:27 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:31:27 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:31:27 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:31:27 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:31:27 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:31:27 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:31:27 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:31:56 Europe/Berlin] ==================================================
+[06-Jun-2023 19:31:56 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:31:56 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:31:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:31:56 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:31:56 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:32:00 Europe/Berlin] ==================================================
+[06-Jun-2023 19:32:00 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:32:00 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:32:00 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/Admin, url => Login
+[06-Jun-2023 19:32:00 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:32:02 Europe/Berlin] ==================================================
+[06-Jun-2023 19:32:02 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:32:02 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:32:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:32:02 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:32:02 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:32:03 Europe/Berlin] ==================================================
+[06-Jun-2023 19:32:03 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:32:03 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:32:03 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:32:03 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:32:03 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:32:03 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:32:03 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:32:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:32:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:32:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:32:03 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:32:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:32:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:32:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:32:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:32:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:32:08 Europe/Berlin] ==================================================
+[06-Jun-2023 19:32:08 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:32:08 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 19:32:08 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:32:08 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:32:08 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> 
+[06-Jun-2023 19:32:08 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 19:32:08 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 19:32:08 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:32:08 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:32:08 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> 
+[06-Jun-2023 19:32:08 Europe/Berlin] ==================================================
+[06-Jun-2023 19:32:08 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:32:08 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:32:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:32:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:32:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:32:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:32:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:32:16 Europe/Berlin] ==================================================
+[06-Jun-2023 19:32:16 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:32:16 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:32:16 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /User/info, url => User
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:32:16 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> 
+[06-Jun-2023 19:32:16 Europe/Berlin] USERCONTROLLER::CONSTRUCT -> User: 
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:32:16 Europe/Berlin] ==================================================
+[06-Jun-2023 19:32:16 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:32:16 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:32:16 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:32:16 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:32:16 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:32:16 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:32:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:33:31 Europe/Berlin] ==================================================
+[06-Jun-2023 19:33:31 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:33:31 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:33:31 Europe/Berlin] JOINPOSTGENEROPLATAFORMA::construct()
+[06-Jun-2023 19:33:31 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 19:33:31 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[06-Jun-2023 19:33:31 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:33:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:33:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:33:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:33:31 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:33:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:33:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:33:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:33:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:33:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:33:45 Europe/Berlin] ==================================================
+[06-Jun-2023 19:33:45 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:33:45 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:33:45 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:33:45 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:33:45 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:33:47 Europe/Berlin] ==================================================
+[06-Jun-2023 19:33:47 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:33:47 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:33:47 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:33:47 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:33:47 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:33:47 Europe/Berlin] cueva aqui la contra
+[06-Jun-2023 19:33:47 Europe/Berlin] Inicio de login  cueva cueva
+[06-Jun-2023 19:33:47 Europe/Berlin] 1 true o false
+[06-Jun-2023 19:33:47 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS = cueva
+[06-Jun-2023 19:33:47 Europe/Berlin] ==================================================
+[06-Jun-2023 19:33:47 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:33:47 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:33:47 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:33:47 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:33:47 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:33:47 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:33:49 Europe/Berlin] ==================================================
+[06-Jun-2023 19:33:49 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:33:49 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:33:49 Europe/Berlin] JOINPOSTGENEROPLATAFORMA::construct()
+[06-Jun-2023 19:33:49 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 19:33:49 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[06-Jun-2023 19:34:29 Europe/Berlin] ==================================================
+[06-Jun-2023 19:34:29 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:34:29 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:34:29 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:34:29 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:34:29 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:34:29 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:34:30 Europe/Berlin] ==================================================
+[06-Jun-2023 19:34:30 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:34:30 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:34:30 Europe/Berlin] JOINPOSTGENEROPLATAFORMA::construct()
+[06-Jun-2023 19:34:30 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 19:34:30 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[06-Jun-2023 19:34:30 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 19:35:32 Europe/Berlin] ==================================================
+[06-Jun-2023 19:35:32 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:35:32 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:32 Europe/Berlin] JOINPOSTGENEROPLATAFORMA::construct()
+[06-Jun-2023 19:35:32 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 19:35:32 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[06-Jun-2023 19:35:32 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 19:35:32 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[06-Jun-2023 19:35:36 Europe/Berlin] ==================================================
+[06-Jun-2023 19:35:36 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:35:36 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:35:36 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:36 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:36 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:36 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:37 Europe/Berlin] ==================================================
+[06-Jun-2023 19:35:37 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:35:37 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:37 Europe/Berlin] JOINPOSTGENEROPLATAFORMA::construct()
+[06-Jun-2023 19:35:37 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 19:35:37 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[06-Jun-2023 19:35:39 Europe/Berlin] ==================================================
+[06-Jun-2023 19:35:39 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:35:39 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:35:39 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:39 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:39 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:39 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:39 Europe/Berlin] ==================================================
+[06-Jun-2023 19:35:39 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:35:39 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:39 Europe/Berlin] JOINPOSTGENEROPLATAFORMA::construct()
+[06-Jun-2023 19:35:39 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 19:35:39 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[06-Jun-2023 19:35:39 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 19:35:39 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[06-Jun-2023 19:35:42 Europe/Berlin] ==================================================
+[06-Jun-2023 19:35:42 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:35:42 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:35:42 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:42 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:42 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:42 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:43 Europe/Berlin] ==================================================
+[06-Jun-2023 19:35:43 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:35:43 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:43 Europe/Berlin] JOINPOSTGENEROPLATAFORMA::construct()
+[06-Jun-2023 19:35:43 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 19:35:43 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[06-Jun-2023 19:35:46 Europe/Berlin] ==================================================
+[06-Jun-2023 19:35:46 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:35:46 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:35:46 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:46 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:46 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:46 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:48 Europe/Berlin] ==================================================
+[06-Jun-2023 19:35:48 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:35:48 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:48 Europe/Berlin] JOINPOSTGENEROPLATAFORMA::construct()
+[06-Jun-2023 19:35:48 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 19:35:48 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[06-Jun-2023 19:35:49 Europe/Berlin] ==================================================
+[06-Jun-2023 19:35:49 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:35:49 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:35:49 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:49 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:49 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:49 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:49 Europe/Berlin] ==================================================
+[06-Jun-2023 19:35:49 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:35:49 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:35:49 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:35:49 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:35:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:35:49 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = /Admin
+[06-Jun-2023 19:35:49 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:35:49 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:35:49 Europe/Berlin] ==================================================
+[06-Jun-2023 19:35:49 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:35:49 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 19:35:49 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:35:49 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:35:49 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:35:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:35:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:35:49 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:35:50 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:35:50 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 19:35:50 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 19:35:50 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:35:50 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:35:50 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:35:50 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:35:50 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:35:50 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:35:50 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:35:51 Europe/Berlin] ==================================================
+[06-Jun-2023 19:35:51 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:35:51 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:35:51 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:51 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:51 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:51 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:52 Europe/Berlin] ==================================================
+[06-Jun-2023 19:35:52 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:35:52 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 19:35:52 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:35:52 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:35:52 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:35:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:35:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:35:52 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:35:52 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:35:52 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 19:35:52 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 19:35:52 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:35:53 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:35:53 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:35:53 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:35:53 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:35:53 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:35:53 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:35:53 Europe/Berlin] ==================================================
+[06-Jun-2023 19:35:53 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:35:53 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:35:53 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:53 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:53 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:53 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:55 Europe/Berlin] ==================================================
+[06-Jun-2023 19:35:55 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:35:55 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:55 Europe/Berlin] JOINPOSTGENEROPLATAFORMA::construct()
+[06-Jun-2023 19:35:55 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 19:35:55 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[06-Jun-2023 19:35:55 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 19:35:55 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[06-Jun-2023 19:35:56 Europe/Berlin] ==================================================
+[06-Jun-2023 19:35:56 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:35:56 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:35:56 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[06-Jun-2023 19:35:56 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[06-Jun-2023 19:35:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:35:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:35:56 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[06-Jun-2023 19:35:56 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = /Admin
+[06-Jun-2023 19:35:56 Europe/Berlin] USERCONTROLLER::CONSTRUCT -> Inicio de logout
+[06-Jun-2023 19:35:56 Europe/Berlin] ==================================================
+[06-Jun-2023 19:35:56 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:35:56 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:35:56 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:56 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:56 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:56 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:56 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:35:56 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:35:56 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:35:56 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:35:56 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:35:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:35:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:35:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:35:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:35:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:35:57 Europe/Berlin] ==================================================
+[06-Jun-2023 19:35:57 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:35:57 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:35:57 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:35:57 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:35:57 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:35:59 Europe/Berlin] ==================================================
+[06-Jun-2023 19:35:59 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:35:59 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:35:59 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:35:59 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:35:59 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:35:59 Europe/Berlin] prueba aqui la contra
+[06-Jun-2023 19:35:59 Europe/Berlin] Inicio de login  prueba prueba
+[06-Jun-2023 19:35:59 Europe/Berlin] 1 true o false
+[06-Jun-2023 19:35:59 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS = prueba
+[06-Jun-2023 19:35:59 Europe/Berlin] ==================================================
+[06-Jun-2023 19:35:59 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:35:59 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:59 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:59 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:35:59 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:36:03 Europe/Berlin] ==================================================
+[06-Jun-2023 19:36:03 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:36:03 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:36:03 Europe/Berlin] JOINPOSTGENEROPLATAFORMA::construct()
+[06-Jun-2023 19:36:03 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[06-Jun-2023 19:36:03 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[06-Jun-2023 19:36:03 Europe/Berlin] ==================================================
+[06-Jun-2023 19:36:03 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:36:03 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:36:03 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> prueba
+[06-Jun-2023 19:36:03 Europe/Berlin] sessionController::validateSession(): username:prueba - role: user
+[06-Jun-2023 19:36:03 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:36:03 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = /User
+[06-Jun-2023 19:36:03 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:36:03 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:36:03 Europe/Berlin] ==================================================
+[06-Jun-2023 19:36:03 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:36:03 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:36:04 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> prueba
+[06-Jun-2023 19:36:04 Europe/Berlin] sessionController::validateSession(): username:prueba - role: user
+[06-Jun-2023 19:36:04 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /User, url => User
+[06-Jun-2023 19:36:04 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /User, url => User
+[06-Jun-2023 19:36:04 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:36:04 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> prueba
+[06-Jun-2023 19:36:04 Europe/Berlin] USERCONTROLLER::CONSTRUCT -> User: prueba
+[06-Jun-2023 19:36:08 Europe/Berlin] ==================================================
+[06-Jun-2023 19:36:08 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:36:08 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:36:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:36:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:36:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:36:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:36:09 Europe/Berlin] ==================================================
+[06-Jun-2023 19:36:09 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:36:09 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:36:09 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> prueba
+[06-Jun-2023 19:36:09 Europe/Berlin] sessionController::validateSession(): username:prueba - role: user
+[06-Jun-2023 19:36:09 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /User/info, url => User
+[06-Jun-2023 19:36:09 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /User/info, url => User
+[06-Jun-2023 19:36:09 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:36:09 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> prueba
+[06-Jun-2023 19:36:09 Europe/Berlin] USERCONTROLLER::CONSTRUCT -> User: prueba
+[06-Jun-2023 19:36:12 Europe/Berlin] ==================================================
+[06-Jun-2023 19:36:12 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:36:12 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:36:12 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:36:12 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:36:12 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:36:12 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:36:14 Europe/Berlin] ==================================================
+[06-Jun-2023 19:36:14 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:36:14 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:36:14 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> prueba
+[06-Jun-2023 19:36:14 Europe/Berlin] sessionController::validateSession(): username:prueba - role: user
+[06-Jun-2023 19:36:14 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:36:14 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Logout, url => Logout
+[06-Jun-2023 19:36:14 Europe/Berlin] SessionController::validateSession() => no autorizado, redirige al main de cada rol
+[06-Jun-2023 19:36:14 Europe/Berlin] SessionController::redirectDefaultSiteByRole->url = /User
+[06-Jun-2023 19:36:14 Europe/Berlin] USERCONTROLLER::CONSTRUCT -> Inicio de logout
+[06-Jun-2023 19:36:14 Europe/Berlin] ==================================================
+[06-Jun-2023 19:36:14 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:36:14 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:36:14 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:36:14 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:36:14 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:36:14 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:36:14 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\laragon\www\NeoGamingV2\classes\session.php on line 20
+[06-Jun-2023 19:36:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 165
+[06-Jun-2023 19:36:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 166
+[06-Jun-2023 19:36:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 167
+[06-Jun-2023 19:36:14 Europe/Berlin] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\NeoGamingV2\Model\User.php on line 48
+[06-Jun-2023 19:36:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 168
+[06-Jun-2023 19:36:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 169
+[06-Jun-2023 19:36:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 170
+[06-Jun-2023 19:36:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 171
+[06-Jun-2023 19:36:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\NeoGamingV2\Model\User.php on line 172
+[06-Jun-2023 19:39:18 Europe/Berlin] ==================================================
+[06-Jun-2023 19:39:18 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:39:18 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:39:18 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:39:18 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:39:18 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:39:19 Europe/Berlin] ==================================================
+[06-Jun-2023 19:39:19 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:39:19 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:39:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Signup, url => Signup
+[06-Jun-2023 19:39:19 Europe/Berlin] SIGNUP::CONSTRUCT -> INICIO DE SINGUP
+[06-Jun-2023 19:39:19 Europe/Berlin] SIGNUP::render -> Carga el index de signup
+[06-Jun-2023 19:40:09 Europe/Berlin] ==================================================
+[06-Jun-2023 19:40:09 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:40:09 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:40:09 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[06-Jun-2023 19:40:09 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:40:09 Europe/Berlin] LOGIN::render -> Carga el index de login
+[06-Jun-2023 19:40:14 Europe/Berlin] ==================================================
+[06-Jun-2023 19:40:14 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:40:14 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:40:14 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[06-Jun-2023 19:40:14 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[06-Jun-2023 19:40:14 Europe/Berlin] ExistPOST: Existen parámetros
+[06-Jun-2023 19:40:14 Europe/Berlin] nuevo2 aqui la contra
+[06-Jun-2023 19:40:14 Europe/Berlin] Inicio de login  nuevo2 nuevo2
+[06-Jun-2023 19:40:14 Europe/Berlin] 1 true o false
+[06-Jun-2023 19:40:14 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS = nuevo2
+[06-Jun-2023 19:40:14 Europe/Berlin] ==================================================
+[06-Jun-2023 19:40:14 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:40:14 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:40:14 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:40:14 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:40:14 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:40:14 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:40:15 Europe/Berlin] ==================================================
+[06-Jun-2023 19:40:15 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:40:15 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:40:16 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> nuevo2
+[06-Jun-2023 19:40:16 Europe/Berlin] sessionController::validateSession(): username:nuevo2 - role: admin
+[06-Jun-2023 19:40:16 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /User/info, url => User
+[06-Jun-2023 19:40:16 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /User/info, url => User
+[06-Jun-2023 19:40:16 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:40:16 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> nuevo2
+[06-Jun-2023 19:40:16 Europe/Berlin] USERCONTROLLER::CONSTRUCT -> User: nuevo2
+[06-Jun-2023 19:40:43 Europe/Berlin] ==================================================
+[06-Jun-2023 19:40:43 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:40:43 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:40:43 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> nuevo2
+[06-Jun-2023 19:40:43 Europe/Berlin] sessionController::validateSession(): username:nuevo2 - role: admin
+[06-Jun-2023 19:40:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /User/updateFoto, url => User
+[06-Jun-2023 19:40:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /User/updateFoto, url => User
+[06-Jun-2023 19:40:43 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:40:43 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> nuevo2
+[06-Jun-2023 19:40:43 Europe/Berlin] USERCONTROLLER::CONSTRUCT -> User: nuevo2
+[06-Jun-2023 19:40:43 Europe/Berlin] ==================================================
+[06-Jun-2023 19:40:43 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:40:43 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:40:43 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> nuevo2
+[06-Jun-2023 19:40:43 Europe/Berlin] sessionController::validateSession(): username:nuevo2 - role: admin
+[06-Jun-2023 19:40:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /User/info, url => User
+[06-Jun-2023 19:40:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /User/info, url => User
+[06-Jun-2023 19:40:43 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:40:43 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> nuevo2
+[06-Jun-2023 19:40:43 Europe/Berlin] USERCONTROLLER::CONSTRUCT -> User: nuevo2
+[06-Jun-2023 19:40:45 Europe/Berlin] ==================================================
+[06-Jun-2023 19:40:45 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:40:45 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 19:40:45 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:40:46 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> nuevo2
+[06-Jun-2023 19:40:46 Europe/Berlin] sessionController::validateSession(): username:nuevo2 - role: admin
+[06-Jun-2023 19:40:46 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:40:46 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:40:46 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:40:46 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> nuevo2
+[06-Jun-2023 19:40:46 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 19:40:46 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 19:40:46 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:40:46 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> nuevo2
+[06-Jun-2023 19:40:46 Europe/Berlin] sessionController::validateSession(): username:nuevo2 - role: admin
+[06-Jun-2023 19:40:46 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:40:46 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:40:46 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:40:46 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> nuevo2
+[06-Jun-2023 19:40:47 Europe/Berlin] ==================================================
+[06-Jun-2023 19:40:47 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:40:47 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:40:47 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:40:47 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:40:47 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:40:47 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:40:49 Europe/Berlin] ==================================================
+[06-Jun-2023 19:40:49 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:40:49 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[06-Jun-2023 19:40:49 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:40:49 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> nuevo2
+[06-Jun-2023 19:40:49 Europe/Berlin] sessionController::validateSession(): username:nuevo2 - role: admin
+[06-Jun-2023 19:40:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:40:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:40:49 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:40:49 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> nuevo2
+[06-Jun-2023 19:40:49 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[06-Jun-2023 19:40:49 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[06-Jun-2023 19:40:49 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[06-Jun-2023 19:40:49 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> nuevo2
+[06-Jun-2023 19:40:49 Europe/Berlin] sessionController::validateSession(): username:nuevo2 - role: admin
+[06-Jun-2023 19:40:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:40:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[06-Jun-2023 19:40:49 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Jun-2023 19:40:49 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> nuevo2
+[06-Jun-2023 19:40:52 Europe/Berlin] ==================================================
+[06-Jun-2023 19:40:52 Europe/Berlin] Inicio de aplicacion
+[06-Jun-2023 19:40:52 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[06-Jun-2023 19:40:52 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:40:52 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:40:52 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[06-Jun-2023 19:40:52 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
