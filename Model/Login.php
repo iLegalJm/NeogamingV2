@@ -23,8 +23,8 @@ class LoginModel extends Model
                 //? compara la contraseña con la que esta con el hash en la bd
                 if (password_verify($password, $user->getPassword())) {
                     error_log('LOGINMODEL::LOGIN()->SUCCESS');
-                }
-                return $user;
+                    return $user;
+                }           
             } else {
                 error_log('LOGINMODEL::LOGIN()->password no es igual');
                 return null;

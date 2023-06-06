@@ -4,10 +4,10 @@ require_once 'classes/session.php';
 
 class SessionController extends Controller
 {
+    private $session;
     private $userSesion;
     private $username;
     private $userId;
-    private $session;
     private $sites;
     private $defaultSites;
     private $user;
