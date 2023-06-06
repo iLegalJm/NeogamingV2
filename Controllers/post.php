@@ -12,9 +12,21 @@ class Post extends Controller
     public function __construct()
     {
         parent::__construct();
+        // $this->view->render("Post/index", [
+        //     'user' => $this->user,
+        //     'posts' => $this->model->getAll()
+        // ]);
     }
 
     public function render()
+    {
+        $this->view->render("Post/index", [
+            'user' => $this->user,
+            'posts' => $this->model->getAll()
+        ]);
+    }
+
+    public function renderAdmin()
     {
         $this->view->render("Admin/Post/index", [
             'user' => $this->user,
@@ -24,15 +36,18 @@ class Post extends Controller
 
     public function show($id)
     {
-        $this->view->render("Post/show", ["post" => $id]);
+        require_once 'Model/JoinPostGeneroPlataforma.php';
         $joinModel = new JoinPostGeneroPlataformaModel();
-        $posts = $joinModel->getAll($id);
-
-        $res = [];
-
-        foreach ($posts as $post) {
-            // array_push($res, )
-        }
+        $post = $this->model->get($id);
+        $generoModel = new GeneroModel();
+        $plataformaModel = new PlataformaModel();
+        $generos = $generoModel->getGeneroHasPost($id);
+        $plataformas = $plataformaModel->getPlataformasHasPost($id);
+        $this->view->render("Post/show", [
+            "post" => $post,
+            "generos" => $generos,
+            "plataformas" => $plataformas
+        ]);
     }
 
     public function create()

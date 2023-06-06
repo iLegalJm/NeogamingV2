@@ -57,7 +57,7 @@ class App
                         $controller = new Errores();
                     }
                 } else {
-                    $controller->render();
+                    $controller->renderAdmin();
                 }
             } else {
                 $archivoController = 'Controllers/' . $uriParts[0] . '.php';

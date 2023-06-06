@@ -7,7 +7,8 @@ class JoinPostGeneroPlataformaModel extends Model
     private $lanzador;
     private $trailer;
     private $lanzamiento;
-    private $clasificacion;
+    private $descripcion;
+    private $foto;
     private $userId;
     private $create_at;
     private $update_at;
@@ -76,15 +77,23 @@ class JoinPostGeneroPlataformaModel extends Model
         return $this->lanzamiento;
     }
 
-    public function setClasificacion($clasificacion)
+    public function setDescripcion($descripcion)
     {
-        $this->clasificacion = $clasificacion;
+        $this->descripcion = $descripcion;
     }
-    public function getClasificacion()
+    public function getDescripcion()
     {
-        return $this->clasificacion;
+        return $this->descripcion;
     }
 
+    public function setFoto($foto)
+    {
+        $this->foto = $foto;
+    }
+    public function getFoto()
+    {
+        return $this->foto;
+    }
     public function setUserId($userId)
     {
         $this->userId = $userId;
@@ -148,7 +157,7 @@ class JoinPostGeneroPlataformaModel extends Model
         return $this->plataformaNombre;
     }
 
-    public function getAll($postId)
+    public function get($postId)
     {
         $items = [];
 
@@ -162,6 +171,36 @@ class JoinPostGeneroPlataformaModel extends Model
 
             $query->execute([
                 "postId" => $postId
+            ]);
+
+            while ($p = $query->fetch(PDO::FETCH_ASSOC)) {
+                $item = new JoinPostGeneroPlataformaModel();
+                $item->from($p);
+                array_push($items, $item);
+            }
+
+           
+            return $items;
+        } catch (PDOException $e) {
+            error_log('JOINPOSTGENEROPLATAFORMA::getAll()->PDOEXCEPTION ' . $e);
+            return null;
+        }
+    }
+
+    public function getAll($postId)
+    {
+        $items = [];
+
+        try {
+            $query = $this->prepare("SELECT p.*, pg.genero_id, g.nombre as nombreGenero, pp.plataformas_id, pl.nombre as nombrePlataforma from post p 
+            inner join post_has_genero pg on pg.post_id = p.id
+            inner join post_has_plataformas pp on pp.post_id = p.id
+            inner join genero g on g.id = pg.genero_id
+            inner join plataformas pl on pl.id = pp.plataformas_id
+            where p.id = :postId");
+
+            $query->execute([
+                "postId" => $postId[0]
             ]);
 
             while ($p = $query->fetch(PDO::FETCH_ASSOC)) {
@@ -186,7 +225,8 @@ class JoinPostGeneroPlataformaModel extends Model
         $this->lanzador = $array['lanzador'];
         $this->trailer = $array['trailer'];
         $this->lanzamiento = $array['lanzamiento'];
-        $this->clasificacion = $array['clasificacion'];
+        $this->descripcion = $array['descripcion'];
+        $this->foto = $array['foto'];
         $this->create_at = $array['create_at'];
         $this->update_at = $array['update_at'];
         $this->generoId = $array['genero_id'];
@@ -206,7 +246,8 @@ class JoinPostGeneroPlataformaModel extends Model
         $array['lanzador'] = $this->lanzador;
         $array['trailer'] = $this->trailer;
         $array['lanzamiento'] = $this->lanzamiento;
-        $array['clasificacion'] = $this->clasificacion;
+        $array['descripcion'] = $this->descripcion;
+        $array['foto'] = $this->foto;
         $array['create_at'] = $this->create_at;
         $array['update_at'] = $this->update_at;
         $array['generoId'] = $this->generoId;

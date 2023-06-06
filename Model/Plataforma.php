@@ -27,7 +27,7 @@ class PlataformaModel extends Model implements iModel
     }
     public function getNombre()
     {
-        return $this->id;
+        return $this->nombre;
     }
 
     public function create()
@@ -76,7 +76,7 @@ class PlataformaModel extends Model implements iModel
         try {
             $query = $this->prepare('SELECT * FROM plataforma WHERE id = :id');
             $query->execute([
-                'id' => $id
+                'id' => $id[0]
             ]);
             $genero = $query->fetch(PDO::FETCH_ASSOC);
             $this->from($genero);
@@ -85,6 +85,32 @@ class PlataformaModel extends Model implements iModel
             return $this;
         } catch (PDOException $e) {
             error_log('PLATAFORMAMODEL::get()->PDOEXCEPTION ' . $e);
+            return false;
+        }
+    }
+
+    public function getPlataformasHasPost($id)
+    {
+        $items = [];
+        try {
+            $query = $this->prepare('select pl.id, pl.nombre from plataformas pl
+            inner join post_has_plataformas pp on pp.plataformas_id =  pl.id
+            inner join post p on p.id = pp.post_id
+            where p.id = :id');
+            $query->execute([
+                'id' => $id[0]
+            ]);
+                    
+            while ($p = $query->fetch(PDO::FETCH_ASSOC)) {
+                $item = new PlataformaModel();
+                $item->from($p);
+                array_push($items, $item);
+            }
+
+            // ? RETORNO EL OBJETO DE NUESTRA CLASE
+            return $items;
+        } catch (PDOException $e) {
+            error_log('POSTMODEL::get()->PDOEXCEPTION ' . $e);
             return false;
         }
     }

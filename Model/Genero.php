@@ -22,18 +22,17 @@ class GeneroModel extends Model implements iModel
     }
     public function setNombre($nombre)
     {
-        $this->id = $nombre;
+        $this->nombre = $nombre;
     }
     public function getNombre()
     {
-        return $this->id;
+        return $this->nombre;
     }
 
     public function create()
     {
         try {
             $query = $this->prepare('INSERT INTO genero (nombre) VALUES(:nombre)');
-
             $query->execute([
                 'nombre' => $this->nombre
             ]);
@@ -75,7 +74,7 @@ class GeneroModel extends Model implements iModel
         try {
             $query = $this->prepare('SELECT * FROM genero WHERE id = :id');
             $query->execute([
-                'id' => $id
+                'id' => $id[0]
             ]);
             $genero = $query->fetch(PDO::FETCH_ASSOC);
             $this->from($genero);
@@ -84,6 +83,32 @@ class GeneroModel extends Model implements iModel
             return $this;
         } catch (PDOException $e) {
             error_log('GENEROMODEL::get()->PDOEXCEPTION ' . $e);
+            return false;
+        }
+    }
+
+    public function getGeneroHasPost($id)
+    {
+        $items = [];
+        try {
+            $query = $this->prepare('SELECT g.id, g.nombre from genero g 
+            inner join post_has_genero pg on pg.genero_id =  g.id
+            inner join post p on p.id = pg.post_id
+            where p.id = :id');
+            $query->execute([
+                'id' => $id[0]
+            ]);
+                    
+            while ($p = $query->fetch(PDO::FETCH_ASSOC)) {
+                $item = new GeneroModel();
+                $item->from($p);
+                array_push($items, $item);
+            }
+
+            // ? RETORNO EL OBJETO DE NUESTRA CLASE
+            return $items;
+        } catch (PDOException $e) {
+            error_log('POSTMODEL::get()->PDOEXCEPTION ' . $e);
             return false;
         }
     }
@@ -127,7 +152,7 @@ class GeneroModel extends Model implements iModel
     public function exists($nombre)
     {
         try {
-            $query = $this->prepare('SELECT name FROM genero WHERE nombre = :nombre');
+            $query = $this->prepare('SELECT nombre FROM genero WHERE nombre = :nombre');
 
             $query->execute([
                 'nombre' => $nombre

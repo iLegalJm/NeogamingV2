@@ -1,3 +1,9 @@
+<!-- <?php
+foreach ($posts as $post){
+  print($post->getTitulo());
+}
+?> -->
+
 <section class="filters">
   <div class="filters_search">
     <form>
@@ -48,8 +54,13 @@
   <section class="tarjetas">
     <?php foreach ($posts as $post) { ?>
     <article class="tarjeta">
-      <a href="#">
-        <img src="<?= constant('URL')?>/public/img/posts/<?=$post->getFoto()?>" alt="re4" width="520px" height="320px" />
+      <a href="<?= constant('URL')?>/Post/show/<?=$post->getId()?>">
+        <img
+          src="<?= constant('URL')?>/public/img/posts/<?=$post->getFoto()?>"
+          alt="re4"
+          width="520px"
+          height="320px"
+        />
         <h2><?= $post->getTitulo() ?></h2>
         <p class="fecha">
           Fecha de lanzamiento:
@@ -60,32 +71,7 @@
     </article>
     <?php } ?>
     <!-- ! CERRANDO EL FOREACH -->
-    <article class="tarjeta">
-      <a href="<?= constant('URL')?>/Post/show">
-        <img src="assets/re4.png" alt="re4" width="520px" height="320px" />
-        <h2>Resident Evil 4</h2>
-        <p class="fecha">Fecha de lanzamiento: 23 de Marzo del 2023</p>
-        <p class="descripcion">
-          Revive la pesadilla que revolucionó el género del survival horror.
-        </p>
-      </a>
-    </article>
-    <article class="tarjeta">
-      <a href="./Components/VideoGameInfo/deadSpace.html">
-        <img
-          src="assets/dead-space-remake.png"
-          alt="re4"
-          width="520px"
-          height="320px"
-        />
-        <h2>Dead Space Remake</h2>
-        <p class="fecha">Fecha de lanzamiento: 27 de enero del 2023</p>
-        <p class="descripcion">
-          Sumergete en terror y acción de nueva generación
-        </p>
-      </a>
-    </article>
-    <!-- Continuar con el resto de las tarjetas -->
+    <!--!  Continuar con el resto de las tarjetas -->
   </section>
   <section id="nosotros">
     <h2>Sobre <span>nosotros</span></h2>

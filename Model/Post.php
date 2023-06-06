@@ -1,7 +1,6 @@
 <?php
 class PostModel extends Model implements iModel
 {
-
     private $id;
     private $titulo;
     private $desarrollador;
@@ -183,7 +182,7 @@ class PostModel extends Model implements iModel
         try {
             $query = $this->prepare('SELECT * FROM post WHERE id = :id');
             $query->execute([
-                'id' => $id
+                'id' => $id[0]
             ]);
             $post = $query->fetch(PDO::FETCH_ASSOC);
             $this->from($post);

@@ -1,0 +1,236 @@
+/* @import url("../../styles/style.css"); */
+/* Estilo del artículo de Resident Evil 4 */
+
+:root {
+  --header: #0a1929;
+  --card-title: #fff;
+  --card-date: #bd9e59;
+  --card-preview: #aaabca;
+  --component-bg: #141136;
+  --component-title: #333;
+  --component-text-general: #aaabca;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--component-bg);
+  color: white;
+}
+
+.header {
+  background-color: var(--header);
+  color: #fff;
+  min-height: 60px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header__nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.header__nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.header span {
+  color: var(--card-date);
+}
+
+article {
+  width: 100%;
+}
+/* * STYLES ARTICLE */
+/* ! ARTICLE SECCION IMAGE */
+article .article__image {
+  width: 100%;
+  height: 100vh;
+  /* background: url("../../assets/dead-space-remake.png") center center no-repeat; */
+  object-fit: cover;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+article .article__title {
+  font-size: 7rem;
+  text-transform: uppercase;
+  /* font-weight: bold; */
+  text-shadow: 5px 5px 1px var(--card-date);
+}
+
+article .article__plataforms img {
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  transition: background-color .3s linear;
+}
+
+article .article__plataforms img:hover {
+  background-color: var(--component-bg);
+}
+
+article .article__descripcion {
+  max-width: 800px;
+  margin-bottom: 2rem;
+  text-align: center;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+/* ! ARTICLE CONTENT */
+article .article__content .article__content {
+  width: 100%;
+}
+
+.article__content-title {
+  text-align: center;
+  text-transform: uppercase;
+  text-indent: 0;
+  color: var(--card-title);
+  margin: 1.5rem 0;
+}
+
+.article__content .article__content-especificaciones {
+  text-indent: 3rem;
+  color: var(--component-text-general);
+  line-height: 40px;
+}
+
+.article__details-item{
+  list-style: none;
+}
+
+.article__content .article__content-requiremnts {
+  color: var(--component-text-general);
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.article__requirements-table {
+  width: 100%;
+  border: 1px solid var(--card-date);
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  table-layout: fixed;
+  cursor: default;
+}
+
+.article__requirements-table th,
+.article__requirements-table td {
+  font-size: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.article__requirements-table thead th {
+  text-transform: uppercase;
+  background-color: var(--card-date);
+}
+
+.article__content .article__content-trailer {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+
+.article__content-trailer iframe {
+  width: 800px;
+  height: 400px;
+}
+
+/* ! MEDIA QUERIES */
+@media screen and (max-width: 600px) {
+  article .article__title {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3.5px 3.5px 1px var(--card-date);
+  }
+
+  article .article__plataforms img {
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    width: 5rem;
+  }
+
+  article .article__descripcion {
+    margin: 0 2rem 2rem 2rem;
+    line-height: 22px;
+  }
+
+  /* ! CONTENIDO DEL ARTICULO */
+  .article__content .article__content-requiremnts {
+    color: var(--card-preview);
+    width: 90%;
+  }
+
+  .article__requirements-table {
+    border: 0px;
+  }
+
+  .article__requirements-table thead {
+    display: none;
+  }
+
+  .article__requirements-table tr {
+    margin-bottom: 0.5rem;
+    border-bottom: 0.25rem solid var(--card-date);
+    display: block;
+  }
+
+  .article__requirements-table th,
+  .article__requirements-table td {
+    font-size: 0.8rem;
+  }
+
+  .article__requirements-table td {
+    display: block;
+    border-bottom: 1px solid var(--card-date);
+    text-align: right;
+  }
+
+  .article__requirements-table td:last-child {
+    border-bottom: 0px;
+  }
+
+  .article__requirements-table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    text-transform: uppercase;
+    float: left;
+  }
+
+  .article__content-trailer iframe {
+    width: 90%;
+    height: 400px;
+  }
+}

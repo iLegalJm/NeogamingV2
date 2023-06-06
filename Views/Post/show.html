@@ -1,44 +1,51 @@
+<?php
+  $img = constant('URL')."/public/img/posts/".$post->getFoto();
+?>
+
 <article class="article">
-  <section class="article__image">
+  <section class="article__image" style="background: url('<?=$img?>') center center;">
     <div class="article__plataforms">
-      <img src="../../assets/Component/playstation-4.svg" alt="" />
-      <img src="../../assets/Component/ps5.svg" alt="" />
-      <img src="../../assets/Component/xbox-2.svg" alt="" />
-      <img src="../../assets/Component/pc.svg" alt="" />
+      <img src="<?=constant('URL')?>/public/icons/post/playstation-4.svg" alt="" />
+      <img src="<?=constant('URL')?>/public/icons/post/ps5.svg" alt="" />
+      <img src="<?=constant('URL')?>/public/icons/post/xbox-2.svg" alt="" />
+      <img src="<?=constant('URL')?>/public/icons/post/pc.svg" alt="" />
     </div>
-    <h2 class="article__title">Resident Evil 4<?= $post[0]?></h2>
+    <h2 class="article__title"><?= $post->getTitulo()?></h2>
     <div class="article__descripcion">
-      Resident Evil 4 es una versión actualizada del juego original de 2005, uno
-      de los títulos más populares y aclamados de la serie. En este juego, los
-      jugadores asumen el papel del agente especial Leon S. Kennedy mientras
-      investiga una misteriosa aldea en Europa que está infectada por un nuevo
-      tipo de virus. Con una jugabilidad mejorada, gráficos mejorados y nuevas
-      características, Resident Evil 4 promete ser una experiencia emocionante y
-      aterradora para los fanáticos de la serie.
+      <?= $post->getDescripcion()?>
     </div>
   </section>
   <section class="article__content">
     <div class="article__content-especificaciones">
       <h3 class="article__content-title">Especificaciones</h3>
       <p class="article__developer">
-        <strong>Desarrollado por:</strong> Capcom.
+        <strong>Desarrollado por:</strong>
+        <?= $post->getDesarrolllador()?>
       </p>
       <p class="article__publisher">
-        <strong>Desarrollado por:</strong> Capcom.
+        <strong>Desarrollado por:</strong>
+        <?= $post->getLanzador()?>
       </p>
       <p class="article__trailer-date">
-        <strong>Fecha del trailer:</strong> 20/10/2022.
+        <strong>Fecha del trailer:</strong>
+        <?= $post->getTrailer()?>
       </p>
       <p class="article__release-date">
-        <strong>Fecha de lanzamiento:</strong> 23 de Marzo del 2023.
+        <strong>Fecha de lanzamiento:</strong>
+        <?= $post->getLanzamiento()?>
       </p>
       <ul class="article__details-list">
         <li class="article__details-item">
-          <strong>Género:</strong> Survival horror, Acción.
+          <strong>Género:</strong>
+          <?php
+            foreach($generos as $genero){
+              print($genero->getNombre(). " "); } ?>
         </li>
         <li class="article__details-item">
-          <strong>Plataformas:</strong> PlayStation 4, PlayStation 5, Xbox
-          Series X|S, PC.
+          <strong>Plataformas:</strong>
+          <?php
+            foreach($plataformas as $plataforma){
+              print($plataforma->getNombre()); } ?>
         </li>
         <li class="article__details-item">
           <strong>Clasificación:</strong> ESBR Mature 17+.
