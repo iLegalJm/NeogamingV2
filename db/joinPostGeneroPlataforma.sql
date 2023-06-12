@@ -17,13 +17,33 @@ inner join post_has_plataformas pp on pp.plataformas_id =  pl.id
 inner join post p on p.id = pp.post_id
 where p.id = 14; 
 
-select g.id, g.nombre from post p
-inner join post_has_genero pg on pg.post_id = p.id
-inner join genero g on g.id = pg.genero_id;
+select p.* from post p
+	inner join post_has_genero pg on pg.post_id = p.id
+	inner join genero g on g.id = pg.genero_id;
 
 select pg.post_id, g.nombre as generoNombre, pg.genero_id from post_has_genero pg
 inner join genero g on g.id = pg.genero_id;
 
-select * from post where titulo like ("%%") or month(lanzamiento) = 06;
+select * from post where month(lanzamiento) = 05 and titulo like ("%a%");
+
+select p.* from post p
+	inner join post_has_genero pg on pg.post_id = p.id
+	inner join genero g on g.id = pg.genero_id
+    where g.id = 13;
+
+select p.* from post p
+	inner join post_has_genero pg on pg.post_id = p.id
+	inner join genero g on g.id = pg.genero_id
+    where g.id = 13 and p.titulo like ("%a%");
+    
+select p.* from post p
+	inner join post_has_genero pg on pg.post_id = p.id
+	inner join genero g on g.id = pg.genero_id
+    where g.id = 13 and month(p.lanzamiento) = 06;
+    
+select p.* from post p
+	inner join post_has_genero pg on pg.post_id = p.id
+	inner join genero g on g.id = pg.genero_id
+    where g.id = 13 and p.titulo like ("%a%") and month(p.lanzamiento) = 06;
  
  

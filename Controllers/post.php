@@ -274,11 +274,33 @@ class Post extends Controller
 
     function getPostsJSON()
     {
-        $search_criteria = $this->getPost('searchByTitulo');
+        $searchByTitulo = $this->getPost('searchByTitulo');
+        $searchByMes = $this->getPost('searchByMes');
+        $searchByGenero = $this->getPost('searchByGenero');
         header('Content-Type: aplication/json');
+        error_log('search: ' . $searchByMes);
+        error_log('search: ' . $searchByTitulo);
+        error_log('search: ' . $searchByGenero);
         $res = [];
         $postModel = new PostModel();
-        $posts = $postModel->getSearch($search_criteria);
+
+        if ($searchByMes == '' && $searchByTitulo == '' && $searchByGenero == '') {
+            $posts = $postModel->getSearch($searchByTitulo, null, null, 'title');
+        } else if ($searchByTitulo != '' && $searchByMes == '' && $searchByGenero == '') {
+            $posts = $postModel->getSearch($searchByTitulo, null, null, 'title');
+        } else if ($searchByMes != '' && $searchByTitulo == '' && $searchByGenero == '') {
+            $posts = $postModel->getSearch($searchByMes, null, null, 'month');
+        } else if ($searchByGenero != '' && $searchByTitulo == '' && $searchByMes == '') {
+            $posts = $postModel->getSearch($searchByGenero, null, null, 'genero');
+        } else if ($searchByMes != '' && $searchByTitulo != '' && $searchByGenero == '') {
+            $posts = $postModel->getSearch($searchByTitulo, $searchByMes, null, 'title_month');
+        } else if ($searchByMes == '' && $searchByTitulo != '' && $searchByGenero != '') {
+            $posts = $postModel->getSearch($searchByTitulo, $searchByGenero, null, 'title_genero');
+        } else if ($searchByMes != '' && $searchByTitulo == '' && $searchByGenero != '') {
+            $posts = $postModel->getSearch($searchByGenero, $searchByMes, null, 'genero_mes');
+        } else if ($searchByMes != '' && $searchByTitulo != '' && $searchByGenero != '') {
+            $posts = $postModel->getSearch($searchByGenero, $searchByMes, $searchByTitulo, 'genero_mes_title');
+        }
 
         // ? SI EXISTE EL VALOR DE DATA DENTRO DEL ARRAY POSTS RES SERA FALSE
         if ($posts['data'] !== false) {

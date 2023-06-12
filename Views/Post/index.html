@@ -6,17 +6,15 @@ foreach ($posts as $post){
 
 <section class="filters">
   <div class="filters_search">
-    <form>
-      <label for="buscar">Buscar videojuego:</label>
-      <input type="text" class="buscar" id="buscar" name="buscar" />
-    </form>
+    <label for="buscar">Buscar videojuego:</label>
+    <input type="text" class="buscar" id="buscar" name="buscar" />
   </div>
   <div class="form-container">
     <form class="filters-form">
       <div class="selects-container">
         <div class="select-container">
           <label for="mes">Filtrar por mes:</label>
-          <select class="select" id="mes" name="mes">
+          <select class="select" id="buscarMes" name="mes">
             <option value="">Todos</option>
             <option value="01">Enero</option>
             <option value="02">Febrero</option>
@@ -35,11 +33,13 @@ foreach ($posts as $post){
         </div>
         <div class="select-container">
           <label for="genero">Filtrar por género:</label>
-          <select class="select" id="genero" name="genero">
+          <select class="select" id="buscarGenero" name="genero">
             <option value="">Todos</option>
             <?php foreach($generos as $genero){ ?>
-              <option value="<?=$genero->getId()?>"><?=$genero->getNombre()?></option>
-            <?php } ?>      
+            <option value="<?=$genero->getId()?>">
+              <?=$genero->getNombre()?>
+            </option>
+            <?php } ?>
             <!-- Continuar con el resto de los géneros -->
           </select>
         </div>
@@ -60,9 +60,7 @@ foreach ($posts as $post){
   <!-- crear componentes reutilizables -->
   <!-- <section class="tarjetas"> -->
   <section class="tarjetas" id="article-results">
-    <article class="tarjeta">
-      
-    </article>
+    <article class="tarjeta"></article>
   </section>
   <section id="nosotros">
     <h2>Sobre <span>nosotros</span></h2>

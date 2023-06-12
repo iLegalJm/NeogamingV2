@@ -1,19 +1,38 @@
 // ! CON ESTO EL CODIGO SE EJECUTARA CUANDO EL CONTENIDO ESTE CARGADO
 window.addEventListener('DOMContentLoaded', ()=>{
-    const search = document.querySelector("#buscar");
     const articleContainer = document.querySelector("#article-results");
+
+    // ! CAPTURANDO LOS BUSCADORES
+    const search = document.querySelector("#buscar");
+    const searchMes = document.querySelector('#buscarMes');
+    const searchGenero = document.querySelector('#buscarGenero');
     // const resultContainer = doc
     let searchByTitulo = '';
-    console.log(search);
+    let searchByMes = '';
+    let searchByGenero = '';
     
-    if (search) {
+    if (search || searchMes) {
         // ! EVENTO QUE SE EJECUTARA CUANDO EL VALOR DE INPUT CAMBIE
         search.addEventListener('input', event => {
             // ! EVENT, CAPTURA EL EVENTO
             // ! TARGET, REFERENCIA AL ELEMENTO QUE ESTA DISPARANDO EL EVENTO
             searchByTitulo = event.target.value;
+            searchByMes = searchMes.value;
             showResults();
         } ); 
+
+        searchMes.addEventListener('input', event => {
+            searchByMes = event.target.value;
+            searchByTitulo = search.value;
+            showResults();
+        });
+
+        searchGenero.addEventListener('input', event => {
+            searchByGenero = event.target.value;
+            searchByTitulo = search.value;
+            searchByMes = searchMes.value;
+            showResults();
+        });
     }
 
     // ! PETICION AL SERVIDOR  CON FETCH e.e
@@ -22,6 +41,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
         // * CREO MI FORM DATA, Y CON APPEND LE AGREGO ALGO ASI COMO UN INPUT CON EL NAME(PARAMETRO 1) Y SU VALUE(PARAMETRO 2)
         let searchData = new FormData()
         searchData.append('searchByTitulo', searchByTitulo);
+        searchData.append('searchByMes', searchByMes);
+        searchData.append('searchByGenero', searchByGenero);
 
         try {
             // ! LA PETICION 
@@ -70,7 +91,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
                     articleContainer.appendChild(articlePost);
                 }
                 
-                console.log(dataResults);
+                // console.log(dataResults);
             }
         })
     }

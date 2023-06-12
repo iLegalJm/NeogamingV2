@@ -195,11 +195,38 @@ class PostModel extends Model implements iModel
             return false;
         }
     }
-    public function getSearch($search)
+    public function getSearch($search, $search2, $search3, $by)
     {
         $items = [];
         try {
-            $query = $this->query("SELECT * FROM post where titulo like '%" . $search . "%'");
+
+            if ($by == 'title') {
+                $query = $this->query("SELECT * FROM post where titulo like '%" . $search . "%'");
+            } else if ($by == 'month') {
+                $query = $this->query("SELECT * from post where month(lanzamiento) = $search");
+            } else if ($by == 'genero') {
+                $query = $this->query("SELECT p.* from post p
+                inner join post_has_genero pg on pg.post_id = p.id
+                inner join genero g on g.id = pg.genero_id
+                where g.id = $search");
+            } else if ($by == 'title_month') {
+                $query = $this->query("SELECT * FROM post where month(lanzamiento) = $search2 AND titulo like '%" . $search . "%'");
+            } else if ($by == 'title_genero') {
+                $query = $this->query("SELECT p.* from post p
+                inner join post_has_genero pg on pg.post_id = p.id
+                inner join genero g on g.id = pg.genero_id
+                where g.id = $search2 and p.titulo like '%" . $search . "%'");
+            } else if ($by == 'genero_mes') {
+                $query = $this->query("SELECT p.* from post p
+                inner join post_has_genero pg on pg.post_id = p.id
+                inner join genero g on g.id = pg.genero_id
+                where g.id = $search and month(p.lanzamiento) = $search2");
+            } else if ($by == 'genero_mes_title') {
+                $query = $this->query("SELECT p.* from post p
+                inner join post_has_genero pg on pg.post_id = p.id
+                inner join genero g on g.id = pg.genero_id
+                where g.id = $search and month(p.lanzamiento) = $search2 and p.titulo like '%" . $search3 . "%'");
+            }
 
             if ($query->rowCount()) {
                 // ? PARA QUE ME DEVUELVA UN OBJETO
