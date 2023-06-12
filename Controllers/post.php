@@ -21,9 +21,12 @@ class Post extends Controller
 
     public function render()
     {
+        $generoModel = new GeneroModel();
+        $generos = $generoModel->getAll();
         $this->view->render("Post/index", [
             'user' => $this->user,
-            'posts' => $this->model->getAll()
+            // 'posts' => $this->model->getAll()
+            'generos' => $generos
         ]);
     }
 
@@ -266,6 +269,28 @@ class Post extends Controller
             $this->redirect('Admin/Post', []);
         } else {
             $this->redirect('Admin/Post', []);
+        }
+    }
+
+    function getPostsJSON()
+    {
+        $search_criteria = $this->getPost('searchByTitulo');
+        header('Content-Type: aplication/json');
+        $res = [];
+        $postModel = new PostModel();
+        $posts = $postModel->getSearch($search_criteria);
+
+        // ? SI EXISTE EL VALOR DE DATA DENTRO DEL ARRAY POSTS RES SERA FALSE
+        if ($posts['data'] !== false) {
+            foreach ($posts as $post) {
+                array_push($res, $post->toArray());
+            }
+
+            // * DECODIFICARA MI ARREGLO EN UN ARREGLO JSON
+            echo json_encode($res);
+        } else {
+            $resp = $posts;
+            echo json_encode($resp);
         }
     }
 }

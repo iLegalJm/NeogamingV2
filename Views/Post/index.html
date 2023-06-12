@@ -22,6 +22,14 @@ foreach ($posts as $post){
             <option value="02">Febrero</option>
             <option value="03">Marzo</option>
             <option value="04">Abril</option>
+            <option value="05">Mayo</option>
+            <option value="06">Junio</option>
+            <option value="07">Julio</option>
+            <option value="08">Agosto</option>
+            <option value="09">Setiembre</option>
+            <option value="10">Octubre</option>
+            <option value="11">Noviembre</option>
+            <option value="12">Diciembre</option>
             <!-- Continuar con el resto de los meses -->
           </select>
         </div>
@@ -29,10 +37,9 @@ foreach ($posts as $post){
           <label for="genero">Filtrar por género:</label>
           <select class="select" id="genero" name="genero">
             <option value="">Todos</option>
-            <option value="accion">Acción</option>
-            <option value="aventura">Aventura</option>
-            <option value="deportes">Deportes</option>
-            <option value="estrategia">Estrategia</option>
+            <?php foreach($generos as $genero){ ?>
+              <option value="<?=$genero->getId()?>"><?=$genero->getNombre()?></option>
+            <?php } ?>      
             <!-- Continuar con el resto de los géneros -->
           </select>
         </div>
@@ -51,27 +58,11 @@ foreach ($posts as $post){
 </section>
 <main>
   <!-- crear componentes reutilizables -->
-  <section class="tarjetas">
-    <?php foreach ($posts as $post) { ?>
+  <!-- <section class="tarjetas"> -->
+  <section class="tarjetas" id="article-results">
     <article class="tarjeta">
-      <a href="<?= constant('URL')?>/Post/show/<?=$post->getId()?>">
-        <img
-          src="<?= constant('URL')?>/public/img/posts/<?=$post->getFoto()?>"
-          alt="re4"
-          width="520px"
-          height="320px"
-        />
-        <h2><?= $post->getTitulo() ?></h2>
-        <p class="fecha">
-          Fecha de lanzamiento:
-          <?=$post->getLanzamiento()?>
-        </p>
-        <p class="descripcion"><?=$post->getDescripcion()?></p>
-      </a>
+      
     </article>
-    <?php } ?>
-    <!-- ! CERRANDO EL FOREACH -->
-    <!--!  Continuar con el resto de las tarjetas -->
   </section>
   <section id="nosotros">
     <h2>Sobre <span>nosotros</span></h2>

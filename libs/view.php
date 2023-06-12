@@ -50,8 +50,7 @@ class View
                 "title" => "Principal",
                 "child" => $child,
                 "sesion" => $sesion,
-                "user"=> $user
-            
+                "user" => $user
             ]);
             echo $view;
         }

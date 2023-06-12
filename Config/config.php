@@ -1,6 +1,6 @@
 <?php
 
-define('URL', 'http://192.168.18.4:8080');
+define('URL', '');
 
 define('HOST', 'localhost');
 define('DB', 'neoga');

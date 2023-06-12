@@ -17,12 +17,13 @@ inner join post_has_plataformas pp on pp.plataformas_id =  pl.id
 inner join post p on p.id = pp.post_id
 where p.id = 14; 
 
-select g.id from post p
+select g.id, g.nombre from post p
 inner join post_has_genero pg on pg.post_id = p.id
-inner join genero g on g.id = pg.genero_id
-where p.id = 14;
+inner join genero g on g.id = pg.genero_id;
 
 select pg.post_id, g.nombre as generoNombre, pg.genero_id from post_has_genero pg
 inner join genero g on g.id = pg.genero_id;
+
+select * from post where titulo like ("%%") or month(lanzamiento) = 06;
  
  

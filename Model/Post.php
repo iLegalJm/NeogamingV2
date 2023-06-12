@@ -145,7 +145,8 @@ class PostModel extends Model implements iModel
             ]);
 
             // ? SI DEVUELVE EL RESULTADO DE UNA FILA INSERTADA ME DEVOLVERA TRUE   
-            if ($query->rowCount()) return true;
+            if ($query->rowCount())
+                return true;
             return false;
         } catch (PDOException $e) {
             error_log('POSTMODEL::create->PDOEXCEPTION ' . $e);
@@ -194,6 +195,28 @@ class PostModel extends Model implements iModel
             return false;
         }
     }
+    public function getSearch($search)
+    {
+        $items = [];
+        try {
+            $query = $this->query("SELECT * FROM post where titulo like '%" . $search . "%'");
+
+            if ($query->rowCount()) {
+                // ? PARA QUE ME DEVUELVA UN OBJETO
+                while ($p = $query->fetch(PDO::FETCH_ASSOC)) {
+                    $item = new PostModel();
+                    $item->from($p);
+                    array_push($items, $item);
+                }
+                return $items;
+            } else {
+                return $items = ['data' => false];
+            }
+        } catch (PDOException $e) {
+            error_log('POSTMODEL::getSearch()->PDOEXCEPTION ' . $e);
+            return false;
+        }
+    }
 
     public function getLast()
     {
@@ -201,7 +224,7 @@ class PostModel extends Model implements iModel
             $query = $this->query('SELECT * FROM neoga.post order by id desc limit 1');
             $post = $query->fetch(PDO::FETCH_ASSOC);
             $this->from($post);
-            
+
             // ? RETORNO EL OBJETO DE NUESTRA CLASE
             return $this;
         } catch (PDOException $e) {
@@ -242,7 +265,8 @@ class PostModel extends Model implements iModel
             ]);
 
             // ? SI DEVUELVE EL RESULTADO DE UNA FILA MODIFICADA ME DEVOLVERA TRUE   
-            if ($query->rowCount()) return true;
+            if ($query->rowCount())
+                return true;
             return false;
         } catch (PDOException $e) {
             error_log('POSTMODEL::update()->PDOEXCEPTION ' . $e);
@@ -262,6 +286,24 @@ class PostModel extends Model implements iModel
         $this->descripcion = $array['descripcion'];
         $this->create_at = $array['create_at'];
         $this->update_at = $array['update_at'];
+    }
+
+    public function toArray()
+    {
+        $array = [];
+
+        $array['id'] = $this->id;
+        $array['user_id'] = $this->userId;
+        $array['titulo'] = $this->titulo;
+        $array['desarrollador'] = $this->desarrollador;
+        $array['lanzador'] = $this->lanzador;
+        $array['trailer'] = $this->trailer;
+        $array['lanzamiento'] = $this->lanzamiento;
+        $array['foto'] = $this->foto;
+        $array['descripcion'] = $this->descripcion;
+        $array['create_at'] = $this->create_at;
+        $array['update_at'] = $this->update_at;
+        return $array;
     }
 
     public function getAllByUserId($userId)
@@ -327,8 +369,10 @@ class PostModel extends Model implements iModel
             // ? COMO LE DI UN APADO A MI CONTADOR, PARA ACCEDER A ESTE DEBO PONER EN EL INDICE 'TOTAL'
             $total = $query->fetch(PDO::FETCH_ASSOC)['total'];
 
-            if ($total == null) $total = 0;
-            return $total;;
+            if ($total == null)
+                $total = 0;
+            return $total;
+            ;
         } catch (PDOException $e) {
             error_log('POSTMODEL::getTotalGamesRealeasedThisMonth()->PDOEXCEPTION ' . $e);
             return null;
