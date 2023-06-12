@@ -47,7 +47,7 @@ class App
                             for ($i = 3; $i < count($uriParts); $i++) {
                                 $args[] = $uriParts[$i];
                             }
-                            $controller->{$uriParts[2]}($args);
+                            $controller->{$uriParts[2]}($args[0]);
                         } else {
                             // ? NO TIENE PARAMETROS SE MANDA A LLAMAR EL METODO TAL CUAL
                             $controller->{$uriParts[2]}();
@@ -100,7 +100,7 @@ class App
                             array_push($params, $uriParts[$i + 2]);
                         }
                         //pasarlos al metodo   
-                        $controller->{$uriParts[1]}($params);
+                        $controller->{$uriParts[1]}($params[0]);
                     } else {
                         // ? NO TIENE PARAMETROS SE MANDA A LLAMAR EL METODO TAL CUAL
                         $controller->{$uriParts[1]}();
@@ -127,3 +127,4 @@ class App
         }
     }
 }
+?>

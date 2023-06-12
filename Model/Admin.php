@@ -26,3 +26,4 @@ class AdminModel extends Model
         }
     }
 }
+?>

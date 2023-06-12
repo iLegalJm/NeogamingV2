@@ -1,2 +1,34 @@
 <h1>Main de Post Admin</h1>
 <a href="<?=constant('URL')?>/Admin/Post/create">Crear nuevo post</a>
+
+<br />
+<br />
+
+<section>
+  <table>
+    <thead>
+      <tr>
+        <th>Título</th>
+        <th>Lanzamiento</th>
+        <th>Trailer</th>
+        <th>Creado</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <?php foreach($posts as $post) {?>
+      <tr>
+        <td><?=$post->getTitulo()?></td>
+        <td><?=$post->getLanzamiento()?></td>
+        <td><?=$post->getTrailer()?></td>
+        <td><?=$post->getCreateAt()?></td>
+        <td>
+          <a href="<?=constant('URL')?>/Admin/Post/edit/<?=$post->getId()?>"
+            >Editar</a
+          ><a href="<?=constant('URL')?>/Admin/Post/delete/<?=$post->getId()?>">Eliminar</a>
+        </td>
+      </tr>
+      <?php } ?>
+    </tbody>
+  </table>
+</section>

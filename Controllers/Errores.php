@@ -8,3 +8,4 @@ class Errores extends Controller
         $this->view->render('Error/index');
     }
 }
+?>

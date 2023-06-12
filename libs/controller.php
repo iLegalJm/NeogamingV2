@@ -78,3 +78,4 @@ class Controller
         header('Location:' . constant('URL') . '/' . $url . $params);
     }
 }
+?>

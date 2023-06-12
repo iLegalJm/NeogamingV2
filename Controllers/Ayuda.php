@@ -13,3 +13,4 @@ class Ayuda extends Controller{
         echo "<p>Ejecutaste el metodo saludo</p>";
     }
 }
+?>

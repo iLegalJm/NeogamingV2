@@ -258,3 +258,4 @@ class JoinPostGeneroPlataformaModel extends Model
         return $array;
     }
 }
+?>

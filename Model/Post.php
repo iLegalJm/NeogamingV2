@@ -48,7 +48,7 @@ class PostModel extends Model implements iModel
     {
         $this->desarrollador = $desarrollador;
     }
-    public function getDesarrolllador()
+    public function getDesarrollador()
     {
         return $this->desarrollador;
     }
@@ -182,7 +182,7 @@ class PostModel extends Model implements iModel
         try {
             $query = $this->prepare('SELECT * FROM post WHERE id = :id');
             $query->execute([
-                'id' => $id[0]
+                'id' => $id
             ]);
             $post = $query->fetch(PDO::FETCH_ASSOC);
             $this->from($post);
@@ -194,6 +194,22 @@ class PostModel extends Model implements iModel
             return false;
         }
     }
+
+    public function getLast()
+    {
+        try {
+            $query = $this->query('SELECT * FROM neoga.post order by id desc limit 1');
+            $post = $query->fetch(PDO::FETCH_ASSOC);
+            $this->from($post);
+            
+            // ? RETORNO EL OBJETO DE NUESTRA CLASE
+            return $this;
+        } catch (PDOException $e) {
+            error_log('POSTMODEL::getLast()->PDOEXCEPTION ' . $e);
+            return false;
+        }
+    }
+
     public function delete($id)
     {
         try {
@@ -211,7 +227,7 @@ class PostModel extends Model implements iModel
     public function update()
     {
         try {
-            $query = $this->prepare('UPDATE POST SET user_id= :user, TITULO= :titulo, DESARROLLADOR = :desarrollador, LANZADOR =: lanzador, TRAILER = :fechaTrailer, LANZAMIENTO= :fechaLanzamiento, foto= :foto, descripcion = :descripcion WHERE id = :id');
+            $query = $this->prepare('UPDATE POST SET user_id= :user, TITULO= :titulo, DESARROLLADOR = :desarrollador, LANZADOR = :lanzador, TRAILER = :fechaTrailer, LANZAMIENTO= :fechaLanzamiento, foto= :foto, descripcion = :descripcion WHERE id = :id');
 
             $query->execute([
                 'user' => $this->userId,
@@ -343,3 +359,4 @@ class PostModel extends Model implements iModel
     //     }
     // }
 }
+?>

@@ -6,3 +6,31 @@
 <h1>Main de genero para Admin</h1>
 <a href="<?=constant('URL')?>/Admin/Genero/create">Crear nuevo genero</a>
 
+<button id="btn-new-genero">Crear nuevo genero</button>
+
+<section id="">
+  <table id="tabla">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Nombre</th>
+      </tr>
+    </thead>
+    <tbody id="body"></tbody>
+  </table>
+</section>
+
+<form action="<?= constant('URL') ?>/Genero/insert" method="POST">
+  <div class="">
+    <label for="nombre">Nombre</label>
+    <input name="nombre" type="text" required />
+  </div>
+  <input type="submit" value="Agregar genero" />
+</form>
+
+
+<div id="main-container">
+ 
+</div>
+
+<script src="<?=constant('URL')?>/public/js/tabla.js"></script>

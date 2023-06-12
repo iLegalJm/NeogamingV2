@@ -1,9 +1,10 @@
-
 <?php
 
 require_once 'Model/Post.php';
 require_once 'Model/Genero.php';
 require_once 'Model/Plataforma.php';
+require_once 'Model/PostHasGenero.php';
+require_once 'Model/PostHasPlataforma.php';
 
 class Post extends Controller
 {
@@ -69,11 +70,12 @@ class Post extends Controller
         $userController = new SessionController();
         $this->user = $userController->getUserSessionData();
 
-        if (!$this->existPOST(['titulo', 'desarrollador', 'lanzador', 'trailer', 'lanzamiento', 'descripcion'])) {
+        if (!$this->existPOST(['titulo', 'desarrollador', 'lanzador', 'trailer', 'lanzamiento', 'descripcion', 'generosId', 'plataformasId'])) {
             $this->redirect('Admin/Post', []);
             return;
         }
 
+        error_log("ides " . $this->getPost('plataformasId'));
         if (!isset($_FILES['foto'])) {
             $this->redirect('Admin/Post', []); //TODO
             return;
@@ -123,15 +125,128 @@ class Post extends Controller
                 $post->setUserId($this->user->getId());
 
                 $post->create();
+
+                $postLast = $post->getLast();
+
+                foreach ($this->getPost('generosId') as $postHasGeneroId) {
+                    $postHasGeneroModel = new PostHasGeneroModel();
+                    $postHasGeneroModel->setGenerotId($postHasGeneroId);
+                    $postHasGeneroModel->setPostId($postLast->getId());
+                    if ($postHasGeneroModel->create()) {
+                        // * Deja de pasar
+                    } else {
+                        $this->redirect('Admin/Post', []); //TODO
+                        return;
+                    }
+                }
+
+                foreach ($this->getPost('plataformasId') as $postPlataformaId) {
+                    $postHasPlataformaModel = new PostHasPlataformaModel();
+                    $postHasPlataformaModel->setPlataformaId($postPlataformaId);
+                    $postHasPlataformaModel->setPostId($postLast->getId());
+                    if ($postHasPlataformaModel->create()) {
+                        // * Deja de pasar
+                    } else {
+                        $this->redirect('Admin/Post', []); //TODO
+                        return;
+                    }
+                }
+
                 $this->redirect('Admin/Post', []); //TODO: Success
                 return;
             } else {
-                $this->redirect('User/info', []); //TODO
+                $this->redirect('Admin/Post', []); //TODO
                 return;
             }
         }
     }
 
+    public function edit($id)
+    {
+        require_once 'Model/JoinPostGeneroPlataforma.php';
+        require_once 'Model/PostHasGenero.php';
+        require_once 'Model/Genero.php';
+        $joinModel = new JoinPostGeneroPlataformaModel();
+        $post = $this->model->get($id);
+        $generoModel = new GeneroModel();
+        $plataformaModel = new PlataformaModel();
+        $postGeneroModel = new PostHasGeneroModel();
+        $this->view->render("Admin/Post/edit", [
+            "post" => $post,
+            "generos" => $generoModel->getAll(),
+            "plataformas" => $plataformaModel->getAll()
+        ]);
+    }
+    public function update()
+    {
+        $userController = new SessionController();
+        $this->user = $userController->getUserSessionData();
+
+        if (!$this->existPOST(['id', 'titulo', 'desarrollador', 'lanzador', 'trailer', 'lanzamiento', 'descripcion'])) {
+            $this->redirect('Admin/Post/edit/' . $this->getPost('id'), []);
+            return;
+        }
+
+
+        if ($this->user == null) {
+            $this->redirect('Admin/Post', []);
+            return;
+        }
+
+        $post = new PostModel();
+
+        if ($_FILES['foto']['size'] > 0) {
+            $foto = $_FILES['foto'];
+
+            $targetDir = "public/img/posts/";
+            $extension = explode('.', $foto['name']); // ? Separando en un array por el punto
+            $fileName = $extension[sizeof($extension) - 2]; //?nombre del archivo
+            $ext = $extension[sizeof($extension) - 1];
+            //? GUARDARE CON EL NOMBRE PERO EMPEZANDO POR LA FECHA, PERO HASHEADO
+            $hash = md5(Date('Ymdgi') . $fileName) . '.' . $ext;
+            $targetFile = $targetDir . $hash;
+            $uploadOk = false;
+            $imgFileType = strtolower(pathinfo($targetFile, PATHINFO_EXTENSION));
+            $chek = getimagesize($foto['tmp_name']); // ? TAMAÑO DE LA IMG 
+            //? PARA SABER SI LA IMAGEN SE CREO EN LOS ARCHIVOS O NO
+            if ($chek != false) {
+                $uploadOk = true;
+            } else {
+                $uploadOk = false;
+            }
+
+            if (!$uploadOk) {
+                $this->redirect('Admin/Post/edit/' . $this->getPost('id'), []); //TODO
+                return;
+            } else {
+                // ? SI EL TMP NAME EXISTE MOVERA LA IMG AL DESTINO DESIGNADO EN TARGET FILE
+                if (move_uploaded_file($foto['tmp_name'], $targetFile)) {
+                    $post->setFoto($hash);
+                }
+            }
+        } else {
+            $currentFoto = $post->get($this->getPost('id'));
+            $fotoActual = $currentFoto->getFoto();
+            $post->setFoto($fotoActual);
+            error_log('Foto anterior');
+        }
+
+        $post->setId($this->getPost('id'));
+        $post->setTitulo($this->getPost('titulo'));
+        $post->setDesarrollador($this->getPost('desarrollador'));
+        $post->setLanzador($this->getPost('lanzador'));
+        $post->setTrailer($this->getPost('trailer'));
+        $post->setLanzamiento($this->getPost('lanzamiento'));
+        $post->setDescripcion($this->getPost('descripcion'));
+        $post->setUserId($this->user->getId());
+
+        if ($post->update()) {
+            $this->redirect('Admin/Post/edit/' . $this->getPost('id'), []); //TODO: Success
+            return;
+        } else {
+            $this->redirect('Admin/Post/edit/' . $this->getPost('id'), []);
+        }
+    }
 
     public function getGenerosId()
     {
@@ -139,15 +254,13 @@ class Post extends Controller
         // $posts = $joinModel->getAll($id);
     }
 
-    private function delete($params)
+    public function delete($id)
     {
-        if ($params == null) {
+        if ($id == null) {
             $this->redirect('Admin/Post', []);
         }
-
-        $id = $params[0];
         error_log("Post::delete() id = " . $id);
-        $res = $this->model->delete();
+        $res = $this->model->delete($id);
 
         if ($res) {
             $this->redirect('Admin/Post', []);
@@ -156,3 +269,4 @@ class Post extends Controller
         }
     }
 }
+?>

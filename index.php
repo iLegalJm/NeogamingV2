@@ -23,3 +23,4 @@ require_once 'classes/errorMessages.php';
 include_once 'Model/User.php';
 require_once 'Config/config.php';
 $app = new App();
+?>

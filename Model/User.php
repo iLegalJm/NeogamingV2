@@ -139,7 +139,7 @@ class UserModel extends Model implements iModel
                 $item = new UserModel();
                 $item->setId($p['id']);
                 $item->setUsername($p['username']);
-                $item->setPassword($p['password']);
+                $item->setPassword($p['password'], false);
                 $item->setRol($p['rol']);
                 $item->setFoto($p['foto']);
                 $item->setNombre($p['nombre']);
@@ -164,7 +164,7 @@ class UserModel extends Model implements iModel
             $user = $query->fetch(PDO::FETCH_ASSOC);
             $this->setId($user['id']);
             $this->setUsername($user['username']);
-            $this->setPassword($user['password']);
+            $this->setPassword($user['password'], false);
             $this->setRol($user['rol']);
             $this->setFoto($user['foto']);
             $this->setNombre($user['nombre']);
@@ -287,3 +287,4 @@ class UserModel extends Model implements iModel
         }
     }
 }
+?>

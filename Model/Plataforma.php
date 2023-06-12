@@ -56,7 +56,7 @@ class PlataformaModel extends Model implements iModel
         $items = [];
 
         try {
-            $query = $this->query('SELECT * FROM plataforma');
+            $query = $this->query('SELECT * FROM plataformas');
 
             // ? PARA QUE ME DEVUELVA UN OBJETO
             while ($p = $query->fetch(PDO::FETCH_ASSOC)) {
@@ -74,7 +74,7 @@ class PlataformaModel extends Model implements iModel
     public function get($id)
     {
         try {
-            $query = $this->prepare('SELECT * FROM plataforma WHERE id = :id');
+            $query = $this->prepare('SELECT * FROM plataformas WHERE id = :id');
             $query->execute([
                 'id' => $id[0]
             ]);
@@ -93,12 +93,12 @@ class PlataformaModel extends Model implements iModel
     {
         $items = [];
         try {
-            $query = $this->prepare('select pl.id, pl.nombre from plataformas pl
+            $query = $this->prepare("SELECT pl.id, pl.nombre from plataformas pl
             inner join post_has_plataformas pp on pp.plataformas_id =  pl.id
             inner join post p on p.id = pp.post_id
-            where p.id = :id');
+            where p.id = :id");
             $query->execute([
-                'id' => $id[0]
+                'id' => $id
             ]);
                     
             while ($p = $query->fetch(PDO::FETCH_ASSOC)) {
@@ -169,3 +169,4 @@ class PlataformaModel extends Model implements iModel
         }
     }
 }
+?>

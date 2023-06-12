@@ -1,35 +1,67 @@
 <form
-  action="<?= constant('URL') ?>/Post/insert"
+  action="<?= constant('URL')?>/Post/update"
   method="post"
   enctype="multipart/form-data"
 >
   <div class="">
+    <input type="hidden" name="id" value="<?=$post->getId()?>" />
     <label for="titulo">Titulo</label>
-    <input name="titulo" type="text" required />
+    <input name="titulo" type="text" value="<?=$post->getTitulo()?>" required />
   </div>
   <div class="">
     <label for="desarrollador">Desarrollado por:</label>
-    <input name="desarrollador" type="text" required />
+    <input
+      name="desarrollador"
+      type="text"
+      value="<?=$post->getDesarrollador()?>"
+      required
+    />
   </div>
   <div class="">
     <label for="lanzador">Lanzado por:</label>
-    <input name="lanzador" type="text" required />
+    <input
+      name="lanzador"
+      type="text"
+      value="<?=$post->getLanzador()?>"
+      required
+    />
   </div>
   <div class="">
     <label for="trailer">Fecha de trailer:</label>
-    <input name="trailer" type="date" required />
+    <input
+      name="trailer"
+      type="date"
+      required
+      value="<?=$post->getTrailer()?>"
+    />
   </div>
   <div class="">
     <label for="lanzamiento">Fecha de lanzamiento:</label>
-    <input name="lanzamiento" type="date" required />
+    <input
+      name="lanzamiento"
+      type="date"
+      value="<?=$post->getLanzamiento()?>"
+      required
+    />
   </div>
   <div class="">
     <label for="clasificacion">Descripcion:</label>
-    <input name="descripcion" type="text" required />
+    <input
+      name="descripcion"
+      type="text"
+      required
+      value="<?=$post->getDescripcion()?>"
+    />
   </div>
   <div class="">
     <label for="foto">Foto:</label>
-    <input name="foto" type="file" required />
+    <img
+      src="<?=constant('URL')?>/public/img/posts/<?=$post->getFoto()?>"
+      alt=""
+      width="200"
+      height="200"
+    />
+    <input name="foto" type="file" />
   </div>
   <div class="">
     <label for="genero">Genero:</label>
@@ -40,12 +72,12 @@
 <?php } ?>
   </div>
   <div class="">
-    <label for="genero">Plataforma:</label>
+    <label for="genero">Genero:</label>
     <?php foreach($plataformas as $plataforma){?>
         <p><?=$plataforma->getNombre()?>
             <input type="checkbox" name="plataformasId[]" id="" value="<?=$plataforma->getId()?>">
         </p>
 <?php } ?>
   </div>
-  <input type="submit" />
+  <input type="submit" value="Editar" />
 </form>

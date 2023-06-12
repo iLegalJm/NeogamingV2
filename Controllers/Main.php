@@ -1,12 +1,16 @@
 <?php
-class Main extends Controller{
+class Main extends Controller
+{
 
-    public function __construct(){
+    public function __construct()
+    {
         parent::__construct();
         echo "<p>Nuevo controlador main</p>";
     }
 
-    public function saludo(){
+    public function saludo()
+    {
         echo "<p>Ejecutaste el metodo saludo</p>";
     }
 }
+?>

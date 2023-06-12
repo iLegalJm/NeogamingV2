@@ -88,7 +88,7 @@ class User extends SessionController
         }
 
         $foto = $_FILES['foto'];
-        
+
         $targetDir = "public/img/fotos/";
         $extension = explode('.', $foto['name']); // ? Separando en un array por el punto
         $fileName = $extension[sizeof($extension) - 2]; //?nombre del archivo
@@ -123,3 +123,4 @@ class User extends SessionController
         }
     }
 }
+?>

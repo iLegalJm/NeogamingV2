@@ -24,3 +24,4 @@ class Template
         return $this->content;
     }
 }
+?>

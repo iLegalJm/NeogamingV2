@@ -18,3 +18,4 @@ class Admin extends SessionController
         ]);
     }
 }
+?>

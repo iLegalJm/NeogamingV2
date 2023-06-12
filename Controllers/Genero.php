@@ -1,4 +1,3 @@
-
 <?php
 
 require_once 'Model/Post.php';
@@ -75,7 +74,7 @@ class Genero extends Controller
         // $posts = $joinModel->getAll($id);
     }
 
-    private function delete($params)
+    public function delete($params)
     {
         if ($params == null) {
             $this->redirect('Admin/Post', []);
@@ -91,4 +90,20 @@ class Genero extends Controller
             $this->redirect('Admin/Post', []);
         }
     }
+
+    function getGenerosJSON()
+    {
+        header('Content-Type: aplication/json');
+        $res = [];
+        $generoModel = new GeneroModel();
+        $generos = $generoModel->getAll();
+
+        foreach ($generos as $genero) {
+            array_push($res, $genero->toArray());
+        }
+
+        // * DECODIFICARA MI ARREGLO EN UN ARREGLO JSON
+        echo json_encode($res);
+    }
 }
+?>

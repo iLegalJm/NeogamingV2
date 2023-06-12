@@ -22,7 +22,7 @@ class Signup extends SessionController
             $password = $this->getPost('password');
 
             if ($username == "" || empty($username) || $password == "" || empty($password)) {
-                $this->redirect('Signup',  ['error' => ErrorMessages::ERROR_SIGNUP_NEWUSER_EMPTY]);
+                $this->redirect('Signup', ['error' => ErrorMessages::ERROR_SIGNUP_NEWUSER_EMPTY]);
             }
             $user = new UserModel();
             $user->setUsername($username);
@@ -46,3 +46,4 @@ class Signup extends SessionController
         echo "asdasd";
     }
 }
+?>

@@ -13,3 +13,5 @@ class Logout extends SessionController
         $this->redirect('');
     }
 }
+
+?>

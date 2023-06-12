@@ -1,6 +1,7 @@
 <?php
 
-interface iModel{
+interface iModel
+{
     public function create();
     public function getAll();
     public function get($id);
@@ -8,3 +9,4 @@ interface iModel{
     public function update();
     public function from($array);
 }
+?>

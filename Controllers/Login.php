@@ -22,14 +22,14 @@ class Login extends SessionController
             error_log($password . " aqui la contra");
 
             if ($username == "" || empty($username) || $password == "" || empty($password)) {
-                $this->redirect('Login',  ['error' => ErrorMessages::ERROR_LOGIN_AUTHENTICATE_EMPTY]);
+                $this->redirect('Login', ['error' => ErrorMessages::ERROR_LOGIN_AUTHENTICATE_EMPTY]);
             }
             $user = $this->model->login($username, $password);
 
             if ($user != null) {
                 $this->initialize($user);
             } else {
-                $this->redirect('Login',  ['error' => ErrorMessages::ERROR_LOGIN_AUTHENTICATE_DATA]);
+                $this->redirect('Login', ['error' => ErrorMessages::ERROR_LOGIN_AUTHENTICATE_DATA]);
                 return;
             }
         } else {
@@ -37,3 +37,4 @@ class Login extends SessionController
         }
     }
 }
+?>

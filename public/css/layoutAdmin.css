@@ -331,3 +331,17 @@ body.dark .home .text {
 main{
   padding: 2%;
 }
+
+/* * ===== TABLE ========== */
+table th{
+  background-color: var(--primary-color);
+}
+
+table td{
+  color: var(--text-color);
+  padding: 5px;
+}
+
+table a{
+  margin-right: 5px;
+}

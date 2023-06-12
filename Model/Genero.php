@@ -74,7 +74,7 @@ class GeneroModel extends Model implements iModel
         try {
             $query = $this->prepare('SELECT * FROM genero WHERE id = :id');
             $query->execute([
-                'id' => $id[0]
+                'id' => $id
             ]);
             $genero = $query->fetch(PDO::FETCH_ASSOC);
             $this->from($genero);
@@ -96,9 +96,9 @@ class GeneroModel extends Model implements iModel
             inner join post p on p.id = pg.post_id
             where p.id = :id');
             $query->execute([
-                'id' => $id[0]
+                'id' => $id
             ]);
-                    
+
             while ($p = $query->fetch(PDO::FETCH_ASSOC)) {
                 $item = new GeneroModel();
                 $item->from($p);
@@ -166,4 +166,16 @@ class GeneroModel extends Model implements iModel
             return false;
         }
     }
+
+    public function toArray()
+    {
+        $array = [];
+
+        $array['id'] = $this->id;
+        $array['nombre'] = $this->nombre;
+
+        return $array;
+    }
 }
+
+?>
