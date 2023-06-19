@@ -1,56 +1,55 @@
-<h1>Pagina de info de user</h1>
+<link rel="stylesheet" href="../../public/css/info.css">
 
-<h2>
-  Usuario:<?=($user->getNombre() != "") ? $user->getNombre().'
-  '.$user->getUsername() : $user->getUsername()?>
-</h2>
+<div class="card">
+  <h1 class="card-header">Pagina de info de user</h1>
 
-<form action="<?=constant('URL')?>/User/updateNombre" method="post">
-  <div>
-    <label for="nombre">Nombre:</label>
-    <input
-      type="text"
-      name="nombre"
-      id="nombre"
-      autocomplete="off"
-      required
-      value="<?=$user->getNombre()?>"
-    />
-    <div><input type="submit" value="Cambiar nombre" /></div>
+  <div class="card-body">
+    <h2>
+      Usuario:<?=($user->getNombre() != "") ? $user->getNombre().'
+    '.$user->getUsername() : $user->getUsername()?>
+    </h2>
+
+    <form action="<?=constant('URL')?>/User/updateNombre" method="post">
+      <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" autocomplete="off" required value="<?=$user->getNombre()?>" />
+      </div>
+      <div>
+        <input type="submit" value="Cambiar nombre" />
+      </div>
+    </form>
   </div>
-</form>
 
-<form
-  action="<?=constant('URL')?>/User/updateFoto"
-  method="post"
-  enctype="multipart/form-data"
->
-  <div>
-    <label for="foto">Foto de perfil:</label>
-    <?php if($user->getFoto() != ""){ ?>
-    <img
-      src="<?=constant('URL')?>/public/img/fotos/<?=$user->getFoto()?>"
-      width="200"
-      alt=""
-    />
-    <?php } ?>
-    <input type="file" name="foto" id="foto" autocomplete="off" required />
-    <div><input type="submit" value="Cambiar foto de perfil" /></div>
+  <div class="card-body">
+    <form action="<?=constant('URL')?>/User/updateFoto" method="post" enctype="multipart/form-data">
+      <div class="perfil">
+        <label for="foto">Foto de perfil:</label>
+        <?php if($user->getFoto() != ""){ ?>
+        <img src="<?=constant('URL')?>/public/img/fotos/<?=$user->getFoto()?>" width="200" alt="" />
+        <?php } ?>
+        <input type="file" name="foto" id="foto" autocomplete="off" required />
+      </div>
+      <div>
+        <input type="submit" value="Cambiar foto de perfil" />
+      </div>
+    </form>
   </div>
-</form>
 
-<br />
-<br />
-
-<form action="<?=constant('URL')?>/User/updatePassword" method="POST">
-  <div>
-    <label for="foto">Contraseña actual:</label>
-    <input type="password" name="current_password" id="current_password" autocomplete="off">
-
-    <label for="new_password">Contraseña nueva</label>
-    <input type="password" name="new_password" id="new_password" autocomplete="off" required />
-    <div><input type="submit" value="Cambiar contraseña" /></div>
+  <div class="card-body">
+    <form action="<?=constant('URL')?>/User/updatePassword" method="POST">
+      <div>
+        <label for="current_password">Contraseña actual:</label>
+        <input type="password" name="current_password" id="current_password" autocomplete="off">
+      </div>
+      <div>
+        <label for="new_password">Contraseña nueva</label>
+        <input type="password" name="new_password" id="new_password" autocomplete="off" required />
+      </div>
+      <div>
+        <input type="submit" value="Cambiar contraseña" />
+      </div>
+    </form>
   </div>
-</form>
+</div>
 
 <br><br>

@@ -1,3 +1,6 @@
+<head>
+  <link rel="stylesheet" href="../../../public/css/modalGen.css">
+</head>
 <p>
   <?php
     $message
@@ -20,17 +23,35 @@
   </table>
 </section>
 
-<form action="<?= constant('URL') ?>/Genero/insert" method="POST">
+<section class="modal hidden">
+  <div class="flex">
+    <button class="btn-close">⨉</button>
+  </div>
+  <div class="main-content">
+    <h3>Genero</h3>
+    <p>
+      Los generos representan etiquetas sobre la tematica del juego. Aqui puedes añadir el genero:
+    </p>
+  </div>
+  <form action="<?= constant('URL') ?>/Genero/insert" method="POST">
+    <input type="text" id="text" placeholder="Ingresar el genero" />
+    <button class="btn">Agregar</button>
+  </form>
+</section>
+
+<div class="overlay hidden"></div>
+<button class="btn btn-open">Agregar Genero</button>
+
+<!-- <form action="<?= constant('URL') ?>/Genero/insert" method="POST">
   <div class="">
     <label for="nombre">Nombre</label>
     <input name="nombre" type="text" required />
   </div>
   <input type="submit" value="Agregar genero" />
-</form>
-
-
+</form> -->
 <div id="main-container">
- 
+
 </div>
 
 <script src="<?=constant('URL')?>/public/js/tabla.js"></script>
+<script src="../../../public/js/modalGen.js"></script>
