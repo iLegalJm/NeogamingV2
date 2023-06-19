@@ -1,5 +1,6 @@
 SELECT * FROM neoga.post;
 
+create database neog;
 select p.*, pg.genero_id, g.nombre as nombreGenero, pp.plataformas_id, pl.nombre as nombrePlataforma from post p 
 	inner join post_has_genero pg on pg.post_id = p.id
     inner join post_has_plataformas pp on pp.post_id = p.id
@@ -45,5 +46,11 @@ select p.* from post p
 	inner join post_has_genero pg on pg.post_id = p.id
 	inner join genero g on g.id = pg.genero_id
     where g.id = 13 and p.titulo like ("%a%") and month(p.lanzamiento) = 06;
- 
- 
+
+select * from comentario 
+	where post_id = 13;
+    
+select c.*, u.username, u.foto from comentario c 
+inner join user u on u.id = c.user_id
+where post_id = 13;
+

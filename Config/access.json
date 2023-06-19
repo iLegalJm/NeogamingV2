@@ -30,16 +30,25 @@
       "access": "private",
       "rol": "admin"
     },
-
     {
       "site": "Post",
       "access": "public",
       "rol": ""
+    },
+    {
+      "site": "Coment",
+      "access": "private",
+      "rol": "admin"
+    },
+    {
+      "site": "Coment",
+      "access": "private",
+      "rol": "user"
     }
   ],
 
   "default-sites": {
-    "user": "Post",
+    "user": "",
     "admin": ""
   }
 }

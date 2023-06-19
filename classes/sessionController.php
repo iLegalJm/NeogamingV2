@@ -64,6 +64,7 @@ class SessionController extends Controller
             error_log("sessionController::validateSession(): username:" . $this->user->getUsername() . " - role: " . $this->user->getRol());
             //? VALIDO SI LA PAGINA A ENTRAR ES PUBLICA
             if ($this->isPublic()) {
+                error_log('es publica');
                 $this->redirectDefaultSiteByRole($rol);
             } else {
                 // ? SI NO ES PUBLICA LA PAGINA
@@ -86,11 +87,14 @@ class SessionController extends Controller
     }
     private function existsSession()
     {
-        if (!$this->session->existsSession()) return false;
-        if ($this->session->getCurrentUser() == null) return false;
+        if (!$this->session->existsSession())
+            return false;
+        if ($this->session->getCurrentUser() == null)
+            return false;
         //? AQUI GUARDAREMOS LA INFORMACION DEL USUARIO
         $userId = $this->session->getCurrentUser();
-        if ($userId) return true;
+        if ($userId)
+            return true;
         return false;
     }
 

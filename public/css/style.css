@@ -16,7 +16,7 @@ html {
   --header: #1d1546;
   --card-title: #fff;
   --card-date: #c4983a;
-  --card-preview: #B3B4D0;
+  --card-preview: #b3b4d0;
   --component-bg: #151136;
   --component-bg-secondary: #1d1546;
   --card-color: #1d1546;
@@ -26,7 +26,7 @@ html {
 
 body {
   font-size: 62.5%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: var(--component-bg);
   color: var(--card-title);
 }
@@ -108,7 +108,6 @@ body {
   font-size: 1.8em;
 }
 
-
 .filters_search .buscar {
   width: 100%;
   padding: 10px;
@@ -117,11 +116,10 @@ body {
   outline-color: #0a1929;
 }
 
-
 .form-container .filters-form .selects-container {
   display: flex;
   flex-direction: column;
-  gap: .8em;
+  gap: 0.8em;
 }
 
 .selects-container .select {

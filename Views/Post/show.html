@@ -1,20 +1,24 @@
 <?php
-  $img = constant('URL')."/public/img/posts/".$post->getFoto();
-?>
+  $img = constant('URL')."/public/img/posts/".$post->getFoto(); ?>
 
 <article class="article">
-  <section class="article__image" style="background: url('<?=$img?>') center center;">
+  <section
+    class="article__image"
+    style="background: url('<?=$img?>') center center"
+  >
     <div class="article__plataforms">
-      <img src="<?=constant('URL')?>/public/icons/post/playstation-4.svg" alt="" />
+      <img
+        src="<?=constant('URL')?>/public/icons/post/playstation-4.svg"
+        alt=""
+      />
       <img src="<?=constant('URL')?>/public/icons/post/ps5.svg" alt="" />
       <img src="<?=constant('URL')?>/public/icons/post/xbox-2.svg" alt="" />
       <img src="<?=constant('URL')?>/public/icons/post/pc.svg" alt="" />
     </div>
     <h2 class="article__title"><?= $post->getTitulo()?></h2>
-    <div class="article__descripcion">
-      <?= $post->getDescripcion()?>
-    </div>
+    <div class="article__descripcion"><?= $post->getDescripcion()?></div>
   </section>
+
   <section class="article__content">
     <div class="article__content-especificaciones">
       <h3 class="article__content-title">Especificaciones</h3>
@@ -82,7 +86,7 @@
         </tbody>
       </table>
     </div>
-    <div class="article__content-trailer">
+    <!-- <div class="article__content-trailer">
       <h3 class="article__content-title">Trailer</h3>
       <iframe
         src="https://www.youtube.com/embed/E69tKrfEQag"
@@ -92,6 +96,30 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    </div>
+    </div> -->
   </section>
 </article>
+
+<section class="coment">
+  <!-- <form action="<?= constant('URL') ?>/Post/insertComent" method="post"> -->
+  <form id="form-coment" action="" method="post">
+    <label for="texto">Comentario:</label>
+    <br />
+    <input type="hidden" name="id" id="form-id" value="<?= $post->getId()?>" />
+    <textarea
+      name="texto"
+      id="form-texto"
+      cols="50"
+      rows="10"
+      style="width: 80%"
+    ></textarea>
+    <br />
+    <input type="submit" id="btn-enviar"/>
+  </form>
+</section>
+
+<article id="article-coments">
+  
+</article>
+<!-- ! SCRIPTS -->
+<script src="<?=constant('URL')?>/public/js/insertComent.js"></script>

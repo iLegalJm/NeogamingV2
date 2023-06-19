@@ -5,6 +5,7 @@ require_once 'Model/Genero.php';
 require_once 'Model/Plataforma.php';
 require_once 'Model/PostHasGenero.php';
 require_once 'Model/PostHasPlataforma.php';
+require_once 'Model/Coment.php';
 
 class Post extends Controller
 {
@@ -78,7 +79,6 @@ class Post extends Controller
             return;
         }
 
-        error_log("ides " . $this->getPost('plataformasId'));
         if (!isset($_FILES['foto'])) {
             $this->redirect('Admin/Post', []); //TODO
             return;
@@ -162,6 +162,38 @@ class Post extends Controller
                 return;
             }
         }
+    }
+
+    public function insertComent()
+    {
+        header('Content-Type: aplication/json');
+        $userController = new SessionController();
+        $this->user = $userController->getUserSessionData();
+
+        if ($this->user == null) {
+            $this->redirect('', []);
+            return;
+        }
+
+        if (!$this->existPOST(['id', 'texto'])) {
+            $this->redirect('', []);
+            return;
+        }
+
+        $coment = new ComentModel();
+        $coment->setUserId($this->user->getId());
+        error_log('Coment creado bien' . $this->getPost('id'));
+        $coment->setPostId($this->getPost('id'));
+        $coment->setTexto($this->getPost('texto'));
+
+        if ($coment->create()) {
+            error_log('Coment creado bien');
+            echo json_encode(array('resp' => 1));
+            // $this->redirect('Post/show/' . $this->getPost('id'), []);
+        } else {
+            // $this->redirect('Post/show/' . $this->getPost('id'), []);
+        }
+
     }
 
     public function edit($id)
@@ -278,9 +310,6 @@ class Post extends Controller
         $searchByMes = $this->getPost('searchByMes');
         $searchByGenero = $this->getPost('searchByGenero');
         header('Content-Type: aplication/json');
-        error_log('search: ' . $searchByMes);
-        error_log('search: ' . $searchByTitulo);
-        error_log('search: ' . $searchByGenero);
         $res = [];
         $postModel = new PostModel();
 

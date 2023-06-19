@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
     let searchByMes = '';
     let searchByGenero = '';
     
-    if (search || searchMes) {
+    if (search || searchMes || searchGenero) {
         // ! EVENTO QUE SE EJECUTARA CUANDO EL VALOR DE INPUT CAMBIE
         search.addEventListener('input', event => {
             // ! EVENT, CAPTURA EL EVENTO
@@ -37,7 +37,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
     // ! PETICION AL SERVIDOR  CON FETCH e.e
     // * FUNCION ASINCRONA
-    const searchData = async () =>   {
+    const searchData = async () => {
         // * CREO MI FORM DATA, Y CON APPEND LE AGREGO ALGO ASI COMO UN INPUT CON EL NAME(PARAMETRO 1) Y SU VALUE(PARAMETRO 2)
         let searchData = new FormData()
         searchData.append('searchByTitulo', searchByTitulo);
