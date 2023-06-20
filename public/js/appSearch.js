@@ -76,8 +76,7 @@ window.addEventListener("DOMContentLoaded", () => {
           const articlePost = document.createElement("article");
           articlePost.className = "tarjeta";
           const enlacePost = document.createElement("a");
-          enlacePost.href =
-            "http://192.168.18.4:8080/Post/show/" + `${post.id}`;
+          enlacePost.href = "http://localhost:8080/Post/show/" + `${post.id}`;
           enlacePost.innerHTML = `
                     <img
                         src="http://localhost:8080/public/img/posts/${post.foto}"

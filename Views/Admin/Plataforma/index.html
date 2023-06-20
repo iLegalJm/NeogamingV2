@@ -4,3 +4,47 @@
     ?>
 </p>
 <h1>Main de plataforma para Admin</h1>
+
+<section id="" class="table-container">
+  <table id="tabla" class="table">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Nombre</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody id="body"></tbody>
+  </table>
+</section>
+
+<section class="modal hidden">
+  <div class="flex">
+    <button class="btn-close">⨉</button>
+  </div>
+  <div class="main-content">
+    <h3>Genero</h3>
+    <p>
+      Las plataformas representan etiquetas que indican donde se puede usar el juego. Aqui puedes
+      añadir la plataforma:
+    </p>
+  </div>
+  <form action="" method="POST" id="form-modal">
+    <input
+      type="text"
+      id="text"
+      placeholder="Ingresar la plataforma"
+      name="nombre"
+    />
+    <button class="btn" type="submit">Agregar</button>
+  </form>
+</section>
+
+<div class="overlay hidden"></div>
+<button class="btn btn-open">Agregar Plataforma</button>
+
+<div id="main-container"></div>
+
+<!-- ! SCRIPTS -->
+<script src="<?=constant('URL')?>/public/js/modal.js"></script>
+<script src="<?=constant('URL')?>/public/js/crudPlataforma.js"></script>

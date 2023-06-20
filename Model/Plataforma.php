@@ -23,7 +23,7 @@ class PlataformaModel extends Model implements iModel
     }
     public function setNombre($nombre)
     {
-        $this->id = $nombre;
+        $this->nombre = $nombre;
     }
     public function getNombre()
     {
@@ -33,14 +33,15 @@ class PlataformaModel extends Model implements iModel
     public function create()
     {
         try {
-            $query = $this->prepare('INSERT INTO plataforma (nombre) VALUES(:nombre)');
+            $query = $this->prepare('INSERT INTO plataformas (nombre) VALUES(:nombre)');
 
             $query->execute([
                 'nombre' => $this->nombre
             ]);
 
             // ? SI DEVUELVE EL RESULTADO DE UNA FILA INSERTADA ME DEVOLVERA TRUE   
-            if ($query->rowCount()) return true;
+            if ($query->rowCount())
+                return true;
             return false;
         } catch (PDOException $e) {
             error_log('PLATAFORMAMODEL::create->PDOEXCEPTION ' . $e);
@@ -60,7 +61,7 @@ class PlataformaModel extends Model implements iModel
 
             // ? PARA QUE ME DEVUELVA UN OBJETO
             while ($p = $query->fetch(PDO::FETCH_ASSOC)) {
-                $item = new GeneroModel();
+                $item = new PlataformaModel();
                 $item->from($p);
                 array_push($items, $item);
             }
@@ -100,7 +101,7 @@ class PlataformaModel extends Model implements iModel
             $query->execute([
                 'id' => $id
             ]);
-                    
+
             while ($p = $query->fetch(PDO::FETCH_ASSOC)) {
                 $item = new PlataformaModel();
                 $item->from($p);
@@ -117,7 +118,7 @@ class PlataformaModel extends Model implements iModel
     public function delete($id)
     {
         try {
-            $query = $this->prepare('DELETE FROM plataforma WHERE id = :id');
+            $query = $this->prepare('DELETE FROM plataformas WHERE id = :id');
             $query->execute([
                 'id' => $id
             ]);
@@ -131,14 +132,15 @@ class PlataformaModel extends Model implements iModel
     public function update()
     {
         try {
-            $query = $this->prepare('UPDATE plataforma   SET nombre= :nombre WHERE id = :id');
+            $query = $this->prepare('UPDATE plataformas SET nombre= :nombre WHERE id = :id');
 
             $query->execute([
                 'nombre' => $this->nombre
             ]);
 
             // ? SI DEVUELVE EL RESULTADO DE UNA FILA MODIFICADA ME DEVOLVERA TRUE   
-            if ($query->rowCount()) return true;
+            if ($query->rowCount())
+                return true;
             return false;
         } catch (PDOException $e) {
             error_log('PLATAFORMAMODEL::update()->PDOEXCEPTION ' . $e);
@@ -151,17 +153,28 @@ class PlataformaModel extends Model implements iModel
         $this->nombre = $array['nombre'];
     }
 
+    public function toArray()
+    {
+        $array = [];
+
+        $array['id'] = $this->id;
+        $array['nombre'] = $this->nombre;
+
+        return $array;
+    }
+
     public function exists($nombre)
     {
         try {
-            $query = $this->prepare('SELECT name FROM plataforma WHERE nombre = :nombre');
+            $query = $this->prepare('SELECT nombre FROM plataformas WHERE nombre = :nombre');
 
             $query->execute([
                 'nombre' => $nombre
             ]);
 
             // ? SI DEVUELVE EL RESULTADO DE UNA FILA INSERTADA ME DEVOLVERA TRUE   
-            if ($query->rowCount()) return true;
+            if ($query->rowCount())
+                return true;
             return false;
         } catch (PDOException $e) {
             error_log('PLATAFORMAMODEL::exists->PDOEXCEPTION ' . $e);
