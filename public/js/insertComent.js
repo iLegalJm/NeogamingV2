@@ -16,7 +16,7 @@ window.addEventListener("DOMContentLoaded", () => {
     let formComentData = new FormData(formularioComent);
 
     try {
-      const response = await fetch("http://192.168.18.4:8080/Coment/insert", {
+      const response = await fetch("http://localhost:8080/Coment/insert", {
         method: "POST",
         body: formComentData,
       })
@@ -26,8 +26,7 @@ window.addEventListener("DOMContentLoaded", () => {
         });
     } catch (error) {
       alert(
-        `${"Hubo un error, la solicitud no se puede procesar en estos momentos. Razón: "}${
-          error.message
+        `${"Hubo un error, la solicitud no se puede procesar en estos momentos. Razón: "}${error.message
         }`
       );
       console.log(error);
@@ -41,7 +40,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     try {
       const response = await fetch(
-        "http://192.168.18.4:8080/Coment/getComentsJSON",
+        "http://localhost:8080/Coment/getComentsJSON",
         {
           method: "post",
           body: searchData,
@@ -51,8 +50,7 @@ window.addEventListener("DOMContentLoaded", () => {
       return response.json();
     } catch (error) {
       alert(
-        `${"Hubo un error, la solicitud no se puede procesar en estos momentos. Razón: "}${
-          error.message
+        `${"Hubo un error, la solicitud no se puede procesar en estos momentos. Razón: "}${error.message
         }`
       );
       console.log(error);
@@ -62,8 +60,8 @@ window.addEventListener("DOMContentLoaded", () => {
   console.log(idPost);
   const showComents = () => {
     searchComents().then((dataResults) => {
-        console.log(dataResults);
-        articleComents.innerHTML = '';
+      console.log(dataResults);
+      articleComents.innerHTML = '';
       if (typeof dataResults.data !== "undefined" && !dataResults.data) {
         const noComent = document.createElement("h2");
         noComent.innerText = "Comentario no encontrado";
