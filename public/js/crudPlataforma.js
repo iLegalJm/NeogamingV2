@@ -6,33 +6,33 @@ window.addEventListener("DOMContentLoaded", () => {
     formularioInsert.addEventListener("submit", (e) => {
       e.preventDefault();
       insertData();
-      showGeneros();
+      showPlataformas();
     });
   }
 
   // ! METODO PARA MOSTRAR LOS GENEROS
-  const showGeneros = () => {
-    getGeneros().then((dataResults) => {
+  const showPlataformas = () => {
+    getPlataformas().then((dataResults) => {
       console.log(dataResults);
       registros.innerHTML = "";
 
-      for (const genero of dataResults) {
+      for (const plataforma of dataResults) {
         registros.innerHTML += `
         <tr>
-            <td id="txtId">${genero.id}</td>
-            <td>${genero.nombre}</td>
-            <td><a href="http://localhost:8080/Admin/Genero/edit/${genero.id}"><img src="http://localhost:8080/public/icons/dashboard/edit.svg" alt="logo"/></a>
-            <a href="http://localhost:8080/Admin/Genero/delete/${genero.id}"><img src="http://localhost:8080/public/icons/dashboard/trash.svg" alt="logo"/></a></td>
+            <td id="txtId">${plataforma.id}</td>
+            <td>${plataforma.nombre}</td>
+            <td><a href="http://localhost:8080/Admin/Plataforma/edit/${plataforma.id}"><img src="http://localhost:8080/public/icons/dashboard/edit.svg" alt="logo"/></a>
+            <a href="http://localhost:8080/Admin/Plataforma/delete/${plataforma.id}"><img src="http://localhost:8080/public/icons/dashboard/trash.svg" alt="logo"/></a></td>
         </tr>
         `;
       }
     });
   };
 
-  const getGeneros = async () => {
+  const getPlataformas = async () => {
     try {
       const response = await fetch(
-        "http://localhost:8080/Genero/getGenerosJSON",
+        "http://localhost:8080/Admin/Plataforma/getPlataformasJSON",
         {
           method: "post",
         }
@@ -49,7 +49,7 @@ window.addEventListener("DOMContentLoaded", () => {
     }
   };
 
-  showGeneros();
+  showPlataformas();
 
   // ! METODO PARA INSERTAR DATA
   const insertData = async () => {
@@ -57,7 +57,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     try {
       const response = await fetch(
-        "http://localhost:8080/Admin/Genero/insert",
+        "http://localhost:8080/Admin/Plataforma/insert",
         {
           method: "POST",
           body: formInsertData,

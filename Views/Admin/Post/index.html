@@ -5,7 +5,7 @@
 <br />
 
 <section>
-  <table>
+  <table class="table">
     <thead>
       <tr>
         <th>Título</th>
@@ -24,8 +24,8 @@
         <td><?=$post->getCreateAt()?></td>
         <td>
           <a href="<?=constant('URL')?>/Admin/Post/edit/<?=$post->getId()?>"
-            >Editar</a
-          ><a href="<?=constant('URL')?>/Admin/Post/delete/<?=$post->getId()?>">Eliminar</a>
+            ><img src="<?=constant('URL')?>/public/icons/dashboard/edit.svg" alt="logo"/></a
+          ><a href="<?=constant('URL')?>/Admin/Post/delete/<?=$post->getId()?>"><img src="<?=constant('URL')?>/public/icons/dashboard/trash.svg" alt="logo"/></a>
         </td>
       </tr>
       <?php } ?>
