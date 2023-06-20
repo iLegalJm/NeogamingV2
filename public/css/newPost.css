@@ -1,0 +1,76 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.card label {
+  font-weight: bold;
+}
+
+.card input[type="text"],
+.card input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card input[type="file"] {
+  margin-top: 4px;
+}
+
+.container-foto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card img {
+  margin-top: 10px;
+  max-width: 400px;
+  max-height: 400px;
+  border: 1px solid #e0a423;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-genre,
+.section-platform {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container-edit {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.edit {
+  padding: 0.8rem 1.4rem;
+  font-weight: 700;
+  background-color: #e0a423;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.edit:hover {
+  color: #e0a423;
+  background-color: #1b5496;
+}

@@ -56,8 +56,7 @@ window.addEventListener("DOMContentLoaded", () => {
       return response.json();
     } catch (error) {
       alert(
-        `${"Hubo un error, la solicitud no se puede procesar en estos momentos. Razón: "}${
-          error.message
+        `${"Hubo un error, la solicitud no se puede procesar en estos momentos. Razón: "}${error.message
         }`
       );
       console.log(error);
@@ -77,7 +76,7 @@ window.addEventListener("DOMContentLoaded", () => {
           articlePost.className = "tarjeta";
           const enlacePost = document.createElement("a");
           enlacePost.href =
-            "http://192.168.18.4:8080/Post/show/" + `${post.id}`;
+            "http://localhost:8080/Post/show/" + `${post.id}`;
           enlacePost.innerHTML = `
                     <img
                         src="http://localhost:8080/public/img/posts/${post.foto}"

@@ -5,7 +5,7 @@
   justify-content: space-evenly;
 } */
 
-.card {
+.card-user {
   display: flex;
   flex-direction: column;
   border: 1px solid #ccc;
@@ -14,26 +14,28 @@
   margin-bottom: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #fff;
+  color: #0e0e0e;
+  font-size: 1.8em;
 }
 
-.card-header {
+.card-user-header {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.card-body {
+.card-user-body {
   margin-bottom: 20px;
 }
 
-.card-body label {
+.card-user-body label {
   display: block;
   margin-bottom: 10px;
 }
 
-.card-body input[type="text"],
-.card-body input[type="password"],
-.card-body input[type="file"] {
+.card-user-body input[type="text"],
+.card-user-body input[type="password"],
+.card-user-body input[type="file"] {
   width: 60%;
   padding: 8px;
   margin-top: 10px;
@@ -42,8 +44,8 @@
   border-radius: 4px;
 }
 
-.card-body input[type="submit"],
-.card-body button {
+.card-user-body input[type="submit"],
+.card-user-body button {
   padding: 8px 16px;
   background-color: #e0a423;
   color: #fff;
@@ -52,12 +54,12 @@
   cursor: pointer;
 }
 
-.card-body input[type="submit"]:hover,
-.card-body button:hover {
+.card-user-body input[type="submit"]:hover,
+.card-user-body button:hover {
   background-color: #e0a423;
 }
 
-.card-body img {
+.card-user-body img {
   margin-bottom: 10px;
 }
 

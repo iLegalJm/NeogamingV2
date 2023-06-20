@@ -1,51 +1,51 @@
-<form
-  action="<?= constant('URL') ?>/Post/insert"
-  method="post"
-  enctype="multipart/form-data"
->
-  <div class="">
-    <label for="titulo">Titulo</label>
-    <input name="titulo" type="text" required />
-  </div>
-  <div class="">
-    <label for="desarrollador">Desarrollado por:</label>
-    <input name="desarrollador" type="text" required />
-  </div>
-  <div class="">
-    <label for="lanzador">Lanzado por:</label>
-    <input name="lanzador" type="text" required />
-  </div>
-  <div class="">
-    <label for="trailer">Fecha de trailer:</label>
-    <input name="trailer" type="date" required />
-  </div>
-  <div class="">
-    <label for="lanzamiento">Fecha de lanzamiento:</label>
-    <input name="lanzamiento" type="date" required />
-  </div>
-  <div class="">
-    <label for="clasificacion">Descripcion:</label>
-    <input name="descripcion" type="text" required />
-  </div>
-  <div class="">
-    <label for="foto">Foto:</label>
-    <input name="foto" type="file" required />
-  </div>
-  <div class="">
-    <label for="genero">Genero:</label>
-    <?php foreach($generos as $genero){?>
-        <p><?=$genero->getNombre()?>
-            <input type="checkbox" name="generosId[]" id="" value="<?=$genero->getId()?>">
-        </p>
-<?php } ?>
-  </div>
-  <div class="">
-    <label for="genero">Plataforma:</label>
-    <?php foreach($plataformas as $plataforma){?>
-        <p><?=$plataforma->getNombre()?>
-            <input type="checkbox" name="plataformasId[]" id="" value="<?=$plataforma->getId()?>">
-        </p>
-<?php } ?>
-  </div>
-  <input type="submit" />
-</form>
+<div class="card">
+  <form action="<?= constant('URL') ?>/Post/insert" method="post" enctype="multipart/form-data">
+    <div class="">
+      <label for="titulo">Titulo</label>
+      <input name="titulo" type="text" required />
+    </div>
+    <div class="">
+      <label for="desarrollador">Desarrollado por:</label>
+      <input name="desarrollador" type="text" required />
+    </div>
+    <div class="">
+      <label for="lanzador">Lanzado por:</label>
+      <input name="lanzador" type="text" required />
+    </div>
+    <div class="">
+      <label for="trailer">Fecha de trailer:</label>
+      <input name="trailer" type="date" required />
+    </div>
+    <div class="">
+      <label for="lanzamiento">Fecha de lanzamiento:</label>
+      <input name="lanzamiento" type="date" required />
+    </div>
+    <div class="">
+      <label for="clasificacion">Descripcion:</label>
+      <input name="descripcion" type="text" required />
+    </div>
+    <div class="">
+      <label for="foto">Foto:</label>
+      <input name="foto" type="file" required />
+    </div>
+    <div class="section-genre">
+      <label for="genero">Genero:</label>
+      <?php foreach($generos as $genero){?>
+      <p><?=$genero->getNombre()?>
+        <input type="checkbox" name="generosId[]" id="" value="<?=$genero->getId()?>">
+      </p>
+      <?php } ?>
+    </div>
+    <div class="section-platform">
+      <label for="plataforma">Plataforma:</label>
+      <?php foreach($plataformas as $plataforma){?>
+      <p><?=$plataforma->getNombre()?>
+        <input type="checkbox" name="plataformasId[]" id="" value="<?=$plataforma->getId()?>">
+      </p>
+      <?php } ?>
+    </div>
+    <div class="container-edit">
+      <input class="edit" type="submit" />
+    </div>
+  </form>
+</div>

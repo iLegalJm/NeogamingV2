@@ -1,7 +1,7 @@
-<div class="card">
-  <h1 class="card-header">Pagina de info de user</h1>
+<div class="card-user">
+  <h1 class="card-user-header">Pagina de info de user</h1>
 
-  <div class="card-body">
+  <div class="card-user-body">
     <h2>
       Usuario:<?=($user->getNombre() != "") ? $user->getNombre().'
     '.$user->getUsername() : $user->getUsername()?>
@@ -18,7 +18,7 @@
     </form>
   </div>
 
-  <div class="card-body">
+  <div class="card-user-body">
     <form action="<?=constant('URL')?>/User/updateFoto" method="post" enctype="multipart/form-data">
       <div class="perfil">
         <label for="foto">Foto de perfil:</label>
@@ -33,7 +33,7 @@
     </form>
   </div>
 
-  <div class="card-body">
+  <div class="card-user-body">
     <form action="<?=constant('URL')?>/User/updatePassword" method="POST">
       <div>
         <label for="current_password">Contraseña actual:</label>

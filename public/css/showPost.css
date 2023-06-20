@@ -120,6 +120,7 @@ article .article__content .article__content {
   text-indent: 3rem;
   color: var(--component-text-general);
   line-height: 40px;
+  font-size: 1.5em;
 }
 
 .article__details-item {
@@ -217,7 +218,6 @@ article .article__content .article__content {
   margin: 0 auto;
   margin-top: 20px;
   max-width: 780px;
-  max-height: 580px;
 }
 
 #article-coments .container-profile {

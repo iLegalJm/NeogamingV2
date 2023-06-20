@@ -1,7 +1,8 @@
 <?php
   $img = constant('URL')."/public/img/posts/".$post->getFoto(); ?>
 <article class="article">
-  <section class="article__image" style="background: url('<?=$img?>') center center">
+  <section class="article__image"
+    style="background: url('<?=$img?>') center center; background-repeat: no-repeat; background-size: cover;">
     <div class="article__plataforms">
       <img src="<?=constant('URL')?>/public/icons/post/playstation-4.svg" alt="" />
       <img src="<?=constant('URL')?>/public/icons/post/ps5.svg" alt="" />
