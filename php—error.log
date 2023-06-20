@@ -5180,3 +5180,902 @@ Stack trace:
 [19-Jun-2023 21:44:52 Europe/Berlin] haciendo to array
 [19-Jun-2023 21:44:52 Europe/Berlin] haciendo to array
 [19-Jun-2023 21:44:52 Europe/Berlin] haciendo to array
+[20-Jun-2023 01:44:57 Europe/Berlin] ==================================================
+[20-Jun-2023 01:44:57 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 01:44:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function loadModel() on bool in C:\xampp\htdocs\NeogamingV2\libs\app.php:77
+Stack trace:
+#0 C:\xampp\htdocs\NeogamingV2\libs\app.php(20): App->init(Array)
+#1 C:\xampp\htdocs\NeogamingV2\index.php(25): App->__construct()
+#2 {main}
+  thrown in C:\xampp\htdocs\NeogamingV2\libs\app.php on line 77
+[20-Jun-2023 05:18:26 Europe/Berlin] ==================================================
+[20-Jun-2023 05:18:26 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:18:27 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[20-Jun-2023 05:18:27 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:18:27 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:18:31 Europe/Berlin] DATABASE::CONECT-> error: PDOException: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\NeogamingV2\libs\database.php:31
+Stack trace:
+#0 C:\xampp\htdocs\NeogamingV2\libs\database.php(31): PDO->__construct('mysql:host=loca...', 'root', '..MalTin2022', Array)
+#1 C:\xampp\htdocs\NeogamingV2\libs\model.php(13): Database->connect()
+#2 C:\xampp\htdocs\NeogamingV2\Model\Genero.php(57): Model->query('SELECT * FROM g...')
+#3 C:\xampp\htdocs\NeogamingV2\Controllers\post.php(26): GeneroModel->getAll()
+#4 C:\xampp\htdocs\NeogamingV2\libs\app.php(31): Post->render()
+#5 C:\xampp\htdocs\NeogamingV2\libs\app.php(20): App->init(Array)
+#6 C:\xampp\htdocs\NeogamingV2\index.php(25): App->__construct()
+#7 {main}
+[20-Jun-2023 05:18:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\NeogamingV2\libs\model.php:13
+Stack trace:
+#0 C:\xampp\htdocs\NeogamingV2\Model\Genero.php(57): Model->query('SELECT * FROM g...')
+#1 C:\xampp\htdocs\NeogamingV2\Controllers\post.php(26): GeneroModel->getAll()
+#2 C:\xampp\htdocs\NeogamingV2\libs\app.php(31): Post->render()
+#3 C:\xampp\htdocs\NeogamingV2\libs\app.php(20): App->init(Array)
+#4 C:\xampp\htdocs\NeogamingV2\index.php(25): App->__construct()
+#5 {main}
+  thrown in C:\xampp\htdocs\NeogamingV2\libs\model.php on line 13
+[20-Jun-2023 05:21:11 Europe/Berlin] ==================================================
+[20-Jun-2023 05:21:11 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:21:11 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[20-Jun-2023 05:21:11 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:21:11 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:21:11 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:21:11 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:21:11 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:21:11 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:21:11 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:21:11 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:21:11 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:21:11 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:21:11 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:21:11 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\NeogamingV2\classes\session.php on line 20
+[20-Jun-2023 05:21:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 165
+[20-Jun-2023 05:21:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 166
+[20-Jun-2023 05:21:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 167
+[20-Jun-2023 05:21:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 168
+[20-Jun-2023 05:21:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 169
+[20-Jun-2023 05:21:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 170
+[20-Jun-2023 05:21:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 171
+[20-Jun-2023 05:21:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 172
+[20-Jun-2023 05:22:51 Europe/Berlin] ==================================================
+[20-Jun-2023 05:22:51 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:22:51 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[20-Jun-2023 05:22:51 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:22:51 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:22:51 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:22:51 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:22:51 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:22:51 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:22:51 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:22:51 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:22:51 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:22:51 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:22:51 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:22:51 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\NeogamingV2\classes\session.php on line 20
+[20-Jun-2023 05:22:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 165
+[20-Jun-2023 05:22:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 166
+[20-Jun-2023 05:22:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 167
+[20-Jun-2023 05:22:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 168
+[20-Jun-2023 05:22:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 169
+[20-Jun-2023 05:22:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 170
+[20-Jun-2023 05:22:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 171
+[20-Jun-2023 05:22:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 172
+[20-Jun-2023 05:22:51 Europe/Berlin] ==================================================
+[20-Jun-2023 05:22:51 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:22:51 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:22:51 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:22:51 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:22:51 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:22:51 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:22:51 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:22:51 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:22:51 Europe/Berlin] PHP Warning:  Undefined array key "data" in C:\xampp\htdocs\NeogamingV2\Controllers\post.php on line 335
+[20-Jun-2023 05:24:36 Europe/Berlin] ==================================================
+[20-Jun-2023 05:24:36 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:24:36 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[20-Jun-2023 05:24:36 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:36 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:36 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:36 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:36 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:36 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:36 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:36 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:36 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:36 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:36 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:36 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\NeogamingV2\classes\session.php on line 20
+[20-Jun-2023 05:24:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 165
+[20-Jun-2023 05:24:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 166
+[20-Jun-2023 05:24:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 167
+[20-Jun-2023 05:24:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 168
+[20-Jun-2023 05:24:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 169
+[20-Jun-2023 05:24:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 170
+[20-Jun-2023 05:24:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 171
+[20-Jun-2023 05:24:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 172
+[20-Jun-2023 05:24:37 Europe/Berlin] ==================================================
+[20-Jun-2023 05:24:37 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:24:37 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:37 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:37 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:37 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:37 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:37 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:37 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:37 Europe/Berlin] PHP Warning:  Undefined array key "data" in C:\xampp\htdocs\NeogamingV2\Controllers\post.php on line 335
+[20-Jun-2023 05:24:41 Europe/Berlin] ==================================================
+[20-Jun-2023 05:24:41 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:24:41 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:41 Europe/Berlin] JOINPOSTGENEROPLATAFORMA::construct()
+[20-Jun-2023 05:24:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:41 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[20-Jun-2023 05:24:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\NeogamingV2\classes\session.php on line 20
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 165
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 166
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 167
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 168
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 169
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 170
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 171
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 172
+[20-Jun-2023 05:24:41 Europe/Berlin] ==================================================
+[20-Jun-2023 05:24:41 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:24:41 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[20-Jun-2023 05:24:41 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Coment/getComentsJSON, url => Coment
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\NeogamingV2\classes\session.php on line 20
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 165
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 166
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 167
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 168
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 169
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 170
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 171
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 172
+[20-Jun-2023 05:24:41 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> 
+[20-Jun-2023 05:24:41 Europe/Berlin] COMENTCONTROLLER::CONSTRUCT -> incio de ComentModel
+[20-Jun-2023 05:24:41 Europe/Berlin] ExistPOST: Existen parámetros
+[20-Jun-2023 05:24:41 Europe/Berlin] 11Esta funcionando
+[20-Jun-2023 05:24:41 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:41 Europe/Berlin] Se encontro registros
+[20-Jun-2023 05:24:41 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:41 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:41 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Undefined array key "data" in C:\xampp\htdocs\NeogamingV2\Controllers\Coment.php on line 59
+[20-Jun-2023 05:24:41 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:41 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:41 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:41 Europe/Berlin] ==================================================
+[20-Jun-2023 05:24:41 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:24:41 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[20-Jun-2023 05:24:41 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:41 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\NeogamingV2\classes\session.php on line 20
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 165
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 166
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 167
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 168
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 169
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 170
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 171
+[20-Jun-2023 05:24:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 172
+[20-Jun-2023 05:24:47 Europe/Berlin] ==================================================
+[20-Jun-2023 05:24:47 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:24:47 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[20-Jun-2023 05:24:47 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:47 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:47 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:47 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:47 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:47 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:47 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:47 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:47 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:47 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:47 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:47 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\NeogamingV2\classes\session.php on line 20
+[20-Jun-2023 05:24:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 165
+[20-Jun-2023 05:24:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 166
+[20-Jun-2023 05:24:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 167
+[20-Jun-2023 05:24:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 168
+[20-Jun-2023 05:24:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 169
+[20-Jun-2023 05:24:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 170
+[20-Jun-2023 05:24:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 171
+[20-Jun-2023 05:24:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 172
+[20-Jun-2023 05:24:47 Europe/Berlin] ==================================================
+[20-Jun-2023 05:24:47 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:24:47 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:47 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:47 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:47 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:47 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:47 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:47 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:47 Europe/Berlin] PHP Warning:  Undefined array key "data" in C:\xampp\htdocs\NeogamingV2\Controllers\post.php on line 335
+[20-Jun-2023 05:24:48 Europe/Berlin] ==================================================
+[20-Jun-2023 05:24:48 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:24:48 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:48 Europe/Berlin] JOINPOSTGENEROPLATAFORMA::construct()
+[20-Jun-2023 05:24:48 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[20-Jun-2023 05:24:48 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\NeogamingV2\classes\session.php on line 20
+[20-Jun-2023 05:24:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 165
+[20-Jun-2023 05:24:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 166
+[20-Jun-2023 05:24:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 167
+[20-Jun-2023 05:24:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 168
+[20-Jun-2023 05:24:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 169
+[20-Jun-2023 05:24:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 170
+[20-Jun-2023 05:24:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 171
+[20-Jun-2023 05:24:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 172
+[20-Jun-2023 05:24:48 Europe/Berlin] ==================================================
+[20-Jun-2023 05:24:48 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:24:48 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[20-Jun-2023 05:24:48 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Coment/getComentsJSON, url => Coment
+[20-Jun-2023 05:24:48 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\NeogamingV2\classes\session.php on line 20
+[20-Jun-2023 05:24:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 165
+[20-Jun-2023 05:24:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 166
+[20-Jun-2023 05:24:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 167
+[20-Jun-2023 05:24:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 168
+[20-Jun-2023 05:24:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 169
+[20-Jun-2023 05:24:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 170
+[20-Jun-2023 05:24:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 171
+[20-Jun-2023 05:24:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 172
+[20-Jun-2023 05:24:48 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> 
+[20-Jun-2023 05:24:48 Europe/Berlin] COMENTCONTROLLER::CONSTRUCT -> incio de ComentModel
+[20-Jun-2023 05:24:48 Europe/Berlin] ExistPOST: Existen parámetros
+[20-Jun-2023 05:24:48 Europe/Berlin] 12Esta funcionando
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] Se encontro registros
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:48 Europe/Berlin] PHP Warning:  Undefined array key "data" in C:\xampp\htdocs\NeogamingV2\Controllers\Coment.php on line 59
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:48 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:49 Europe/Berlin] ==================================================
+[20-Jun-2023 05:24:49 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:24:49 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[20-Jun-2023 05:24:49 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:49 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:49 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:49 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:49 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:49 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:49 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:49 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:49 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:49 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:49 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:49 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\NeogamingV2\classes\session.php on line 20
+[20-Jun-2023 05:24:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 165
+[20-Jun-2023 05:24:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 166
+[20-Jun-2023 05:24:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 167
+[20-Jun-2023 05:24:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 168
+[20-Jun-2023 05:24:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 169
+[20-Jun-2023 05:24:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 170
+[20-Jun-2023 05:24:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 171
+[20-Jun-2023 05:24:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 172
+[20-Jun-2023 05:24:53 Europe/Berlin] ==================================================
+[20-Jun-2023 05:24:53 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:24:53 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[20-Jun-2023 05:24:53 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:53 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:53 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:53 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:53 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:53 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:53 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:53 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:53 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:53 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:53 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:53 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\NeogamingV2\classes\session.php on line 20
+[20-Jun-2023 05:24:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 165
+[20-Jun-2023 05:24:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 166
+[20-Jun-2023 05:24:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 167
+[20-Jun-2023 05:24:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 168
+[20-Jun-2023 05:24:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 169
+[20-Jun-2023 05:24:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 170
+[20-Jun-2023 05:24:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 171
+[20-Jun-2023 05:24:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 172
+[20-Jun-2023 05:24:54 Europe/Berlin] ==================================================
+[20-Jun-2023 05:24:54 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:24:54 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:54 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:54 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:54 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:54 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:54 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:54 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:54 Europe/Berlin] PHP Warning:  Undefined array key "data" in C:\xampp\htdocs\NeogamingV2\Controllers\post.php on line 335
+[20-Jun-2023 05:24:54 Europe/Berlin] ==================================================
+[20-Jun-2023 05:24:54 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:24:54 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:54 Europe/Berlin] JOINPOSTGENEROPLATAFORMA::construct()
+[20-Jun-2023 05:24:54 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:54 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[20-Jun-2023 05:24:54 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:54 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:54 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:54 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[20-Jun-2023 05:24:54 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\NeogamingV2\classes\session.php on line 20
+[20-Jun-2023 05:24:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 165
+[20-Jun-2023 05:24:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 166
+[20-Jun-2023 05:24:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 167
+[20-Jun-2023 05:24:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 168
+[20-Jun-2023 05:24:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 169
+[20-Jun-2023 05:24:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 170
+[20-Jun-2023 05:24:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 171
+[20-Jun-2023 05:24:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 172
+[20-Jun-2023 05:24:55 Europe/Berlin] ==================================================
+[20-Jun-2023 05:24:55 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:24:55 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[20-Jun-2023 05:24:55 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Coment/getComentsJSON, url => Coment
+[20-Jun-2023 05:24:55 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\NeogamingV2\classes\session.php on line 20
+[20-Jun-2023 05:24:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 165
+[20-Jun-2023 05:24:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 166
+[20-Jun-2023 05:24:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 167
+[20-Jun-2023 05:24:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 168
+[20-Jun-2023 05:24:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 169
+[20-Jun-2023 05:24:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 170
+[20-Jun-2023 05:24:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 171
+[20-Jun-2023 05:24:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 172
+[20-Jun-2023 05:24:55 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> 
+[20-Jun-2023 05:24:55 Europe/Berlin] COMENTCONTROLLER::CONSTRUCT -> incio de ComentModel
+[20-Jun-2023 05:24:55 Europe/Berlin] ExistPOST: Existen parámetros
+[20-Jun-2023 05:24:55 Europe/Berlin] 13Esta funcionando
+[20-Jun-2023 05:24:55 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:55 Europe/Berlin] Se encontro registros
+[20-Jun-2023 05:24:55 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:55 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:55 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:55 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:55 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:55 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:55 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:55 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:55 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:55 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:55 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:55 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:55 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:55 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:55 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:55 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:55 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:55 Europe/Berlin] PHP Warning:  Undefined array key "data" in C:\xampp\htdocs\NeogamingV2\Controllers\Coment.php on line 59
+[20-Jun-2023 05:24:55 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:55 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:55 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:55 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:55 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:55 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:55 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:55 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:55 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:55 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:55 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:55 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:55 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:55 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:55 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:55 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:55 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:24:55 Europe/Berlin] ==================================================
+[20-Jun-2023 05:24:55 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:24:55 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[20-Jun-2023 05:24:55 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:55 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:55 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:55 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:55 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:55 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:55 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:55 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:55 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:55 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:55 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:55 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\NeogamingV2\classes\session.php on line 20
+[20-Jun-2023 05:24:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 165
+[20-Jun-2023 05:24:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 166
+[20-Jun-2023 05:24:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 167
+[20-Jun-2023 05:24:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 168
+[20-Jun-2023 05:24:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 169
+[20-Jun-2023 05:24:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 170
+[20-Jun-2023 05:24:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 171
+[20-Jun-2023 05:24:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 172
+[20-Jun-2023 05:24:57 Europe/Berlin] ==================================================
+[20-Jun-2023 05:24:57 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:24:57 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[20-Jun-2023 05:24:57 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:57 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:57 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:57 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:57 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:57 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:57 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:57 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:57 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:57 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:57 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:57 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\NeogamingV2\classes\session.php on line 20
+[20-Jun-2023 05:24:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 165
+[20-Jun-2023 05:24:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 166
+[20-Jun-2023 05:24:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 167
+[20-Jun-2023 05:24:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 168
+[20-Jun-2023 05:24:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 169
+[20-Jun-2023 05:24:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 170
+[20-Jun-2023 05:24:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 171
+[20-Jun-2023 05:24:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 172
+[20-Jun-2023 05:24:58 Europe/Berlin] ==================================================
+[20-Jun-2023 05:24:58 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:24:58 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:58 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:58 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:58 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:58 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:58 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:58 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:58 Europe/Berlin] PHP Warning:  Undefined array key "data" in C:\xampp\htdocs\NeogamingV2\Controllers\post.php on line 335
+[20-Jun-2023 05:24:58 Europe/Berlin] ==================================================
+[20-Jun-2023 05:24:58 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:24:58 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:58 Europe/Berlin] JOINPOSTGENEROPLATAFORMA::construct()
+[20-Jun-2023 05:24:58 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:58 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[20-Jun-2023 05:24:58 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:58 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:58 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\NeogamingV2\classes\session.php on line 20
+[20-Jun-2023 05:24:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 165
+[20-Jun-2023 05:24:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 166
+[20-Jun-2023 05:24:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 167
+[20-Jun-2023 05:24:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 168
+[20-Jun-2023 05:24:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 169
+[20-Jun-2023 05:24:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 170
+[20-Jun-2023 05:24:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 171
+[20-Jun-2023 05:24:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 172
+[20-Jun-2023 05:24:59 Europe/Berlin] ==================================================
+[20-Jun-2023 05:24:59 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:24:59 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[20-Jun-2023 05:24:59 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Coment/getComentsJSON, url => Coment
+[20-Jun-2023 05:24:59 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\NeogamingV2\classes\session.php on line 20
+[20-Jun-2023 05:24:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 165
+[20-Jun-2023 05:24:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 166
+[20-Jun-2023 05:24:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 167
+[20-Jun-2023 05:24:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 168
+[20-Jun-2023 05:24:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 169
+[20-Jun-2023 05:24:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 170
+[20-Jun-2023 05:24:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 171
+[20-Jun-2023 05:24:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 172
+[20-Jun-2023 05:24:59 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> 
+[20-Jun-2023 05:24:59 Europe/Berlin] COMENTCONTROLLER::CONSTRUCT -> incio de ComentModel
+[20-Jun-2023 05:24:59 Europe/Berlin] ExistPOST: Existen parámetros
+[20-Jun-2023 05:24:59 Europe/Berlin] 20Esta funcionando
+[20-Jun-2023 05:24:59 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:24:59 Europe/Berlin] ==================================================
+[20-Jun-2023 05:24:59 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:24:59 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[20-Jun-2023 05:24:59 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:24:59 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:59 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:59 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:59 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:59 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:59 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:59 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:59 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:59 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:59 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:24:59 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\NeogamingV2\classes\session.php on line 20
+[20-Jun-2023 05:24:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 165
+[20-Jun-2023 05:24:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 166
+[20-Jun-2023 05:24:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 167
+[20-Jun-2023 05:24:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 168
+[20-Jun-2023 05:24:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 169
+[20-Jun-2023 05:24:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 170
+[20-Jun-2023 05:24:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 171
+[20-Jun-2023 05:24:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 172
+[20-Jun-2023 05:25:04 Europe/Berlin] ==================================================
+[20-Jun-2023 05:25:04 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:25:04 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[20-Jun-2023 05:25:04 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:04 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:04 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:04 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:04 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:04 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:04 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:04 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:04 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:04 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:04 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:04 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\NeogamingV2\classes\session.php on line 20
+[20-Jun-2023 05:25:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 165
+[20-Jun-2023 05:25:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 166
+[20-Jun-2023 05:25:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 167
+[20-Jun-2023 05:25:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 168
+[20-Jun-2023 05:25:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 169
+[20-Jun-2023 05:25:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 170
+[20-Jun-2023 05:25:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 171
+[20-Jun-2023 05:25:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 172
+[20-Jun-2023 05:25:04 Europe/Berlin] ==================================================
+[20-Jun-2023 05:25:04 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:25:04 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:04 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:04 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:04 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:04 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:04 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:04 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:04 Europe/Berlin] PHP Warning:  Undefined array key "data" in C:\xampp\htdocs\NeogamingV2\Controllers\post.php on line 335
+[20-Jun-2023 05:25:05 Europe/Berlin] ==================================================
+[20-Jun-2023 05:25:05 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:25:05 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:05 Europe/Berlin] JOINPOSTGENEROPLATAFORMA::construct()
+[20-Jun-2023 05:25:05 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:05 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[20-Jun-2023 05:25:05 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:05 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\NeogamingV2\classes\session.php on line 20
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 165
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 166
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 167
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 168
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 169
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 170
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 171
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 172
+[20-Jun-2023 05:25:05 Europe/Berlin] ==================================================
+[20-Jun-2023 05:25:05 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:25:05 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[20-Jun-2023 05:25:05 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Coment/getComentsJSON, url => Coment
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\NeogamingV2\classes\session.php on line 20
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 165
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 166
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 167
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 168
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 169
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 170
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 171
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 172
+[20-Jun-2023 05:25:05 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> 
+[20-Jun-2023 05:25:05 Europe/Berlin] COMENTCONTROLLER::CONSTRUCT -> incio de ComentModel
+[20-Jun-2023 05:25:05 Europe/Berlin] ExistPOST: Existen parámetros
+[20-Jun-2023 05:25:05 Europe/Berlin] 21Esta funcionando
+[20-Jun-2023 05:25:05 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:25:05 Europe/Berlin] Se encontro registros
+[20-Jun-2023 05:25:05 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:25:05 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:25:05 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Undefined array key "data" in C:\xampp\htdocs\NeogamingV2\Controllers\Coment.php on line 59
+[20-Jun-2023 05:25:05 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:25:05 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:25:05 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:25:05 Europe/Berlin] ==================================================
+[20-Jun-2023 05:25:05 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:25:05 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[20-Jun-2023 05:25:05 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:05 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:05 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:05 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:05 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:05 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:05 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:05 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:05 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:05 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:05 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\NeogamingV2\classes\session.php on line 20
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 165
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 166
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 167
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 168
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 169
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 170
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 171
+[20-Jun-2023 05:25:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 172
+[20-Jun-2023 05:25:08 Europe/Berlin] ==================================================
+[20-Jun-2023 05:25:08 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:25:08 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[20-Jun-2023 05:25:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:08 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:08 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:08 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:08 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:08 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:08 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:08 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:08 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:08 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:08 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:08 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\NeogamingV2\classes\session.php on line 20
+[20-Jun-2023 05:25:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 165
+[20-Jun-2023 05:25:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 166
+[20-Jun-2023 05:25:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 167
+[20-Jun-2023 05:25:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 168
+[20-Jun-2023 05:25:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 169
+[20-Jun-2023 05:25:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 170
+[20-Jun-2023 05:25:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 171
+[20-Jun-2023 05:25:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\NeogamingV2\Model\User.php on line 172
+[20-Jun-2023 05:25:08 Europe/Berlin] ==================================================
+[20-Jun-2023 05:25:08 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:25:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:08 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:08 Europe/Berlin] PHP Warning:  Undefined array key "data" in C:\xampp\htdocs\NeogamingV2\Controllers\post.php on line 335
+[20-Jun-2023 05:25:44 Europe/Berlin] ==================================================
+[20-Jun-2023 05:25:44 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:25:44 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[20-Jun-2023 05:25:44 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login, url => Login
+[20-Jun-2023 05:25:44 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[20-Jun-2023 05:25:44 Europe/Berlin] LOGIN::render -> Carga el index de login
+[20-Jun-2023 05:25:51 Europe/Berlin] ==================================================
+[20-Jun-2023 05:25:51 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:25:51 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[20-Jun-2023 05:25:51 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Login/authenticate, url => Login
+[20-Jun-2023 05:25:51 Europe/Berlin] LOGIN::CONSTRUCT -> INICIO DE LOGIN
+[20-Jun-2023 05:25:51 Europe/Berlin] ExistPOST: Existen parámetros
+[20-Jun-2023 05:25:51 Europe/Berlin] cueva aqui la contra
+[20-Jun-2023 05:25:51 Europe/Berlin] Inicio de login  cueva cueva
+[20-Jun-2023 05:25:51 Europe/Berlin] 1 true o false
+[20-Jun-2023 05:25:51 Europe/Berlin] LOGINMODEL::LOGIN()->SUCCESS = cueva
+[20-Jun-2023 05:25:51 Europe/Berlin] ==================================================
+[20-Jun-2023 05:25:51 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:25:51 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[20-Jun-2023 05:25:51 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:51 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:51 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:51 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:51 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:51 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:51 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:51 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:51 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:51 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:51 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:52 Europe/Berlin] ==================================================
+[20-Jun-2023 05:25:52 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:25:52 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:52 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:52 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:52 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:52 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:52 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:52 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:52 Europe/Berlin] PHP Warning:  Undefined array key "data" in C:\xampp\htdocs\NeogamingV2\Controllers\post.php on line 335
+[20-Jun-2023 05:25:53 Europe/Berlin] ==================================================
+[20-Jun-2023 05:25:53 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:25:53 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:25:53 Europe/Berlin] JOINPOSTGENEROPLATAFORMA::construct()
+[20-Jun-2023 05:25:53 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:53 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[20-Jun-2023 05:25:53 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:25:54 Europe/Berlin] ==================================================
+[20-Jun-2023 05:25:54 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:25:54 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[20-Jun-2023 05:25:54 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[20-Jun-2023 05:25:54 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[20-Jun-2023 05:25:54 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Coment/getComentsJSON, url => Coment
+[20-Jun-2023 05:25:54 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Coment/getComentsJSON, url => Coment
+[20-Jun-2023 05:25:54 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[20-Jun-2023 05:25:54 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[20-Jun-2023 05:25:54 Europe/Berlin] COMENTCONTROLLER::CONSTRUCT -> incio de ComentModel
+[20-Jun-2023 05:25:54 Europe/Berlin] ExistPOST: Existen parámetros
+[20-Jun-2023 05:25:54 Europe/Berlin] 11Esta funcionando
+[20-Jun-2023 05:25:54 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:25:54 Europe/Berlin] Se encontro registros
+[20-Jun-2023 05:25:54 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:25:54 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:25:54 Europe/Berlin] PostHasGeneroModel::CONSTRUCT -> incio de PostHasGeneroModel
+[20-Jun-2023 05:25:54 Europe/Berlin] PHP Warning:  Undefined array key "data" in C:\xampp\htdocs\NeogamingV2\Controllers\Coment.php on line 59
+[20-Jun-2023 05:25:54 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:25:54 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:25:54 Europe/Berlin] haciendo to array
+[20-Jun-2023 05:26:00 Europe/Berlin] ==================================================
+[20-Jun-2023 05:26:00 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:26:00 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[20-Jun-2023 05:26:00 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[20-Jun-2023 05:26:00 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[20-Jun-2023 05:26:00 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[20-Jun-2023 05:26:00 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[20-Jun-2023 05:26:00 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[20-Jun-2023 05:26:00 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[20-Jun-2023 05:26:00 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[20-Jun-2023 05:26:00 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[20-Jun-2023 05:26:00 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[20-Jun-2023 05:26:00 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[20-Jun-2023 05:26:00 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[20-Jun-2023 05:26:00 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[20-Jun-2023 05:26:00 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[20-Jun-2023 05:26:00 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[20-Jun-2023 05:26:00 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[20-Jun-2023 05:26:00 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[20-Jun-2023 05:26:01 Europe/Berlin] ==================================================
+[20-Jun-2023 05:26:01 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:26:01 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[20-Jun-2023 05:26:01 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:26:01 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:26:01 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:26:01 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:26:01 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:26:01 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:26:01 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[20-Jun-2023 05:26:01 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[20-Jun-2023 05:26:01 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[20-Jun-2023 05:26:01 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post, url => Admin
+[20-Jun-2023 05:26:01 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post, url => Admin
+[20-Jun-2023 05:26:01 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[20-Jun-2023 05:26:01 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[20-Jun-2023 05:26:02 Europe/Berlin] ==================================================
+[20-Jun-2023 05:26:02 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:26:02 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[20-Jun-2023 05:26:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:02 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:02 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[20-Jun-2023 05:26:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[20-Jun-2023 05:26:02 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[20-Jun-2023 05:26:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[20-Jun-2023 05:26:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[20-Jun-2023 05:26:02 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[20-Jun-2023 05:26:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[20-Jun-2023 05:26:03 Europe/Berlin] ==================================================
+[20-Jun-2023 05:26:03 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:26:03 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[20-Jun-2023 05:26:03 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:03 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:03 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:03 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:03 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:03 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:03 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:03 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:03 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:03 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:03 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:11 Europe/Berlin] ==================================================
+[20-Jun-2023 05:26:11 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:26:11 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[20-Jun-2023 05:26:11 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:11 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[20-Jun-2023 05:26:11 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[20-Jun-2023 05:26:11 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[20-Jun-2023 05:26:11 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero/create, url => Admin
+[20-Jun-2023 05:26:11 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero/create, url => Admin
+[20-Jun-2023 05:26:11 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[20-Jun-2023 05:26:11 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[20-Jun-2023 05:26:16 Europe/Berlin] ==================================================
+[20-Jun-2023 05:26:16 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:26:16 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[20-Jun-2023 05:26:16 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:26:16 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:26:16 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:26:16 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:26:16 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:26:16 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[20-Jun-2023 05:26:16 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[20-Jun-2023 05:26:16 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[20-Jun-2023 05:26:16 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[20-Jun-2023 05:26:16 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post, url => Admin
+[20-Jun-2023 05:26:16 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post, url => Admin
+[20-Jun-2023 05:26:16 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[20-Jun-2023 05:26:16 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[20-Jun-2023 05:26:17 Europe/Berlin] ==================================================
+[20-Jun-2023 05:26:17 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:26:17 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[20-Jun-2023 05:26:17 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:17 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:17 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:17 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:17 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:17 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:17 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:17 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:17 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:17 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:18 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[20-Jun-2023 05:26:18 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[20-Jun-2023 05:26:18 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[20-Jun-2023 05:26:18 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[20-Jun-2023 05:26:18 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[20-Jun-2023 05:26:18 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[20-Jun-2023 05:26:18 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[20-Jun-2023 05:26:18 Europe/Berlin] ==================================================
+[20-Jun-2023 05:26:18 Europe/Berlin] Inicio de aplicacion
+[20-Jun-2023 05:26:18 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[20-Jun-2023 05:26:18 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:18 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:18 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:18 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:18 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:18 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:18 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:18 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:18 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:18 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[20-Jun-2023 05:26:18 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel

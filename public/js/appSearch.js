@@ -1,5 +1,5 @@
 // ! CON ESTO EL CODIGO SE EJECUTARA CUANDO EL CONTENIDO ESTE CARGADO
-window.addEventListener('DOMContentLoaded', ()=>{
+window.addEventListener('DOMContentLoaded', () => {
     const articleContainer = document.querySelector("#article-results");
 
     // ! CAPTURANDO LOS BUSCADORES
@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
     let searchByTitulo = '';
     let searchByMes = '';
     let searchByGenero = '';
-    
+
     if (search || searchMes || searchGenero) {
         // ! EVENTO QUE SE EJECUTARA CUANDO EL VALOR DE INPUT CAMBIE
         search.addEventListener('input', event => {
@@ -19,7 +19,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
             searchByTitulo = event.target.value;
             searchByMes = searchMes.value;
             showResults();
-        } ); 
+        });
 
         searchMes.addEventListener('input', event => {
             searchByMes = event.target.value;
@@ -47,7 +47,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
         try {
             // ! LA PETICION 
             // * COMO MI EXPRESION AWAIT PAUSO LA EJECUCION DE MI FUNCION ASYNC HASTA QUE LA PROMESA TENGA UNA RESPUESTA
-            const response = await fetch('http://192.168.18.4:8080/Post/getPostsJSON', {
+            const response = await fetch('http://localhost:8080/Post/getPostsJSON', {
                 method: "POST",
                 body: searchData
             })
@@ -65,19 +65,19 @@ window.addEventListener('DOMContentLoaded', ()=>{
     const showResults = () => {
         // * COMO ME DEVUELVE UNA PROMESA LA FUNCION SEARCH DATA ACCEDO A ELLA CON THEN
         searchData()
-        .then(dataResults => {
-            articleContainer.innerHTML='';
-            if (typeof dataResults.data !== 'undefined' && !dataResults.data) {
-                console.log(dataResults.data);
-            } else{
-                for (const post of dataResults) {
-                    const articlePost = document.createElement('article');
-                    articlePost.className = "tarjeta";
-                    const enlacePost = document.createElement('a');
-                    enlacePost.href = 'http://192.168.18.4:8080/Post/show/'+`${post.id}`;
-                    enlacePost.innerHTML= `
+            .then(dataResults => {
+                articleContainer.innerHTML = '';
+                if (typeof dataResults.data !== 'undefined' && !dataResults.data) {
+                    console.log(dataResults.data);
+                } else {
+                    for (const post of dataResults) {
+                        const articlePost = document.createElement('article');
+                        articlePost.className = "tarjeta";
+                        const enlacePost = document.createElement('a');
+                        enlacePost.href = 'http://localhost:8080/Post/show/' + `${post.id}`;
+                        enlacePost.innerHTML = `
                     <img
-                        src="http://192.168.18.4:8080/public/img/posts/${post.foto}"
+                        src="http://localhost:8080/public/img/posts/${post.foto}"
                         alt="re4"
                         width="520px"
                         height="320px"
@@ -86,14 +86,14 @@ window.addEventListener('DOMContentLoaded', ()=>{
                     <p class="fecha"> Fecha de lanzamiento: ${post.lanzamiento}</p>
                     <p class="descripcion"> ${post.descripcion}</p>
                     `;
-          
-                    articlePost.appendChild(enlacePost);
-                    articleContainer.appendChild(articlePost);
+
+                        articlePost.appendChild(enlacePost);
+                        articleContainer.appendChild(articlePost);
+                    }
+
+                    // console.log(dataResults);
                 }
-                
-                // console.log(dataResults);
-            }
-        })
+            })
     }
 
     showResults();

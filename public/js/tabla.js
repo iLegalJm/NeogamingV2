@@ -25,7 +25,7 @@ btnNewGenero.addEventListener("click", async (e) => {
 });
 
 async function getContent() {
-  const html = await fetch("http://192.168.18.4:8080/Admin/Genero/create").then(
+  const html = await fetch("http://localhost:8080/Admin/Genero/create").then(
     (res) => res.text()
   );
   return html;
@@ -37,7 +37,7 @@ async function getGeneros() {
   try {
     // registros.innerHTML = '';
     let resp = await fetch(
-      "http://192.168.18.4:8080/Admin/Genero/getGenerosJSON"
+      "http://localhost:8080/Admin/Genero/getGenerosJSON"
     )
       .then((json) => json.json())
       .then((res) => res);
@@ -47,7 +47,7 @@ async function getGeneros() {
         <tr>
             <td>${element.id}</td>
             <td>${element.nombre}</td>
-            <td><a href="http://192.168.18.4:8080/Admin/Genero/edit/${element.id}">Editar</a></td>
+            <td><a href="http://localhost:8080/Admin/Genero/edit/${element.id}">Editar</a></td>
         </tr>
         `;
     });
