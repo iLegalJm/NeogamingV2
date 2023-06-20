@@ -73,7 +73,7 @@ window.addEventListener("DOMContentLoaded", () => {
           const divComent = document.createElement("div");
           divComent.innerHTML = `
                 <h2>${coment.username}</h2>
-                <img src="http://192.168.18.4:8080/public/img/fotos/${coment.userFoto}" width="50px" style="border-radius: 50%;">    
+                <img src="http://localhost:8080/public/img/fotos/${coment.userFoto}" width="50px" style="border-radius: 50%;">    
                 <p style="font-size: 20px;">${coment.texto}</p>
             `;
           articleComents.appendChild(divComent);

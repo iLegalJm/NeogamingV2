@@ -1,6 +1,6 @@
 <?php
 
-define('URL', 'http://192.168.18.4:8080');
+define('URL', 'http://localhost:8080');
 
 define('HOST', 'localhost');
 define('DB', 'neog');

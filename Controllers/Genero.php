@@ -13,14 +13,6 @@ class Genero extends Controller
         parent::__construct();
     }
 
-    public function render()
-    {
-        $this->view->render("Post/index", [
-            'user' => $this->user,
-            'posts' => $this->model->getAll()
-        ]);
-    }
-
     public function renderAdmin()
     {
         $this->view->render("Admin/Genero/index", [
@@ -51,6 +43,8 @@ class Genero extends Controller
     }
     public function insert()
     {
+        header('Content-Type: aplication/json');
+
         if (!$this->existPOST(['nombre'])) {
             $this->redirect('Admin/Genero', []);
             return;
@@ -58,12 +52,14 @@ class Genero extends Controller
 
         $genero = new GeneroModel();
         $genero->setNombre($this->getPost('nombre'));
+
         if ($genero->exists($this->getPost('nombre'))) {
             $this->redirect('Admin/Genero', []);
         } else if ($genero->create()) {
-            $this->redirect('Admin/Genero', []); //TODO: Success
+            echo json_encode('Genero creado bien');
+            // $this->redirect('Admin/Genero', []); //TODO: Success
         } else {
-            $this->redirect('Admin/Genero', []); //TODO: Success
+            $this->redirect('Admin/Genero', []); //TODO:
         }
     }
 
@@ -80,14 +76,14 @@ class Genero extends Controller
             $this->redirect('Admin/Post', []);
         }
 
-        $id = $params[0];
-        error_log("Post::delete() id = " . $id);
-        $res = $this->model->delete();
+        $id = $params;
+        error_log("Genero::delete() id = " . $id);
+        $res = $this->model->delete($id);
 
         if ($res) {
-            $this->redirect('Admin/Post', []);
+            $this->redirect('Admin/Genero', []);
         } else {
-            $this->redirect('Admin/Post', []);
+            $this->redirect('Admin/Genero', []);
         }
     }
 

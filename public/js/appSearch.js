@@ -47,7 +47,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
         try {
             // ! LA PETICION 
             // * COMO MI EXPRESION AWAIT PAUSO LA EJECUCION DE MI FUNCION ASYNC HASTA QUE LA PROMESA TENGA UNA RESPUESTA
-            const response = await fetch('http://192.168.18.4:8080/Post/getPostsJSON', {
+            const response = await fetch('http://localhost:8080/Post/getPostsJSON', {
                 method: "POST",
                 body: searchData
             })
@@ -74,10 +74,10 @@ window.addEventListener('DOMContentLoaded', ()=>{
                     const articlePost = document.createElement('article');
                     articlePost.className = "tarjeta";
                     const enlacePost = document.createElement('a');
-                    enlacePost.href = 'http://192.168.18.4:8080/Post/show/'+`${post.id}`;
+                    enlacePost.href = 'http://localhost:8080/Post/show/'+`${post.id}`;
                     enlacePost.innerHTML= `
                     <img
-                        src="http://192.168.18.4:8080/public/img/posts/${post.foto}"
+                        src="http://localhost:8080/public/img/posts/${post.foto}"
                         alt="re4"
                         width="520px"
                         height="320px"

@@ -2,6 +2,7 @@ const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
 const openModalBtn = document.querySelector(".btn-open");
 const closeModalBtn = document.querySelector(".btn-close");
+const btnInsert = document.querySelector('.btn');
 
 // close modal function
 const closeModal = function () {
@@ -20,10 +21,14 @@ document.addEventListener("keydown", function (e) {
   }
 });
 
+// * CLOSE MODAL AFTER INSERT
+btnInsert.addEventListener('click', closeModal);
+
 // open modal function
 const openModal = function () {
   modal.classList.remove("hidden");
   overlay.classList.remove("hidden");
 };
+
 // open modal event
 openModalBtn.addEventListener("click", openModal);
