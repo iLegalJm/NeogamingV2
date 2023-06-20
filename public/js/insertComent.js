@@ -70,9 +70,11 @@ window.addEventListener("DOMContentLoaded", () => {
         for (const coment of dataResults) {
           const divComent = document.createElement("div");
           divComent.innerHTML = `
-                <h2>${coment.username}</h2>
-                <img src="http://localhost:8080/public/img/fotos/${coment.userFoto}" width="50px" style="border-radius: 50%;">    
-                <p style="font-size: 20px;">${coment.texto}</p>
+            <div class="container-profile">
+              <h2>${coment.username}</h2>
+              <img src="http://localhost:8080/public/img/fotos/${coment.userFoto}" width="50px" style="border-radius: 50%;">    
+            </div>
+            <p class="container-content" style="font-size: 20px;">${coment.texto}</p>
             `;
           articleComents.appendChild(divComent);
         }
