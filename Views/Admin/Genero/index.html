@@ -1,15 +1,9 @@
-<head>
-  <link rel="stylesheet" href="../../../public/css/modalGen.css">
-</head>
 <p>
   <?php
     $message
     ?>
 </p>
 <h1>Main de genero para Admin</h1>
-<a href="<?=constant('URL')?>/Admin/Genero/create">Crear nuevo genero</a>
-
-<button id="btn-new-genero">Crear nuevo genero</button>
 
 <section id="">
   <table id="tabla">
@@ -17,6 +11,7 @@
       <tr>
         <th>Id</th>
         <th>Nombre</th>
+        <th>Acciones</th>
       </tr>
     </thead>
     <tbody id="body"></tbody>
@@ -30,28 +25,27 @@
   <div class="main-content">
     <h3>Genero</h3>
     <p>
-      Los generos representan etiquetas sobre la tematica del juego. Aqui puedes añadir el genero:
+      Los generos representan etiquetas sobre la tematica del juego. Aqui puedes
+      añadir el genero:
     </p>
   </div>
-  <form action="<?= constant('URL') ?>/Genero/insert" method="POST">
-    <input type="text" id="text" placeholder="Ingresar el genero" />
-    <button class="btn">Agregar</button>
+  <form action="" method="POST" id="form-modal">
+    <input
+      type="text"
+      id="text"
+      placeholder="Ingresar el genero"
+      name="nombre"
+    />
+    <button class="btn" type="submit">Agregar</button>
   </form>
 </section>
 
 <div class="overlay hidden"></div>
 <button class="btn btn-open">Agregar Genero</button>
 
-<!-- <form action="<?= constant('URL') ?>/Genero/insert" method="POST">
-  <div class="">
-    <label for="nombre">Nombre</label>
-    <input name="nombre" type="text" required />
-  </div>
-  <input type="submit" value="Agregar genero" />
-</form> -->
-<div id="main-container">
+<div id="main-container"></div>
 
-</div>
-
-<script src="<?=constant('URL')?>/public/js/tabla.js"></script>
-<script src="../../../public/js/modalGen.js"></script>
+<!-- ! SCRIPTS -->
+<!-- <script src="<?=constant('URL')?>/public/js/tabla.js"></script> -->
+<script src="<?=constant('URL')?>/public/js/modalGen.js"></script>
+<script src="<?=constant('URL')?>/public/js/crudGenero.js"></script>
