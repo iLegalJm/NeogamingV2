@@ -1,20 +1,25 @@
 <?php
   $img = constant('URL')."/public/img/posts/".$post->getFoto(); ?>
 <article class="article">
-  <section class="article__image"
-    style="background: url('<?=$img?>') center center; background-repeat: no-repeat; background-size: cover;">
+  <section
+    class="article__image"
+    style="
+      background: url('<?=$img?>') center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    "
+  >
     <div class="article__plataforms">
-      <img src="<?=constant('URL')?>/public/icons/post/playstation-4.svg" alt="" />
+      <img
+        src="<?=constant('URL')?>/public/icons/post/playstation-4.svg"
+        alt=""
+      />
       <img src="<?=constant('URL')?>/public/icons/post/ps5.svg" alt="" />
       <img src="<?=constant('URL')?>/public/icons/post/xbox-2.svg" alt="" />
       <img src="<?=constant('URL')?>/public/icons/post/pc.svg" alt="" />
     </div>
-    <h2 class="article__title">
-      <?= $post->getTitulo()?>
-    </h2>
-    <div class="article__descripcion">
-      <?= $post->getDescripcion()?>
-    </div>
+    <h2 class="article__title"><?= $post->getTitulo()?></h2>
+    <div class="article__descripcion"><?= $post->getDescripcion()?></div>
   </section>
 
   <section class="article__content">
@@ -104,14 +109,18 @@
     <label for="texto">Comentario:</label>
     <br />
     <input type="hidden" name="id" id="form-id" value="<?= $post->getId()?>" />
-    <textarea name="texto" id="form-texto" cols="50" rows="10" style="width: 80%"></textarea>
+    <textarea
+      name="texto"
+      id="form-texto"
+      cols="50"
+      rows="10"
+      style="width: 80%"
+    ></textarea>
     <br />
     <input type="submit" id="btn-enviar" />
   </form>
 </section>
 
-<article id="article-coments">
-
-</article>
+<article id="article-coments"></article>
 <!-- ! SCRIPTS -->
 <script src="<?=constant('URL')?>/public/js/insertComent.js"></script>

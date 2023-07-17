@@ -157,9 +157,9 @@ class UserModel extends Model implements iModel
     public function get($id)
     {
         try {
-            $query = $this->prepare('SELECT * FROM user WHERE id = :id');
+            $query = $this->prepare('SELECT * FROM user WHERE username = :username');
             $query->execute([
-                'id' => $id
+                'username' => $id
             ]);
             $user = $query->fetch(PDO::FETCH_ASSOC);
             $this->setId($user['id']);
@@ -279,7 +279,8 @@ class UserModel extends Model implements iModel
             ]);
 
             //? PASSWORD VERIFY ES UN METODO NATIVO DE PHP PARA VALIDAR UN HASH Y PÁSSWORD EN TEXTO PLANO SI SON LOS MISMOS
-            if ($row = $query->fetch(PDO::FETCH_ASSOC)) return password_verify($password, $row['password']);
+            if ($row = $query->fetch(PDO::FETCH_ASSOC))
+                return password_verify($password, $row['password']);
             return NULL;
         } catch (PDOException $e) {
             error_log('USERMODEL::EXISTS->PDOEXCEPTION ' . $e);

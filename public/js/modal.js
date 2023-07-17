@@ -1,8 +1,10 @@
+// window.addEventListener("load", () => {
+console.log("aquimodal");
 const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
-const openModalBtn = document.querySelector(".btn-open");
+// const openModalBtn = document.querySelectorAll(".btn-open");
 const closeModalBtn = document.querySelector(".btn-close");
-const btnInsert = document.querySelector('.btn');
+const btnInsert = document.querySelector(".btn-submit");
 
 // close modal function
 const closeModal = function () {
@@ -21,8 +23,8 @@ document.addEventListener("keydown", function (e) {
   }
 });
 
-// * CLOSE MODAL AFTER INSERT
-btnInsert.addEventListener('click', closeModal);
+// // * CLOSE MODAL AFTER INSERT
+// btnInsert.addEventListener("click", closeModal);
 
 // open modal function
 const openModal = function () {
@@ -30,5 +32,25 @@ const openModal = function () {
   overlay.classList.remove("hidden");
 };
 
+const clicke = function (evento) {
+  console.log("texto: ", this.dataset.id);
+};
 // open modal event
-openModalBtn.addEventListener("click", openModal);
+
+setTimeout(() => {
+  console.log("Cargado");
+  const openModalBtn = document.querySelectorAll(".btn-open");
+  openModalBtn.forEach((boton) => {
+    boton.addEventListener("click", () => {
+      openModal();
+      if (boton.innerText == "Agregar Genero") {
+        btnInsert.innerText = "Agregar";
+      } else {
+        console.log("Texto:", boton.dataset.id);
+        btnInsert.innerText = "Editar";
+      }
+    });
+  });
+}, 800);
+
+// });

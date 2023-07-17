@@ -21,6 +21,19 @@ class Genero extends Controller
         ]);
     }
 
+    public function edit($id)
+    {
+        $genero = $this->model->get($id);
+        $this->view->render("Admin/Genero/edit", [
+            "post" => $genero,
+        ]);
+    }
+
+    public function update()
+    {
+
+    }
+
     public function show($id)
     {
         require_once 'Model/JoinPostGeneroPlataforma.php';

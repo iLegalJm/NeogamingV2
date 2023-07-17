@@ -1,6 +1,13 @@
 <?php
 
-include_once 'libs/imodel.php';
+
+if (file_exists('libs/imodel.php')) {
+    require_once 'libs/imodel.php';
+} else if (file_exists('../libs/imodel.php')) {
+    require_once '../libs/imodel.php';
+} else {
+    require_once '../../libs/imodel.php';
+}
 class Model
 {
     public $db;

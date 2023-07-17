@@ -14,10 +14,6 @@ class Post extends Controller
     public function __construct()
     {
         parent::__construct();
-        // $this->view->render("Post/index", [
-        //     'user' => $this->user,
-        //     'posts' => $this->model->getAll()
-        // ]);
     }
 
     public function render()

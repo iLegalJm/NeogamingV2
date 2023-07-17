@@ -69,7 +69,7 @@ class App
             }
         } else {
             $indexFatal = strpos($uriParts[0], '?'); //? OBTENGO LA POSICION DEL CARACTER QUE ME MOLESTA
-            $newUriParts0 = substr($uriParts[0], 0, $indexFatal); //? OBTENGO SOLO EL NOMBRE DEL CONTROLADOR QUE ES LO QUE ME INTERESA    
+            $newUriParts0 = substr($uriParts[0], 1, $indexFatal); //? OBTENGO SOLO EL NOMBRE DEL CONTROLADOR QUE ES LO QUE ME INTERESA    
             if ($newUriParts0 == "") {
                 $archivoController = 'Controllers/' . $uriParts[0] . '.php';
                 // ? Inicializando controlador
@@ -87,7 +87,16 @@ class App
 
             // ? Si existe un metodo
             if (isset($uriParts[1])) {
-                if (method_exists($controller, $uriParts[1])) {
+                $indexFatal1 = strpos($uriParts[1], '?'); //? OBTENGO LA POSICION DEL CARACTER QUE ME MOLESTA
+                $newUriParts1 = substr($uriParts[1], 0, $indexFatal1); //? OBTENGO SOLO EL NOMBRE DEL CONTROLADOR QUE ES LO QUE ME INTERESA 
+
+                if ($newUriParts1 == '') {
+                    $newUri1 = $uriParts[1];
+                } else {
+                    $newUri1 = $newUriParts1;
+                }
+                
+                if (method_exists($controller, $newUri1)) {
                     //? EL METODO TIENE PARAMETROS
                     if (isset($uriParts[2])) {
                         //el método tiene parámetros
@@ -103,7 +112,7 @@ class App
                         $controller->{$uriParts[1]}($params[0]);
                     } else {
                         // ? NO TIENE PARAMETROS SE MANDA A LLAMAR EL METODO TAL CUAL
-                        $controller->{$uriParts[1]}();
+                        $controller->{$newUri1}();
                     }
                 } else {
                     // ? ERROR DE QUE EL METODO NO EXISTE

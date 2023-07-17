@@ -1,0 +1,51 @@
+<h1>Main de Producto Admin</h1>
+<a href="<?=constant('URL')?>/Admin/Producto/create">Crear nuevo producto</a>
+
+<br />
+<br />
+
+<section>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Producto</th>
+        <th>Código</th>
+        <th>Precio</th>
+        <th>Stock</th>
+        <th>Descripción</th>
+        <th>Foto</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <?php foreach($productos as $p) {?>
+      <tr>
+        <td><?=$p->getNombre()?></td>
+        <td><?=$p->getCodigo()?></td>
+        <td><?=$p->getPrecio()?></td>
+        <td><?=$p->getStock()?></td>
+        <td><?=$p->getDescripcion()?></td>
+        <td>
+          <img
+            src="<?=constant('URL')?>/public/img/productos/<?=$p->getFoto()?>"
+            alt=""
+            width="150"
+            height="100"
+          />
+        </td>
+        <td>
+          <a href="<?=constant('URL')?>/Admin/Post/edit/<?=$p->getId()?>"
+            ><img
+              src="<?=constant('URL')?>/public/icons/dashboard/edit.svg"
+              alt="logo" /></a
+          ><a href="<?=constant('URL')?>/Admin/Post/delete/<?=$p->getId()?>"
+            ><img
+              src="<?=constant('URL')?>/public/icons/dashboard/trash.svg"
+              alt="logo"
+          /></a>
+        </td>
+      </tr>
+      <?php } ?>
+    </tbody>
+  </table>
+</section>

@@ -1,0 +1,44 @@
+#carrito-container {
+  width: 400px;
+  background: white;
+  border: solid 1px #000;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  margin-top: 10px;
+  display: none;
+  color: black;
+}
+
+#tabla .fila {
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+#tabla .fila .imagen {
+  display: inline-block;
+  width: 100px;
+}
+#tabla .fila .info {
+  box-sizing: border-box;
+  font-size: 14px;
+  display: inline-block;
+  padding-left: 20px;
+  vertical-align: top;
+  width: 273px;
+}
+
+#tabla .fila .info .nombre {
+  font-size: 20px;
+  font-weight: bold;
+}
+#tabla .fila .info .botones {
+  padding: 20px 0 0 0;
+}
+
+#tabla p {
+  font-size: 24px !important;
+  text-align: center;
+  font-weight: bold;
+}

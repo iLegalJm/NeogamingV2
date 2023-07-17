@@ -60,6 +60,7 @@ class SessionController extends Controller
         error_log('SESSIONCONTROLLER::validateSession()');
         //? SI EXISTE LA SESION
         if ($this->existsSession()) {
+            error_log('existe la sesion aaaaaaaaaaaaaaaaa');
             $rol = $this->getUserSessionData()->getRol();
             error_log("sessionController::validateSession(): username:" . $this->user->getUsername() . " - role: " . $this->user->getRol());
             //? VALIDO SI LA PAGINA A ENTRAR ES PUBLICA
@@ -166,7 +167,8 @@ class SessionController extends Controller
     }
     public function initialize($user)
     {
-        $this->session->setCurrentUser($user->getId());
+        // $this->session->setCurrentUser($user->getId());
+        $this->session->setCurrentUser($user->getUsername());
         $this->authorizeAccess($user->getRol());
     }
 

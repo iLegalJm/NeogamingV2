@@ -20,6 +20,11 @@ class Session
         return $_SESSION[$this->sessionName];
     }
 
+    public function getValue()
+    {
+        $_SESSION['user'] = 'marcos';
+        return $_SESSION['user'];
+    }
     public function closeSession()
     {
         session_unset();

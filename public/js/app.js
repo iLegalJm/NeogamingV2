@@ -54,3 +54,4 @@ window.addEventListener("scroll", function () {
   const isScrolled = window.scrollY > 0;
   updateHeaderColors(isScrolled);
 });
+
