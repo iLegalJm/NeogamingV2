@@ -7290,3 +7290,1066 @@ Stack trace:
 [17-Jul-2023 23:40:37 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de ProductoModel
 [17-Jul-2023 23:40:37 Europe/Berlin] PHP Warning:  Undefined variable $preference in C:\xampp\htdocs\NeogamingV2\Views\layout.html on line 120
 [17-Jul-2023 23:40:37 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\NeogamingV2\Views\layout.html on line 120
+[18-Jul-2023 00:53:31 Europe/Berlin] ==================================================
+[18-Jul-2023 00:53:31 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 00:53:31 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[18-Jul-2023 00:53:31 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 00:53:31 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 00:53:31 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 00:53:31 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 00:53:31 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 00:53:31 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 00:53:31 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 00:53:31 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 00:53:31 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 00:53:31 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 00:53:31 Europe/Berlin] PHP Warning:  Undefined variable $preference in C:\xampp\htdocs\NeogamingV2\Views\layout.html on line 120
+[18-Jul-2023 00:53:31 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\NeogamingV2\Views\layout.html on line 120
+[18-Jul-2023 00:53:31 Europe/Berlin] ==================================================
+[18-Jul-2023 00:53:31 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 00:53:31 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 00:53:31 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 00:53:31 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 00:53:31 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 00:53:31 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 00:53:31 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 00:53:31 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 00:53:31 Europe/Berlin] PHP Warning:  Undefined array key "data" in C:\xampp\htdocs\NeogamingV2\Controllers\post.php on line 331
+[18-Jul-2023 00:53:34 Europe/Berlin] ==================================================
+[18-Jul-2023 00:53:34 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 00:53:34 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 00:53:34 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 00:53:34 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 00:53:34 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 00:53:34 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 00:53:34 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:53:34 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:53:34 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 00:53:34 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 00:53:34 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 00:53:34 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 00:53:34 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 00:53:34 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 00:53:34 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 00:53:34 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 00:53:34 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:53:34 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:53:34 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 00:53:34 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 00:55:43 Europe/Berlin] ==================================================
+[18-Jul-2023 00:55:43 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 00:55:43 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 00:55:43 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 00:55:43 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 00:55:43 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 00:55:43 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 00:55:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:55:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:55:43 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 00:55:43 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 00:55:43 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 00:55:43 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 00:55:43 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 00:55:43 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 00:55:43 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 00:55:43 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 00:55:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:55:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:55:43 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 00:55:43 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 00:55:54 Europe/Berlin] ==================================================
+[18-Jul-2023 00:55:54 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 00:55:54 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 00:55:54 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 00:55:54 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 00:55:54 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 00:55:54 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 00:55:54 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:55:54 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:55:54 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 00:55:54 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 00:55:54 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 00:55:54 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 00:55:54 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 00:55:54 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 00:55:54 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 00:55:54 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 00:55:54 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:55:54 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:55:54 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 00:55:54 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 00:56:02 Europe/Berlin] ==================================================
+[18-Jul-2023 00:56:02 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 00:56:02 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 00:56:02 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 00:56:02 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 00:56:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 00:56:02 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 00:56:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:56:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:56:02 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 00:56:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 00:56:02 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 00:56:02 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 00:56:02 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 00:56:02 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 00:56:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 00:56:02 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 00:56:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:56:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:56:02 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 00:56:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 00:59:32 Europe/Berlin] ==================================================
+[18-Jul-2023 00:59:32 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 00:59:32 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 00:59:32 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 00:59:32 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 00:59:32 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 00:59:32 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 00:59:32 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:59:32 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:59:32 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 00:59:32 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 00:59:32 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 00:59:32 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 00:59:32 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 00:59:32 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 00:59:32 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 00:59:32 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 00:59:32 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:59:32 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:59:32 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 00:59:32 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 00:59:44 Europe/Berlin] ==================================================
+[18-Jul-2023 00:59:44 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 00:59:44 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 00:59:44 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 00:59:44 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 00:59:44 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 00:59:44 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 00:59:44 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:59:44 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:59:44 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 00:59:44 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 00:59:44 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 00:59:44 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 00:59:44 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 00:59:44 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 00:59:44 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 00:59:44 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 00:59:44 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:59:44 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 00:59:44 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 00:59:44 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:01:07 Europe/Berlin] ==================================================
+[18-Jul-2023 01:01:07 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:01:07 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:01:07 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:01:07 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:01:07 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:01:07 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:01:07 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:01:07 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:01:07 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:01:07 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:01:07 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:01:07 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:01:07 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:01:07 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:01:07 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:01:07 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:01:07 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:01:07 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:01:07 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:01:07 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:01:08 Europe/Berlin] ==================================================
+[18-Jul-2023 01:01:08 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:01:08 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:01:08 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:01:08 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:01:08 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:01:08 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:01:08 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:01:08 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:01:08 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:01:08 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:01:08 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:01:08 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:01:08 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:01:08 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:01:08 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:01:08 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:01:08 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:01:08 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:01:08 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:01:08 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:01:25 Europe/Berlin] ==================================================
+[18-Jul-2023 01:01:25 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:01:25 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:01:25 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:01:25 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:01:25 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:01:25 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:01:25 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:01:25 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:01:25 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:01:25 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:01:25 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:01:25 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:01:25 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:01:25 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:01:25 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:01:25 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:01:25 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:01:25 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:01:25 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:01:25 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:02:45 Europe/Berlin] ==================================================
+[18-Jul-2023 01:02:45 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:02:45 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:02:45 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:02:45 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:02:45 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:02:45 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:02:45 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:02:45 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:02:45 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:02:45 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:02:45 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:02:45 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:02:45 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:02:45 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:02:45 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:02:45 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:02:45 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:02:45 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:02:45 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:02:45 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:04:01 Europe/Berlin] ==================================================
+[18-Jul-2023 01:04:01 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:04:01 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:04:01 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:04:01 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:04:01 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:04:01 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:04:01 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:04:01 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:04:01 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:04:01 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:04:01 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:04:01 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:04:01 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:04:01 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:04:01 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:04:01 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:04:01 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:04:01 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:04:01 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:04:01 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:04:09 Europe/Berlin] ==================================================
+[18-Jul-2023 01:04:09 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:04:09 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:04:09 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:04:09 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:04:09 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:04:09 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:04:09 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:04:09 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:04:09 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:04:09 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:04:09 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:04:09 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:04:09 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:04:09 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:04:09 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:04:09 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:04:09 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:04:09 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:04:09 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:04:09 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:04:32 Europe/Berlin] ==================================================
+[18-Jul-2023 01:04:32 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:04:32 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:04:32 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:04:32 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:04:32 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:04:32 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:04:32 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:04:32 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:04:32 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:04:32 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:04:32 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:04:32 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:04:32 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:04:32 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:04:32 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:04:32 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:04:32 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:04:32 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:04:32 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:04:32 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:05:37 Europe/Berlin] ==================================================
+[18-Jul-2023 01:05:37 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:05:37 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:05:37 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:05:37 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:05:37 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:05:37 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:05:37 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:05:37 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:05:37 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:05:37 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:05:37 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:05:37 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:05:37 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:05:37 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:05:38 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:05:38 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:05:38 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:05:38 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:05:38 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:05:38 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:06:21 Europe/Berlin] ==================================================
+[18-Jul-2023 01:06:21 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:06:21 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:06:21 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:06:21 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:06:21 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:06:21 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:06:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:06:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:06:21 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:06:21 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:06:21 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:06:21 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:06:21 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:06:21 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:06:21 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:06:21 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:06:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:06:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:06:21 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:06:21 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:06:51 Europe/Berlin] ==================================================
+[18-Jul-2023 01:06:51 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:06:51 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:06:51 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:06:51 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:06:51 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:06:51 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:06:51 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:06:51 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:06:51 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:06:51 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:06:51 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:06:51 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:06:51 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:06:51 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:06:51 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:06:51 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:06:51 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:06:51 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:06:51 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:06:51 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:07:10 Europe/Berlin] ==================================================
+[18-Jul-2023 01:07:10 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:07:10 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:07:10 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:07:10 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:07:10 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:07:10 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:07:10 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:07:10 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:07:10 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:07:10 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:07:10 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:07:10 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:07:10 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:07:10 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:07:10 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:07:10 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:07:10 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:07:10 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:07:10 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:07:11 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:07:49 Europe/Berlin] ==================================================
+[18-Jul-2023 01:07:49 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:07:49 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:07:49 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:07:49 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:07:49 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:07:49 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:07:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:07:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:07:49 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:07:49 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:07:49 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:07:49 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:07:49 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:07:49 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:07:49 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:07:49 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:07:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:07:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:07:49 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:07:49 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:08:19 Europe/Berlin] ==================================================
+[18-Jul-2023 01:08:19 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:08:19 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:08:19 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:08:19 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:08:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:08:19 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:08:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:08:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:08:19 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:08:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:08:19 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:08:19 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:08:19 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:08:19 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:08:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:08:19 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:08:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:08:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:08:19 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:08:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:08:28 Europe/Berlin] ==================================================
+[18-Jul-2023 01:08:28 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:08:28 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:08:28 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:08:28 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:08:28 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:08:28 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:08:28 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:08:28 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:08:28 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:08:28 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:08:28 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:08:28 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:08:28 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:08:28 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:08:28 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:08:28 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:08:28 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:08:28 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:08:28 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:08:28 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:08:32 Europe/Berlin] ==================================================
+[18-Jul-2023 01:08:32 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:08:32 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:08:32 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:08:32 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:08:32 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:08:32 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:08:32 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:08:32 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:08:32 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:08:32 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:08:32 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:08:32 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:08:32 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:08:32 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:08:32 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:08:32 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:08:32 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:08:32 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:08:32 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:08:32 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:09:26 Europe/Berlin] ==================================================
+[18-Jul-2023 01:09:26 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:09:26 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:09:26 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:09:26 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:09:26 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:09:26 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:09:26 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:09:26 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:09:26 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:09:26 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:09:26 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:09:26 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:09:26 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:09:26 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:09:27 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:09:27 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:09:27 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:09:27 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:09:27 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:09:27 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:10:14 Europe/Berlin] ==================================================
+[18-Jul-2023 01:10:14 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:10:14 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:10:14 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:10:14 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:10:14 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:10:14 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:10:14 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:10:14 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:10:14 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:10:14 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:10:14 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:10:14 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:10:14 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:10:14 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:10:14 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:10:14 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:10:14 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:10:14 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:10:14 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:10:14 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:10:47 Europe/Berlin] ==================================================
+[18-Jul-2023 01:10:47 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:10:47 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:10:47 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:10:47 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:10:47 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:10:47 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:10:47 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:10:47 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:10:47 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:10:47 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:10:47 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:10:47 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:10:47 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:10:47 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:10:47 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:10:47 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:10:47 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:10:47 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:10:47 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:10:47 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:11:04 Europe/Berlin] ==================================================
+[18-Jul-2023 01:11:04 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:11:04 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:11:04 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:11:04 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:11:04 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:11:04 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:11:04 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:11:04 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:11:04 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:11:04 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:11:04 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:11:04 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:11:04 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:11:04 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:11:04 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:11:04 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:11:04 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:11:04 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:11:04 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:11:04 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:11:19 Europe/Berlin] ==================================================
+[18-Jul-2023 01:11:19 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:11:19 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:11:19 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:11:19 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:11:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:11:19 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:11:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:11:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:11:19 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:11:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:11:19 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:11:19 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:11:19 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:11:19 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:11:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:11:19 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:11:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:11:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:11:19 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:11:19 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:13:53 Europe/Berlin] ==================================================
+[18-Jul-2023 01:13:53 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:13:53 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:13:53 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:13:53 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:13:53 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:13:53 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:13:53 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:13:53 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:13:53 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:13:53 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:13:53 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:13:53 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:13:53 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:13:53 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:13:53 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:13:53 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:13:53 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:13:53 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:13:53 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:13:53 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:15:28 Europe/Berlin] ==================================================
+[18-Jul-2023 01:15:28 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:15:28 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:15:28 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:15:28 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:15:28 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:15:28 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:15:28 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:15:28 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:15:28 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:15:28 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:15:28 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:15:28 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:15:28 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:15:28 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:15:28 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:15:28 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:15:28 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:15:28 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:15:28 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:15:28 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:15:52 Europe/Berlin] ==================================================
+[18-Jul-2023 01:15:52 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:15:52 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:15:52 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:15:52 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:15:52 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:15:52 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:15:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:15:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:15:52 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:15:52 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:15:52 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:15:52 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:15:52 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:15:52 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:15:52 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:15:52 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:15:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:15:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:15:52 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:15:52 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:15:56 Europe/Berlin] ==================================================
+[18-Jul-2023 01:15:56 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:15:56 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:15:56 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:15:56 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:15:56 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:15:56 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:15:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:15:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:15:56 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:15:56 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:15:56 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:15:56 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:15:56 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:15:56 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:15:56 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:15:56 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:15:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:15:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:15:56 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:15:56 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:16:02 Europe/Berlin] ==================================================
+[18-Jul-2023 01:16:02 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:16:02 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:16:02 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:16:02 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:16:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:16:02 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:16:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:16:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:16:02 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:16:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:16:02 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:16:02 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:16:02 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:16:02 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:16:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:16:02 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:16:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:16:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:16:02 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:16:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:16:21 Europe/Berlin] ==================================================
+[18-Jul-2023 01:16:21 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:16:21 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:16:21 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:16:21 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:16:21 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:16:21 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:16:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:16:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:16:21 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:16:21 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:16:21 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:16:21 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:16:21 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:16:21 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:16:21 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:16:21 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:16:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:16:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:16:21 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:16:21 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:16:54 Europe/Berlin] ==================================================
+[18-Jul-2023 01:16:54 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:16:54 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:16:54 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:16:54 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:16:54 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:16:54 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:16:54 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:16:54 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:16:54 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:16:54 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:16:54 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:16:54 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:16:54 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:16:54 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:16:54 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:16:54 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:16:54 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:16:54 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:16:54 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:16:54 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:16:56 Europe/Berlin] ==================================================
+[18-Jul-2023 01:16:56 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:16:56 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:16:56 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:16:56 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:16:56 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:16:56 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:16:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:16:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:16:56 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:16:56 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:16:56 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:16:56 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:16:56 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:16:56 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:16:56 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:16:56 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:16:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:16:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:16:56 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:16:56 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:16:57 Europe/Berlin] ==================================================
+[18-Jul-2023 01:16:57 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:16:57 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:16:57 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:16:57 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:16:57 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:16:57 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:16:57 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:16:57 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:16:57 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:16:57 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:16:57 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:16:57 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:16:57 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post, url => Admin
+[18-Jul-2023 01:16:57 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Post, url => Admin
+[18-Jul-2023 01:16:57 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:16:57 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:16:58 Europe/Berlin] ==================================================
+[18-Jul-2023 01:16:58 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:16:58 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:16:58 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:16:58 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:16:58 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:16:58 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:16:58 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:16:58 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:16:58 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:16:58 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:16:58 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:16:58 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:16:58 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:16:58 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:16:58 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:16:58 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[18-Jul-2023 01:16:58 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Genero, url => Admin
+[18-Jul-2023 01:16:58 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:16:58 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:16:58 Europe/Berlin] ==================================================
+[18-Jul-2023 01:16:58 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:16:58 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:16:58 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:16:58 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:16:58 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:16:58 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:16:58 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:16:58 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:16:58 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:16:58 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:16:58 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:16:59 Europe/Berlin] ==================================================
+[18-Jul-2023 01:16:59 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:16:59 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:16:59 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[18-Jul-2023 01:16:59 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:16:59 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:16:59 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:16:59 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:16:59 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Plataforma, url => Admin
+[18-Jul-2023 01:16:59 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Plataforma, url => Admin
+[18-Jul-2023 01:16:59 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:16:59 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:16:59 Europe/Berlin] ==================================================
+[18-Jul-2023 01:16:59 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:16:59 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:16:59 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[18-Jul-2023 01:16:59 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[18-Jul-2023 01:16:59 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[18-Jul-2023 01:16:59 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[18-Jul-2023 01:16:59 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[18-Jul-2023 01:16:59 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[18-Jul-2023 01:16:59 Europe/Berlin] PLATAFORMAMODEL::CONSTRUCT->inicio de plataformamodel.
+[18-Jul-2023 01:17:00 Europe/Berlin] ==================================================
+[18-Jul-2023 01:17:00 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:17:00 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:17:00 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de ProductoModel
+[18-Jul-2023 01:17:00 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de ProductoModel
+[18-Jul-2023 01:17:00 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de ProductoModel
+[18-Jul-2023 01:17:00 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de ProductoModel
+[18-Jul-2023 01:17:00 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:17:00 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:17:00 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:17:00 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:17:00 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Producto, url => Admin
+[18-Jul-2023 01:17:00 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Producto, url => Admin
+[18-Jul-2023 01:17:00 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:17:00 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:17:02 Europe/Berlin] ==================================================
+[18-Jul-2023 01:17:02 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:17:02 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:17:02 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:17:02 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:17:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:17:02 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:17:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:17:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:17:02 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:17:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:17:02 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:17:02 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:17:02 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:17:02 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:17:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:17:02 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:17:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:17:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:17:02 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:17:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:17:09 Europe/Berlin] ==================================================
+[18-Jul-2023 01:17:09 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:17:09 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:17:09 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de ProductoModel
+[18-Jul-2023 01:17:09 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de ProductoModel
+[18-Jul-2023 01:17:09 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de ProductoModel
+[18-Jul-2023 01:17:09 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de ProductoModel
+[18-Jul-2023 01:17:09 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:17:09 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:17:09 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:17:09 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:17:09 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Producto, url => Admin
+[18-Jul-2023 01:17:09 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin/Producto, url => Admin
+[18-Jul-2023 01:17:09 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:17:09 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:17:18 Europe/Berlin] ==================================================
+[18-Jul-2023 01:17:18 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:17:18 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:17:18 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:17:18 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:17:18 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:17:18 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:17:18 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:17:18 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:17:18 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:17:18 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:17:18 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:17:18 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:17:18 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:17:18 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:17:18 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:17:18 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:17:18 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:17:18 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:17:18 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:17:18 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:18:02 Europe/Berlin] ==================================================
+[18-Jul-2023 01:18:02 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:18:02 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:18:02 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:18:02 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:18:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:18:02 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:18:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:18:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:18:02 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:18:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:18:02 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:18:02 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:18:02 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:18:02 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:18:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:18:02 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:18:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:18:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:18:02 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:18:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:18:08 Europe/Berlin] ==================================================
+[18-Jul-2023 01:18:08 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:18:08 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:18:08 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:18:08 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:18:08 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:18:08 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:18:08 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:18:08 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:18:08 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:18:08 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:18:08 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:18:08 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:18:08 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:18:08 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:18:08 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:18:08 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:18:08 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:18:08 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:18:08 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:18:08 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:18:24 Europe/Berlin] ==================================================
+[18-Jul-2023 01:18:24 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:18:24 Europe/Berlin] APP::ADMIN-> El controlado es Admin: Admin
+[18-Jul-2023 01:18:24 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:18:24 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:18:24 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:18:24 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:18:24 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:18:24 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:18:24 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:18:24 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:18:24 Europe/Berlin] ADMIN::Construct->Inicio de Admin
+[18-Jul-2023 01:18:24 Europe/Berlin] ADMIN::render->Carga el index del Admin
+[18-Jul-2023 01:18:24 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:18:24 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:18:24 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:18:24 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:18:24 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:18:24 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /Admin, url => Admin
+[18-Jul-2023 01:18:24 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:18:24 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:18:26 Europe/Berlin] ==================================================
+[18-Jul-2023 01:18:26 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:18:26 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[18-Jul-2023 01:18:26 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:26 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:26 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:26 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:26 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:26 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:26 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:26 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:26 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:26 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:26 Europe/Berlin] PHP Warning:  Undefined variable $preference in C:\xampp\htdocs\NeogamingV2\Views\layout.html on line 120
+[18-Jul-2023 01:18:26 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\NeogamingV2\Views\layout.html on line 120
+[18-Jul-2023 01:18:27 Europe/Berlin] ==================================================
+[18-Jul-2023 01:18:27 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:18:27 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:27 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:27 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:27 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:27 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:27 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:27 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:27 Europe/Berlin] PHP Warning:  Undefined array key "data" in C:\xampp\htdocs\NeogamingV2\Controllers\post.php on line 331
+[18-Jul-2023 01:18:29 Europe/Berlin] ==================================================
+[18-Jul-2023 01:18:29 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:18:29 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de ProductoModel
+[18-Jul-2023 01:18:29 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:29 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:29 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:29 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:29 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:29 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:29 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:29 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:29 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:29 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de ProductoModel
+[18-Jul-2023 01:18:29 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de ProductoModel
+[18-Jul-2023 01:18:29 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de ProductoModel
+[18-Jul-2023 01:18:29 Europe/Berlin] PHP Warning:  Undefined variable $preference in C:\xampp\htdocs\NeogamingV2\Views\layout.html on line 120
+[18-Jul-2023 01:18:29 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\NeogamingV2\Views\layout.html on line 120
+[18-Jul-2023 01:18:35 Europe/Berlin] ==================================================
+[18-Jul-2023 01:18:35 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:18:35 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:18:35 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:18:35 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:18:35 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:18:35 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /User/info, url => User
+[18-Jul-2023 01:18:35 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /User/info, url => User
+[18-Jul-2023 01:18:35 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:18:35 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:18:35 Europe/Berlin] USERCONTROLLER::CONSTRUCT -> User: cueva
+[18-Jul-2023 01:18:35 Europe/Berlin] PHP Warning:  Undefined variable $preference in C:\xampp\htdocs\NeogamingV2\Views\layout.html on line 120
+[18-Jul-2023 01:18:35 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\NeogamingV2\Views\layout.html on line 120
+[18-Jul-2023 01:18:36 Europe/Berlin] ==================================================
+[18-Jul-2023 01:18:36 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:18:36 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[18-Jul-2023 01:18:36 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:36 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:36 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:36 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:36 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:36 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:36 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:36 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:36 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:36 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:36 Europe/Berlin] PHP Warning:  Undefined variable $preference in C:\xampp\htdocs\NeogamingV2\Views\layout.html on line 120
+[18-Jul-2023 01:18:36 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\NeogamingV2\Views\layout.html on line 120
+[18-Jul-2023 01:18:37 Europe/Berlin] ==================================================
+[18-Jul-2023 01:18:37 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:18:37 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:37 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:37 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:37 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:37 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:37 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:37 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:37 Europe/Berlin] PHP Warning:  Undefined array key "data" in C:\xampp\htdocs\NeogamingV2\Controllers\post.php on line 331
+[18-Jul-2023 01:18:46 Europe/Berlin] ==================================================
+[18-Jul-2023 01:18:46 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:18:46 Europe/Berlin] SESSIONCONTROLLER::validateSession()
+[18-Jul-2023 01:18:46 Europe/Berlin] existe la sesion aaaaaaaaaaaaaaaaa
+[18-Jul-2023 01:18:46 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:18:46 Europe/Berlin] sessionController::validateSession(): username:cueva - role: admin
+[18-Jul-2023 01:18:46 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /User/info, url => User
+[18-Jul-2023 01:18:46 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage: actualLink -> /User/info, url => User
+[18-Jul-2023 01:18:46 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[18-Jul-2023 01:18:46 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData-> cueva
+[18-Jul-2023 01:18:46 Europe/Berlin] USERCONTROLLER::CONSTRUCT -> User: cueva
+[18-Jul-2023 01:18:46 Europe/Berlin] PHP Warning:  Undefined variable $preference in C:\xampp\htdocs\NeogamingV2\Views\layout.html on line 120
+[18-Jul-2023 01:18:46 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\NeogamingV2\Views\layout.html on line 120
+[18-Jul-2023 01:18:53 Europe/Berlin] ==================================================
+[18-Jul-2023 01:18:53 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:18:53 Europe/Berlin] APP::CONSTRUCT->No hay un controlador especificado
+[18-Jul-2023 01:18:53 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:53 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:53 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:53 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:53 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:53 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:53 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:53 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:53 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:53 Europe/Berlin] GENEROMODEL::CONSTRCUT->inicio del generoModel
+[18-Jul-2023 01:18:53 Europe/Berlin] PHP Warning:  Undefined variable $preference in C:\xampp\htdocs\NeogamingV2\Views\layout.html on line 120
+[18-Jul-2023 01:18:53 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\NeogamingV2\Views\layout.html on line 120
+[18-Jul-2023 01:18:53 Europe/Berlin] ==================================================
+[18-Jul-2023 01:18:53 Europe/Berlin] Inicio de aplicacion
+[18-Jul-2023 01:18:53 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:53 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:53 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:53 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:53 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:53 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:53 Europe/Berlin] POSTMODEL::CONSTRUCT -> incio de PostModel
+[18-Jul-2023 01:18:53 Europe/Berlin] PHP Warning:  Undefined array key "data" in C:\xampp\htdocs\NeogamingV2\Controllers\post.php on line 331

@@ -1,129 +1,116 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--! Es como hacer un echo -->
-    <title>Dashboard || <?= $title ?></title>
-    <link
-      rel="stylesheet"
-      href="<?=constant('URL')?>/public/css/layoutAdmin.css"
-    />
-    <link
-      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="<?=constant('URL')?>/public/css/modalGen.css"
-    />
-    <link rel="stylesheet" href="<?=constant('URL')?>/public/css/newPost.css" />
-  </head>
 
-  <body>
-    <nav class="sidebar close">
-      <header>
-        <div class="image-text">
-          <span class="image">
-            <?php if($user->getFoto()=="") {?>
-            <img
-              src="<?=constant('URL')?>/public/icons/dashboard/patricio.png"
-              alt="logo"
-            />
-            <?php } else{ ?>
-            <img
-              src="<?=constant('URL')?>/public/img/fotos/<?=$user->getFoto()?>"
-              alt="logo"
-            />
-            <?php } ?>
-          </span>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--! Es como hacer un echo -->
+  <title>Dashboard ||
+    <?= $title ?>
+  </title>
+  <link rel="stylesheet" href="<?=constant('URL')?>/public/css/layoutAdmin.css" />
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="<?=constant('URL')?>/public/css/modalGen.css" />
+  <link rel="stylesheet" href="<?=constant('URL')?>/public/css/newPost.css" />
+  <link rel="stylesheet" href="<?= constant('URL')?>/public/css/indexAdmin.css">
+</head>
 
-          <div class="text logo-text">
-            <a
-              href="<?=constant('URL')?>"
-              style="text-decoration: none; color: #dddada"
-              ><span class="name">NeoGaming</span></a
-            >
-            <span class="profession">Game blog</span>
-          </div>
+<body>
+  <nav class="sidebar close">
+    <header>
+      <div class="image-text">
+        <span class="image">
+          <?php if($user->getFoto()=="") {?>
+          <img src="<?=constant('URL')?>/public/icons/dashboard/patricio.png" alt="logo" />
+          <?php } else{ ?>
+          <img src="<?=constant('URL')?>/public/img/fotos/<?=$user->getFoto()?>" alt="logo" />
+          <?php } ?>
+        </span>
+
+        <div class="text logo-text">
+          <a href="<?=constant('URL')?>" style="text-decoration: none; color: #dddada"><span
+              class="name">NeoGaming</span></a>
+          <span class="profession">Game blog</span>
         </div>
+      </div>
 
-        <i class="bx bx-chevron-right toggle"></i>
-      </header>
+      <i class="bx bx-chevron-right toggle"></i>
+    </header>
 
-      <div class="menu-bar">
-        <div class="menu">
-          <li class="search-box">
-            <i class="bx bx-search icon"></i>
-            <input type="text" placeholder="Search..." />
-          </li>
+    <div class="menu-bar">
+      <div class="menu">
+        <li class="search-box">
+          <i class="bx bx-search icon"></i>
+          <input type="text" placeholder="Search..." />
+        </li>
 
-          <ul class="menu-links">
-            <li class="nav-link">
-              <a href="<?=constant('URL')?>/Admin">
-                <i class="bx bx-home-alt icon"></i>
-                <span class="text nav-text">Dashboard</span>
-              </a>
-            </li>
-
-            <li class="nav-link">
-              <a href="<?=constant('URL')?>/Admin/Post">
-                <i class="bx bx-bell icon"></i>
-                <span class="text nav-text">Posts</span>
-              </a>
-            </li>
-
-            <li class="nav-link">
-              <a href="<?=constant('URL')?>/Admin/Genero">
-                <i class="bx bx-pie-chart-alt icon"></i>
-                <span class="text nav-text">Géneros</span>
-              </a>
-            </li>
-
-            <li class="nav-link">
-              <a href="<?=constant('URL')?>/Admin/Plataforma">
-                <i class="bx bx-heart icon"></i>
-                <span class="text nav-text">Plataformas</span>
-              </a>
-            </li>
-
-            <li class="nav-link">
-              <a href="<?=constant('URL')?>/Admin/Producto">
-                <i class="bx bx-wallet icon"></i>
-                <span class="text nav-text">Producto</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="bottom-content">
-          <li class="">
-            <a href="<?= constant('URL')?>/Logout">
-              <i class="bx bx-log-out icon"></i>
-              <span class="text nav-text">Logout</span>
+        <ul class="menu-links">
+          <li class="nav-link">
+            <a href="<?=constant('URL')?>/Admin">
+              <i class="bx bx-home-alt icon"></i>
+              <span class="text nav-text">Dashboard</span>
             </a>
           </li>
 
-          <li class="mode">
-            <div class="sun-moon">
-              <i class="bx bx-moon icon moon"></i>
-              <i class="bx bx-sun icon sun"></i>
-            </div>
-            <span class="mode-text text">Dark mode</span>
-
-            <div class="toggle-switch">
-              <span class="switch"></span>
-            </div>
+          <li class="nav-link">
+            <a href="<?=constant('URL')?>/Admin/Post">
+              <i class="bx bx-bell icon"></i>
+              <span class="text nav-text">Posts</span>
+            </a>
           </li>
-        </div>
-      </div>
-    </nav>
 
-    <main class="home">
-      <div class="text">Admin</div>
-      <?= $child ?>
-    </main>
-    <script src="<?=constant('URL')?>/public/js/layoutAdmin.js"></script>
-  </body>
+          <li class="nav-link">
+            <a href="<?=constant('URL')?>/Admin/Genero">
+              <i class="bx bx-pie-chart-alt icon"></i>
+              <span class="text nav-text">Géneros</span>
+            </a>
+          </li>
+
+          <li class="nav-link">
+            <a href="<?=constant('URL')?>/Admin/Plataforma">
+              <i class="bx bx-heart icon"></i>
+              <span class="text nav-text">Plataformas</span>
+            </a>
+          </li>
+
+          <li class="nav-link">
+            <a href="<?=constant('URL')?>/Admin/Producto">
+              <i class="bx bx-wallet icon"></i>
+              <span class="text nav-text">Producto</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="bottom-content">
+        <li class="">
+          <a href="<?= constant('URL')?>/Logout">
+            <i class="bx bx-log-out icon"></i>
+            <span class="text nav-text">Logout</span>
+          </a>
+        </li>
+
+        <li class="mode">
+          <div class="sun-moon">
+            <i class="bx bx-moon icon moon"></i>
+            <i class="bx bx-sun icon sun"></i>
+          </div>
+          <span class="mode-text text">Dark mode</span>
+
+          <div class="toggle-switch">
+            <span class="switch"></span>
+          </div>
+        </li>
+      </div>
+    </div>
+  </nav>
+
+  <main class="home">
+    <div class="text">Admin</div>
+    <?= $child ?>
+  </main>
+  <script src="<?=constant('URL')?>/public/js/layoutAdmin.js"></script>
+</body>
+
 </html>
