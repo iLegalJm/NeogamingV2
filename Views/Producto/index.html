@@ -1,26 +1,31 @@
-<h2>Productos</h2>
+<div class="main">
 
-<?php foreach($productos as $p) {?>
-<div class="articulo">
-  <input type="hidden" id="id" value="<?=$p->getId()?>" />
-  <h2>
-    Nombre:
-    <?=$p->getNombre()?>
-  </h2>
-  <div>
-    <img src="<?= constant('URL')?>/public/img/productos/<?= $p->getFoto()?>" alt="" width="100">
+  <?php foreach($productos as $p) {?>
+
+  <div class="articulo">
+    <div class="grid-row">
+      <div class="grid-item">
+        <span>
+          <input type="hidden" id="id" value="<?=$p->getId()?>" />
+          <h3>
+            Nombre:
+            <?=$p->getNombre()?>
+          </h3>
+          <h2>
+            Precio:
+            <?=$p->getPrecio()?>
+          </h2>
+        </span>
+        <img src="<?= constant('URL')?>/public/img/productos/<?= $p->getFoto()?>" alt="">
+        <div class="botones">
+          <button class="btn-add">Agregar al carrito</button>
+        </div>
+      </div>
+    </div>
   </div>
-  <h2>
-    Precio:
-    <?=$p->getPrecio()?>
-  </h2>
-  <div class="botones">
-    <button class="btn-add">Agregar al carrito</button>
-  </div>
+
+  <?php } ?>
 </div>
-<br>
-<hr />
-<?php } ?>
 
 <!-- ! Scripts -->
 <!-- <script src="<?=constant('URL')?>/public/js/producto.js"></script> -->
