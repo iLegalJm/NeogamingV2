@@ -14,10 +14,7 @@
   <link rel="stylesheet" href="<?= constant('URL')?>/public/css/producto.css" />
   <link rel="stylesheet" href="<?= constant('URL')?>/public/css/showPost.css" />
   <link rel="stylesheet" href="<?= constant('URL')?>/public/css/info.css" />
-    <link
-      rel="stylesheet"
-      href="<?= constant('URL')?>/public/css/product.css"
-    />
+  <link rel="stylesheet" href="<?= constant('URL')?>/public/css/product.css" />
   <link rel="stylesheet" href="<?= constant('URL')?>/public/css/product.css">
   <script src="https://sdk.mercadopago.com/js/v2"></script>
 </head>
@@ -80,8 +77,27 @@
   <main>
     <?= $child ?>
   </main>
-  <footer>
-    <h1>Este es el footerss</h1>
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__container__head">
+        <h3>Tecnologias implementadas</h3>
+        <ul>
+          <li><img src="https://cdn-icons-png.flaticon.com/512/1532/1532556.png" alt="html"> Html</li>
+          <li><img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="css"> CSS</li>
+          <li><img src="https://cdn.iconscout.com/icon/free/png-256/free-javascript-2038874-1720087.png" alt="js">
+            JavaScript</li>
+          <li><img src="https://www.php.net/images/logos/new-php-logo.svg" alt="php"> Php</li>
+          <li><img src="https://ps.w.org/woocommerce-mercadopago/assets/icon-256x256.png?rev=2653727" alt="mercadopago">
+            Api Mercado Pago</li>
+          <li><img src="https://www.svgrepo.com/show/303251/mysql-logo.svg" alt="mysql"> MySQL</li>
+        </ul>
+      </div>
+      <div class="footer__container__body">
+        <span>© Copyright NeoGaming. All Rights Reserved</span>
+        <p>Designed by <a href="https://github.com/iLegalJm">iLegalJm</a> and <a
+            href="https://github.com/Brandt322">Brandt322</a></p>
+      </div>
+    </div>
   </footer>
 
   <!-- ! SCRIPTS -->
@@ -90,30 +106,31 @@
   <script src="<?= constant('URL')?>/public/js/producto.js"></script>
   <!-- SDK MercadoPago.js -->
 
-    <script>
-      const btnOpen = document.querySelector(".btn-carrito");
-      const btnMP = document.querySelector(".chekout-btn");
-      btnOpen.addEventListener("click", () => {
-        console.log("clikeando aca");
-        fetch("http://localhost:8080/mercadopago.php")
-          .then((res) => res.json())
-          .then((data) => {
-            const publicKey = "TEST-4b2a484f-8f81-4085-bedc-a50307b78dd3";
-            const mp = new MercadoPago(publicKey, {
-              locale: "es-PE",
-            });
-
-            mp.checkout({
-              preference: {
-                id: data,
-              },
-              render: {
-                container: ".chekout-btn",
-                label: "Pagar",
-              },
-            });
+  <script>
+    const btnOpen = document.querySelector(".btn-carrito");
+    const btnMP = document.querySelector(".chekout-btn");
+    btnOpen.addEventListener("click", () => {
+      console.log("clikeando aca");
+      fetch("http://localhost:8080/mercadopago.php")
+        .then((res) => res.json())
+        .then((data) => {
+          const publicKey = "TEST-4b2a484f-8f81-4085-bedc-a50307b78dd3";
+          const mp = new MercadoPago(publicKey, {
+            locale: "es-PE",
           });
-      });
-    </script>
-  </body>
+
+          mp.checkout({
+            preference: {
+              id: data,
+            },
+            render: {
+              container: ".chekout-btn",
+              label: "Pagar",
+            },
+          });
+        });
+    });
+  </script>
+</body>
+
 </html>

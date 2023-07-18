@@ -207,29 +207,6 @@ body {
   color: inherit;
 }
 
-/* Estilos para pantallas pequeñas (480px) */
-@media screen and (min-width: 481px) {
-  .tarjetas {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-  }
-
-  .redes-sociales ul {
-    flex-direction: column;
-  }
-
-  .redes-sociales li {
-    margin-bottom: 10px;
-  }
-}
-
-/* Estilos para pantallas medianas (770px) */
-@media screen and (min-width: 771px) {
-  .tarjetas {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-  }
-}
 
 /*Nosotros*/
 
@@ -347,5 +324,105 @@ body {
   .redes-sociales li {
     margin-bottom: 0;
     margin-right: 1rem;
+  }
+}
+
+/*Footer*/
+.footer {
+  width: 100%;
+  min-height: 100px;
+  margin: 0 auto;
+  background-color: #c4983a;
+  padding: 20px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.8em;
+  gap: 10px;
+}
+
+.footer__container__head ul {
+  list-style: none;
+}
+
+.footer__container__head ul li {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer__container__head ul li img {
+  width: 30px;
+}
+
+.footer__container__body {
+  border-top: 1px solid #151136;
+  text-align: center;
+}
+
+.footer__container__body a {
+  text-decoration: none;
+  color: #0a1929;
+}
+
+.footer__container__body a:hover {
+  cursor: pointer;
+  color: #007bff;
+}
+
+
+/* Estilos para pantallas pequeñas (480px) */
+@media screen and (min-width: 481px) {
+  .tarjetas {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .redes-sociales ul {
+    flex-direction: column;
+  }
+
+  .redes-sociales li {
+    margin-bottom: 10px;
+  }
+
+  .footer__container {
+    justify-content: space-around;
+    gap: 10px;
+  }
+
+  .footer__container__body {
+    border-top: 1px solid #151136;
+  }
+}
+
+/* Estilos para pantallas medianas (770px) */
+@media screen and (min-width: 771px) {
+  .tarjetas {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+  }
+
+}
+
+@media screen and (max-width: 771px) {
+
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+  }
+
+  .footer__container__head ul li {
+    width: 190px;
+  }
+
+  .footer__container__body {
+    border-top: 1px solid #151136;
+    text-align: center;
   }
 }
