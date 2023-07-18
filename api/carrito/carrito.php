@@ -12,26 +12,27 @@ class Carrito extends Session
 
     public function load()
     {
-        if ($this->getCurrentUser() == null) {
+        if ($this->getCurrentUser(1) == null) {
             return [];
         }
 
-        return $this->getCurrentUser();
+        return $this->getCurrentUser(1);
     }
 
     public function add($id)
     {
-        if ($this->getCurrentUser() == null) {
+        $session = new Session();
+        if ($session->getCurrentUser(1) == null) {
             $items = [];
-            echo "asd";
         } else {
-            $items = (array) json_decode($this->getCurrentUser(), 1);
+
+            $items = (array) json_decode($session->getCurrentUser(1), 1);
 
             for ($i = 0; $i < sizeof($items); $i++) {
                 if ($items[$i]['id'] == $id) {
                     $items[$i]['cantidad']++;
-                    $this->setCurrentUser(json_encode($items));
-                    return $this->getCurrentUser();
+                    $session->setCurrentUser(json_encode($items), 1);
+                    return $session->getCurrentUser(1);
                 }
             }
         }
@@ -41,17 +42,17 @@ class Carrito extends Session
 
         array_push($items, $item);
 
-        $this->setCurrentUser(json_encode($items));
+        $session->setCurrentUser(json_encode($items), 1);
 
-        return $this->getCurrentUser();
+        return $session->getCurrentUser(1);
     }
 
     public function remove($id)
     {
-        if ($this->getCurrentUser() == NULL) {
+        if ($this->getCurrentUser(1) == NULL) {
             $items = [];
         } else {
-            $items = (array) json_decode($this->getCurrentUser(), 1);
+            $items = (array) json_decode($this->getCurrentUser(1), 1);
 
             for ($i = 0; $i < sizeof($items); $i++) {
 
@@ -61,7 +62,7 @@ class Carrito extends Session
                         unset($items[$i]);
                         $items = array_values($items);
                     }
-                    $this->setCurrentUser(json_encode($items));
+                    $this->setCurrentUser(json_encode($items), 1);
                     return true;
                 }
             }

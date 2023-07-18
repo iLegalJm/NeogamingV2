@@ -36,6 +36,7 @@ class SessionController extends Controller
     {
         //? se crea nueva sesión
         $this->session = new Session();
+        // $this->session->setCurrentUser('carrito', 1);
         // ? se carga el archivo json con la configuración de acceso
         $json = $this->getJSONFileConfig();
         // ? se asignan los sitios
@@ -90,10 +91,10 @@ class SessionController extends Controller
     {
         if (!$this->session->existsSession())
             return false;
-        if ($this->session->getCurrentUser() == null)
+        if ($this->session->getCurrentUser(0) == null)
             return false;
         //? AQUI GUARDAREMOS LA INFORMACION DEL USUARIO
-        $userId = $this->session->getCurrentUser();
+        $userId = $this->session->getCurrentUser(0);
         if ($userId)
             return true;
         return false;
@@ -101,7 +102,7 @@ class SessionController extends Controller
 
     public function getUserSessionData()
     {
-        $id = $this->session->getCurrentUser();
+        $id = $this->session->getCurrentUser(0);
         $this->user = new UserModel();
         $this->user->get($id);
         error_log('SESSIONCONTROLLER::getUserSessionData-> ' . $this->user->getUsername());
@@ -168,7 +169,8 @@ class SessionController extends Controller
     public function initialize($user)
     {
         // $this->session->setCurrentUser($user->getId());
-        $this->session->setCurrentUser($user->getUsername());
+        $this->session->setCurrentUser($user->getUsername(), 0);
+        $this->session->setCurrentUser('carrito', 1);
         $this->authorizeAccess($user->getRol());
     }
 

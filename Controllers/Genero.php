@@ -23,15 +23,40 @@ class Genero extends Controller
 
     public function edit($id)
     {
-        $genero = $this->model->get($id);
-        $this->view->render("Admin/Genero/edit", [
-            "post" => $genero,
-        ]);
+        if (!$this->existPOST(['id', 'nombre'])) {
+            $this->redirect('Admin/Genero/', []);
+            return;
+        }
+
+        $genero = new GeneroModel();
+
+        $genero->setId($this->getPost('id'));
+        $genero->setNombre($this->getPost('nombre'));
+
+        if ($genero->update()) {
+            echo json_encode('Genero editado bien');
+        } else {
+            $this->redirect('Admin/Genero', []); //TODO:
+        }
     }
 
-    public function update()
+    public function update($id)
     {
+        if (!$this->existPOST(['id', 'nombre'])) {
+            $this->redirect('Admin/Genero/', []);
+            return;
+        }
 
+        $genero = new GeneroModel();
+
+        $genero->setId($this->getPost('id'));
+        $genero->setNombre($this->getPost('nombre'));
+
+        if ($genero->update()) {
+            echo json_encode('Genero editado bien');
+        } else {
+            $this->redirect('Admin/Genero', []); //TODO:
+        }
     }
 
     public function show($id)

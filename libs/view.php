@@ -45,7 +45,11 @@ class View
         } else {
             $sesion = new Session();
             $userModel = new UserModel();
-            $user = $userModel->get($sesion->getCurrentUser());
+            if ($sesion->getCurrentUser(0) == null) {
+                $user = null;
+            } else {
+                $user = $userModel->get($sesion->getCurrentUser(0));
+            }
             $view = new Template('./Views/layout.html', [
                 "title" => "Principal",
                 "child" => $child,

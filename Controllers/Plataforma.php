@@ -52,7 +52,24 @@ class Plataforma extends Controller
             $this->redirect('Admin/Plataforma', []); //TODO:
         }
     }
+    public function edit($id)
+    {
+        if (!$this->existPOST(['id', 'nombre'])) {
+            $this->redirect('Admin/Plataforma', []);
+            return;
+        }
 
+        $plataforma = new PlataformaModel();
+
+        $plataforma->setId($this->getPost('id'));
+        $plataforma->setNombre($this->getPost('nombre'));
+
+        if ($plataforma->update()) {
+            echo json_encode('Plataforma editado bien');
+        } else {
+            $this->redirect('Admin/Plataforma', []); //TODO:
+        }
+    }
     public function delete($params)
     {
         if ($params == null) {

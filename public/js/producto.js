@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", (event) => {
   //! cookies
+
   // ? TODAS LAS COOCKIES SE GUARDAN SEPARADAS POR ;
   const cookies = document.cookie.split(";");
   let cookie = null;
@@ -17,6 +18,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   }
 });
 
+const url = "http://localhost:8080/";
 const btnCarrito = document.querySelector(".btn-carrito");
 btnCarrito.addEventListener("click", (event) => {
   console.log("click");
@@ -34,7 +36,7 @@ btnCarrito.addEventListener("click", (event) => {
 });
 
 function actualizarCarritoUi() {
-  fetch("http://localhost:8080/api/carrito/api-carrito.php?action=mostrar")
+  fetch(url + "api/carrito/api-carrito.php?action=mostrar")
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
@@ -46,7 +48,7 @@ function actualizarCarritoUi() {
         html += `
           <div class='fila'>
             <div class='imagen'>
-              <img src='http://localhost:8080/public/img/productos/${element.foto}' width='100'>
+              <img src='${url}public/img/productos/${element.foto}' width='100'>
             </div>
 
             <div class='info'>
@@ -79,8 +81,7 @@ function actualizarCarritoUi() {
 const botones = document.querySelectorAll(".btn-add");
 
 botones.forEach((boton) => {
-  const id = boton.parentElement.parentElement.children[0].value;
-
+  const id = boton.parentElement.parentElement.children[0].children[0].value;
   boton.addEventListener("click", (e) => {
     console.log(id);
     addItemToCarrito(id);
@@ -88,9 +89,8 @@ botones.forEach((boton) => {
 });
 
 function removeItemFromCarrito(id) {
-  let url =
-    "http://localhost:8080/api/carrito/api-carrito.php?action=remove&id=" + id;
-  fetch(url)
+  let urlR = url + "api/carrito/api-carrito.php?action=remove&id=" + id;
+  fetch(urlR)
     .then((res) => res.json())
     .then((data) => {
       actualizarCarritoUi();
@@ -98,9 +98,8 @@ function removeItemFromCarrito(id) {
 }
 
 function addItemToCarrito(id) {
-  let url =
-    "http://localhost:8080/api/carrito/api-carrito.php?action=add&id=" + id;
-  fetch(url)
+  let urlA = url + "api/carrito/api-carrito.php?action=add&id=" + id;
+  fetch(urlA)
     .then((res) => res.json())
     .then((data) => {
       actualizarCarritoUi();

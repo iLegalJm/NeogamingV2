@@ -1,3 +1,5 @@
+const url = "http://localhost:8080/";
+
 const btnNewGenero = document.querySelector("#btn-new-genero");
 
 btnNewGenero.addEventListener("click", async (e) => {
@@ -25,8 +27,8 @@ btnNewGenero.addEventListener("click", async (e) => {
 });
 
 async function getContent() {
-  const html = await fetch("http://localhost:8080/Admin/Genero/create").then(
-    (res) => res.text()
+  const html = await fetch(url + "Admin/Genero/create").then((res) =>
+    res.text()
   );
   return html;
 }
@@ -36,9 +38,7 @@ let registros = document.querySelector("#body");
 async function getGeneros() {
   try {
     // registros.innerHTML = '';
-    let resp = await fetch(
-      "http://localhost:8080/Admin/Genero/getGenerosJSON"
-    )
+    let resp = await fetch(url + "Admin/Genero/getGenerosJSON")
       .then((json) => json.json())
       .then((res) => res);
 
@@ -47,7 +47,7 @@ async function getGeneros() {
         <tr>
             <td>${element.id}</td>
             <td>${element.nombre}</td>
-            <td><a href="http://localhost:8080/Admin/Genero/edit/${element.id}">Editar</a></td>
+            <td><a href="${url}Admin/Genero/edit/${element.id}">Editar</a></td>
         </tr>
         `;
     });

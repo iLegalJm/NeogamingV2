@@ -41,7 +41,7 @@ function mostrar($carrito)
         require_once '../../Model/Producto.php';
         $productoModel = new ProductoModel();
         $item = $productoModel->get($itemCarrito['id'])->toArray();
-       
+
         $itemProducto = json_decode(json_encode([
             'statuscode' => 200,
             'item' => $item
@@ -70,14 +70,14 @@ function add($carrito)
 
 function remove($carrito)
 {
-    if(isset($_GET['id'])){
+    if (isset($_GET['id'])) {
         $res = $carrito->remove($_GET['id']);
-        if($res){
+        if ($res) {
             echo json_encode(['statuscode' => 200]);
-        }else{
+        } else {
             echo json_encode(['statuscode' => 400]);
         }
-    }else{
+    } else {
         // error
     }
 }

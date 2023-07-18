@@ -10,14 +10,33 @@ class Session
         }
     }
 
-    public function setCurrentUser($user)
+    public function setCurrentUser($user, $carrito)
     {
-        $_SESSION[$this->sessionName] = $user;
+        if ($carrito) {
+            $_SESSION[$this->sessionName][1] = $user;
+        } else {
+            $_SESSION[$this->sessionName][0] = $user;
+        }
     }
 
-    public function getCurrentUser()
+    public function getCurrentUser($carrito)
     {
-        return $_SESSION[$this->sessionName];
+        if ($carrito) {
+            return $_SESSION[$this->sessionName][1];
+
+        } else {
+            return $_SESSION[$this->sessionName][0];
+        }
+    }
+
+    public function setUser($data)
+    {
+        $_SESSION[$this->sessionName] = $data;
+    }
+
+    public function getUser()
+    {
+
     }
 
     public function getValue()

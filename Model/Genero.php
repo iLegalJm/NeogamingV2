@@ -38,7 +38,8 @@ class GeneroModel extends Model implements iModel
             ]);
 
             // ? SI DEVUELVE EL RESULTADO DE UNA FILA INSERTADA ME DEVOLVERA TRUE   
-            if ($query->rowCount()) return true;
+            if ($query->rowCount())
+                return true;
             return false;
         } catch (PDOException $e) {
             error_log('GENEROMODEL::create->PDOEXCEPTION ' . $e);
@@ -132,11 +133,13 @@ class GeneroModel extends Model implements iModel
             $query = $this->prepare('UPDATE genero SET nombre = :nombre WHERE id = :id');
 
             $query->execute([
-                'nombre' => $this->nombre
+                'nombre' => $this->nombre,
+                'id' => $this->id
             ]);
 
             // ? SI DEVUELVE EL RESULTADO DE UNA FILA MODIFICADA ME DEVOLVERA TRUE   
-            if ($query->rowCount()) return true;
+            if ($query->rowCount())
+                return true;
             return false;
         } catch (PDOException $e) {
             error_log('GENEROMODEL::update()->PDOEXCEPTION ' . $e);
@@ -159,7 +162,8 @@ class GeneroModel extends Model implements iModel
             ]);
 
             // ? SI DEVUELVE EL RESULTADO DE UNA FILA INSERTADA ME DEVOLVERA TRUE   
-            if ($query->rowCount()) return true;
+            if ($query->rowCount())
+                return true;
             return false;
         } catch (PDOException $e) {
             error_log('GENEROMODEL::exists->PDOEXCEPTION ' . $e);

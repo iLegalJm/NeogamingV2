@@ -1,7 +1,7 @@
 // ! CON ESTO EL CODIGO SE EJECUTARA CUANDO EL CONTENIDO ESTE CARGADO
 window.addEventListener("DOMContentLoaded", () => {
   const articleContainer = document.querySelector("#article-results");
-
+  const url = "http://localhost:8080/";
   // ! CAPTURANDO LOS BUSCADORES
   const search = document.querySelector("#buscar");
   const searchMes = document.querySelector("#buscarMes");
@@ -47,7 +47,7 @@ window.addEventListener("DOMContentLoaded", () => {
     try {
       // ! LA PETICION
       // * COMO MI EXPRESION AWAIT PAUSO LA EJECUCION DE MI FUNCION ASYNC HASTA QUE LA PROMESA TENGA UNA RESPUESTA
-      const response = await fetch("http://localhost:8080/Post/getPostsJSON", {
+      const response = await fetch(url + "Post/getPostsJSON", {
         method: "POST",
         body: searchData,
       });
@@ -56,7 +56,8 @@ window.addEventListener("DOMContentLoaded", () => {
       return response.json();
     } catch (error) {
       alert(
-        `${"Hubo un error, la solicitud no se puede procesar en estos momentos. Razón: "}${error.message
+        `${"Hubo un error, la solicitud no se puede procesar en estos momentos. Razón: "}${
+          error.message
         }`
       );
       console.log(error);
@@ -75,11 +76,10 @@ window.addEventListener("DOMContentLoaded", () => {
           const articlePost = document.createElement("article");
           articlePost.className = "tarjeta";
           const enlacePost = document.createElement("a");
-          enlacePost.href =
-            "http://localhost:8080/Post/show/" + `${post.id}`;
+          enlacePost.href = url + "Post/show/" + `${post.id}`;
           enlacePost.innerHTML = `
                     <img
-                        src="http://localhost:8080/public/img/posts/${post.foto}"
+                        src="${url}public/img/posts/${post.foto}"
                         alt="re4"
                         width="520px"
                         height="320px"

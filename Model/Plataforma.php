@@ -135,7 +135,8 @@ class PlataformaModel extends Model implements iModel
             $query = $this->prepare('UPDATE plataformas SET nombre= :nombre WHERE id = :id');
 
             $query->execute([
-                'nombre' => $this->nombre
+                'nombre' => $this->nombre,
+                'id' => $this->id
             ]);
 
             // ? SI DEVUELVE EL RESULTADO DE UNA FILA MODIFICADA ME DEVOLVERA TRUE   

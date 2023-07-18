@@ -21,6 +21,10 @@
       href="<?= constant('URL')?>/public/css/showPost.css"
     />
     <link rel="stylesheet" href="<?= constant('URL')?>/public/css/info.css" />
+    <link
+      rel="stylesheet"
+      href="<?= constant('URL')?>/public/css/product.css"
+    />
     <script src="https://sdk.mercadopago.com/js/v2"></script>
   </head>
 
@@ -77,7 +81,7 @@
                 <button style="padding: 5px">Pagar</button>
               </div> -->
               <div>
-                <div class="chekout-btn" id="No tocar"></div>
+                <div class="chekout-btn btn-padre" id="No tocar"></div>
               </div>
             </div>
           </li>
@@ -103,12 +107,13 @@
 
     <script>
       const btnOpen = document.querySelector(".btn-carrito");
-      const btnMP = document.querySelector(".chekout-btn");
+      const btnPadre = document.querySelector(".btn-padre");
       btnOpen.addEventListener("click", () => {
         console.log("clikeando aca");
         fetch("http://localhost:8080/mercadopago.php")
           .then((res) => res.json())
           .then((data) => {
+            btnPadre.innerHTML = "<h2></h2>";
             const publicKey = "TEST-4b2a484f-8f81-4085-bedc-a50307b78dd3";
             const mp = new MercadoPago(publicKey, {
               locale: "es-PE",
@@ -124,21 +129,6 @@
               },
             });
           });
-
-        // const publicKey = "TEST-4b2a484f-8f81-4085-bedc-a50307b78dd3";
-        // const mp = new MercadoPago(publicKey, {
-        //   locale: "es-PE",
-        // });
-
-        // mp.checkout({
-        //   preference: {
-        //     id: "<?=$preference->id?>",
-        //   },
-        //   render: {
-        //     container: ".chekout-btn",
-        //     label: "Pagar",
-        //   },
-        // });
       });
     </script>
   </body>

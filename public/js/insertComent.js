@@ -1,5 +1,6 @@
 window.addEventListener("DOMContentLoaded", () => {
   // ! METODO PARA AGREGAR COMENTARIO
+  const url = "http://localhost:8080/";
   const formularioComent = document.querySelector("#form-coment");
   const idPost = document.querySelector("#form-id").value;
   const articleComents = document.querySelector("#article-coments");
@@ -16,7 +17,7 @@ window.addEventListener("DOMContentLoaded", () => {
     let formComentData = new FormData(formularioComent);
 
     try {
-      const response = await fetch("http://localhost:8080/Coment/insert", {
+      const response = await fetch(url + "Coment/insert", {
         method: "POST",
         body: formComentData,
       })
@@ -26,7 +27,8 @@ window.addEventListener("DOMContentLoaded", () => {
         });
     } catch (error) {
       alert(
-        `${"Hubo un error, la solicitud no se puede procesar en estos momentos. Razón: "}${error.message
+        `${"Hubo un error, la solicitud no se puede procesar en estos momentos. Razón: "}${
+          error.message
         }`
       );
       console.log(error);
@@ -39,18 +41,16 @@ window.addEventListener("DOMContentLoaded", () => {
     searchData.append("idPost", idPost);
 
     try {
-      const response = await fetch(
-        "http://localhost:8080/Coment/getComentsJSON",
-        {
-          method: "post",
-          body: searchData,
-        }
-      );
+      const response = await fetch(url + "Coment/getComentsJSON", {
+        method: "post",
+        body: searchData,
+      });
 
       return response.json();
     } catch (error) {
       alert(
-        `${"Hubo un error, la solicitud no se puede procesar en estos momentos. Razón: "}${error.message
+        `${"Hubo un error, la solicitud no se puede procesar en estos momentos. Razón: "}${
+          error.message
         }`
       );
       console.log(error);
@@ -61,7 +61,7 @@ window.addEventListener("DOMContentLoaded", () => {
   const showComents = () => {
     searchComents().then((dataResults) => {
       console.log(dataResults);
-      articleComents.innerHTML = '';
+      articleComents.innerHTML = "";
       if (typeof dataResults.data !== "undefined" && !dataResults.data) {
         const noComent = document.createElement("h2");
         noComent.innerText = "Comentario no encontrado";
@@ -72,7 +72,7 @@ window.addEventListener("DOMContentLoaded", () => {
           divComent.innerHTML = `
             <div class="container-profile">
               <h2>${coment.username}</h2>
-              <img src="http://localhost:8080/public/img/fotos/${coment.userFoto}" width="50px" style="border-radius: 50%;">    
+              <img src="${url}public/img/fotos/${coment.userFoto}" width="50px" style="border-radius: 50%;">    
             </div>
             <p class="container-content" style="font-size: 20px;">${coment.texto}</p>
             `;
