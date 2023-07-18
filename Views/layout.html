@@ -1,119 +1,103 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--! Es como hacer un echo -->
-    <title><?= $title ?></title>
-    <link
-      rel="shortcut icon"
-      href="<?= constant('URL')?>/public/icons/logo.ico"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="<?= constant('URL')?>/public/css/style.css" />
-    <link
-      rel="stylesheet"
-      href="<?= constant('URL')?>/public/css/producto.css"
-    />
-    <link
-      rel="stylesheet"
-      href="<?= constant('URL')?>/public/css/showPost.css"
-    />
-    <link rel="stylesheet" href="<?= constant('URL')?>/public/css/info.css" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--! Es como hacer un echo -->
+  <title>
+    <?= $title ?>
+  </title>
+  <link rel="shortcut icon" href="<?= constant('URL')?>/public/icons/logo.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="<?= constant('URL')?>/public/css/style.css" />
+  <link rel="stylesheet" href="<?= constant('URL')?>/public/css/producto.css" />
+  <link rel="stylesheet" href="<?= constant('URL')?>/public/css/showPost.css" />
+  <link rel="stylesheet" href="<?= constant('URL')?>/public/css/info.css" />
     <link
       rel="stylesheet"
       href="<?= constant('URL')?>/public/css/product.css"
     />
-    <script src="https://sdk.mercadopago.com/js/v2"></script>
-  </head>
+  <link rel="stylesheet" href="<?= constant('URL')?>/public/css/product.css">
+  <script src="https://sdk.mercadopago.com/js/v2"></script>
+</head>
 
-  <body>
-    <header class="header">
-      <h1>Neo<span class="gaming">Gaming</span></h1>
-      <nav class="nav">
-        <ul>
-          <li class="header-option">
-            <a class="nav-item" href="<?=constant('URL')?>">Inicio</a>
-          </li>
-          <li class="header-option">
-            <a class="nav-item" href="<?=constant('URL')?>/Producto"
-              >Productos</a
-            >
-          </li>
-          <li class="header-option">
-            <a class="nav-item" href="#nosotros">Nosotros</a>
-          </li>
-          <li class="header-option">
-            <a class="nav-item" href="#contacto">Contacto</a>
-          </li>
-          <li class="header-option">
-            <a
-              class="nav-item"
-              target="_blank"
-              href="https://brandt322.github.io/NeoGaming/"
-              >Github</a
-            >
-          </li>
-          <?php if(!$sesion->existsSession()){ ?>
-          <li class="header-option">
-            <a class="nav-item" href="<?= constant('URL')?>/Login">Login</a>
-          </li>
-          <?php } ?>
+<body>
+  <header class="header">
+    <h1>Neo<span class="gaming">Gaming</span></h1>
+    <nav class="nav">
+      <ul>
+        <li class="header-option">
+          <a class="nav-item" href="<?=constant('URL')?>">Inicio</a>
+        </li>
+        <li class="header-option">
+          <a class="nav-item" href="<?=constant('URL')?>/Producto">Productos</a>
+        </li>
+        <li class="header-option">
+          <a class="nav-item" href="#nosotros">Nosotros</a>
+        </li>
+        <li class="header-option">
+          <a class="nav-item" href="#contacto">Contacto</a>
+        </li>
+        <li class="header-option">
+          <a class="nav-item" target="_blank" href="https://brandt322.github.io/NeoGaming/">Github</a>
+        </li>
+        <?php if(!$sesion->existsSession()){ ?>
+        <li class="header-option">
+          <a class="nav-item" href="<?= constant('URL')?>/Login">Login</a>
+        </li>
+        <?php } ?>
 
-          <?php if($sesion->existsSession()){ ?>
-          <?php if($user->getRol()=="admin") { ?>
-          <li class="header-option">
-            <a class="nav-item" href="<?= constant('URL')?>/Admin">Dashboard</a>
-          </li>
-          <?php } ?>
-          <li class="header-option">
-            <a class="nav-item" href="<?= constant('URL')?>/User/info"
-              >Ver perfil</a
-            >
-          </li>
+        <?php if($sesion->existsSession()){ ?>
+        <?php if($user->getRol()=="admin") { ?>
+        <li class="header-option">
+          <a class="nav-item" href="<?= constant('URL')?>/Admin">Dashboard</a>
+        </li>
+        <?php } ?>
+        <li class="header-option">
+          <a class="nav-item" href="<?= constant('URL')?>/User/info">Ver perfil</a>
+        </li>
 
-          <li class="header-option">
-            <a class="btn-carrito nav-item" href="#">Carrito</a>
-            <div id="carrito-container">
-              <div id="tabla"></div>
-              <!-- <div id="btn-pago">
+        <li class="header-option">
+          <a class="btn-carrito nav-item" href="#">Carrito</a>
+          <div id="carrito-container">
+            <div id="tabla"></div>
+            <!-- <div id="btn-pago">
                 <button style="padding: 5px">Pagar</button>
               </div> -->
-              <div>
-                <div class="chekout-btn btn-padre" id="No tocar"></div>
-              </div>
+            <div>
+              <div class="chekout-btn btn-padre" id="No tocar"></div>
             </div>
-          </li>
-          <li class="header-option selected">
-            <a class="nav-item" href="<?= constant('URL')?>/Logout">Logout</a>
-          </li>
-          <?php } ?>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <?= $child ?>
-    </main>
-    <footer>
-      <h1>Este es el footerss</h1>
-    </footer>
+          </div>
+        </li>
+        <li class="header-option selected">
+          <a class="nav-item" href="<?= constant('URL')?>/Logout">Logout</a>
+        </li>
+        <?php } ?>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <?= $child ?>
+  </main>
+  <footer>
+    <h1>Este es el footerss</h1>
+  </footer>
 
-    <!-- ! SCRIPTS -->
-    <!-- <script src="scripts/app.js"></script> -->
-    <script src="<?= constant('URL')?>/public/js/app.js"></script>
-    <script src="<?= constant('URL')?>/public/js/producto.js"></script>
-    <!-- SDK MercadoPago.js -->
+  <!-- ! SCRIPTS -->
+  <!-- <script src="scripts/app.js"></script> -->
+  <script src="<?= constant('URL')?>/public/js/app.js"></script>
+  <script src="<?= constant('URL')?>/public/js/producto.js"></script>
+  <!-- SDK MercadoPago.js -->
 
     <script>
       const btnOpen = document.querySelector(".btn-carrito");
-      const btnPadre = document.querySelector(".btn-padre");
+      const btnMP = document.querySelector(".chekout-btn");
       btnOpen.addEventListener("click", () => {
         console.log("clikeando aca");
         fetch("http://localhost:8080/mercadopago.php")
           .then((res) => res.json())
           .then((data) => {
-            btnPadre.innerHTML = "<h2></h2>";
             const publicKey = "TEST-4b2a484f-8f81-4085-bedc-a50307b78dd3";
             const mp = new MercadoPago(publicKey, {
               locale: "es-PE",
