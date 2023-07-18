@@ -1,3 +1,34 @@
+.section {
+  padding: 70px 30px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.grid-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 350px));
+  grid-gap: 15px 15px;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.grid-row .grid-item span {
+  padding: 10px;
+  line-height: 1;
+  min-height: 75px;
+}
+
+.grid-row .grid-item h3 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.grid-row .grid-item:hover {
+  filter: contrast(0.7);
+}
 
 .grid-row .grid-item {
   transition: filter 0.5s ease;
@@ -10,8 +41,4 @@
   font-family: sans-serif;
   flex-direction: column-reverse;
   align-items: stretch;
-  -webkit-transition: filter 0.5s ease;
-  -moz-transition: filter 0.5s ease;
-  -ms-transition: filter 0.5s ease;
-  -o-transition: filter 0.5s ease;
 }
